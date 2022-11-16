@@ -37,7 +37,7 @@ function Hero() {
   }, []);
 
   useEffect(() => {
-    const intervalID = setInterval(shuffle, 1000);
+    const intervalID = setInterval(shuffle, 1600);
     return () => clearInterval(intervalID);
   }, [shuffle]);
 
