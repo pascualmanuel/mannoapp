@@ -1,0 +1,141 @@
+.bubbles-cont {
+  display: flex;
+  justify-content: space-between;
+  align-items: flex-end;
+  z-index: -1;
+}
+
+.bubble-left {
+  width: 260px;
+  height: 201px;
+  border-radius: 500px;
+  background: linear-gradient(
+    146.93deg,
+    #657ff6 7.8%,
+    #6593e4 30.32%,
+    #64d8a7 109.4%
+  );
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite;
+  opacity: 0.7;
+  filter: blur(80px);
+  margin-top: -60vh;
+  z-index: -2;
+}
+
+.bubble-right-cont {
+  margin-top: -100vh;
+  z-index: -2;
+}
+
+.bubble-right-one {
+  width: 300px;
+  height: 300px;
+  border-radius: 500px;
+
+  background-color: #657ff6;
+  opacity: 0.5;
+  filter: blur(20px);
+  position: absolute;
+  right: 251px;
+  top: 230px;
+  /* margin-left: -200px; */
+  /* background: linear-gradient(
+    146.93deg,
+    #657ff6 7.8%,
+    #6593e4 30.32%,
+    #64d8a7 109.4%
+  );
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite; */
+}
+
+.bubble-right-two {
+  width: 300px;
+  height: 300px;
+  border-radius: 500px;
+
+  background-color: #64d8a7;
+  opacity: 0.5;
+  filter: blur(20px);
+  position: absolute;
+  right: 151px;
+  top: 430px;
+
+  /* margin-left: -200px; */
+  /* background: linear-gradient(
+    146.93deg,
+    #657ff6 7.8%,
+    #6593e4 30.32%,
+    #64d8a7 109.4%
+  );
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite; */
+}
+
+.bubble-right-three {
+  width: 300px;
+  height: 300px;
+  border-radius: 500px;
+  background-color: #657ff6;
+  opacity: 0.5;
+  filter: blur(20px);
+  position: absolute;
+  right: 0px;
+  top: 430px;
+  /* margin-left: -200px; */
+  /* background: linear-gradient(
+    146.93deg,
+    #657ff6 7.8%,
+    #6593e4 30.32%,
+    #64d8a7 109.4%
+  );
+  background-size: 400% 400%;
+  animation: gradient 15s ease infinite; */
+}
+
+@keyframes gradient {
+  0% {
+    background-position: 0% 50%;
+  }
+  50% {
+    background-position: 100% 50%;
+  }
+  100% {
+    background-position: 0% 50%;
+  }
+}
+/* 
+.bubble-right-one {
+  -webkit-animation: pulse 5s infinite;
+  -moz-animation: pulse 5s infinite;
+  -o-animation: pulse 5s infinite;
+  animation: pulse 5s infinite;
+}
+
+@keyframes pulse {
+  from {
+    transform: scale(1);
+    opacity: 1;
+  }
+  25% {
+    transform: scale(0.5);
+    opacity: 0.25;
+  }
+  50% {
+    transform: scale(0.6);
+    opacity: 0.5;
+  }
+  75% {
+    transform: scale(0.7);
+    opacity: 0.75;
+  }
+  85% {
+    transform: scale(0.8);
+    opacity: 0.75;
+  }
+  to {
+    transform: scale(1);
+    opacity: 1;
+  }
+} */

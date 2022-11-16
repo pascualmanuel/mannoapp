@@ -1,5 +1,5 @@
 import React from "react";
-// import {Link} from "react-router-dom";
+import Testing from "../testing.css";
 import MannoLogo from "../Assets/Hero/logo-horizontal-sinfondo-azul.png";
 import Manno from "../Assets/Hero/manno.png";
 import Phone from "./UsuariosTab";
@@ -100,9 +100,13 @@ function Hero() {
         <div className="elipse2"></div>
       </div> */}
 
-      <div className="bubbles">
-        <div className="bubble1"> </div>
-        <div className="bubble2"></div>
+      <div className="bubbles-cont">
+        <div className="bubble-left"> </div>
+        <div className="bubble-right-cont">
+          <div className="bubble-right-one"> </div>
+          <div className="bubble-right-two"> </div>
+          <div className="bubble-right-three"> </div>
+        </div>
       </div>
     </>
   );

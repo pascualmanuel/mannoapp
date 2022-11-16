@@ -32,12 +32,8 @@ import Usuario from "./Components/UsuariosTab";
 function App() {
   return (
     <>
-      <div>
-        <Hero />
-      </div>
-      <div>
-        <TabsComp />
-      </div>
+      <Hero />
+      <TabsComp />
       <Categories />
       <Expertos />
       <Faqs />

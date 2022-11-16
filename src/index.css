@@ -1,5 +1,5 @@
 body {
-  scroll-behavior: smooth;
+  /* scroll-behavior: smooth; */
   /* height: 100%; */
 }
 
@@ -82,10 +82,10 @@ a {
 
 .categories-container {
   display: flex;
-
   margin-right: 165px;
   margin-left: 165px;
-  height: 100vh;
+  /* height: 100vh; */
+  /* Utilizamos vh o no?? */
 }
 /* background-color: ; */
 .categories-left-container {
@@ -114,6 +114,8 @@ a {
 .box {
   background-color: white;
 }
+
+/* FOOTER/ */
 
 .up-conteiner-footer {
   background-color: rgba(255, 255, 255, 0.2);
@@ -369,10 +371,12 @@ a {
 /* Expertos */
 .cont-expertos {
   height: 100vh;
-  display: flex;
+  /* height: 100%; */
 
+  display: flex;
   justify-content: center;
   align-items: center;
+  position: relative;
 }
 
 .text-icon-experto {
@@ -542,10 +546,11 @@ a {
   height: 100px;
 }
 .faqs-container {
-  /* margin-top: 20vh; */
+  margin-top: 20vh;
   display: flex;
   justify-content: center;
-  margin-bottom: 10vh;
+  margin-bottom: 40px;
+  /* margin-bottom: 10vh; */
 }
 .accordion-button {
   /* color: red !important; */
