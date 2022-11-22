@@ -21,7 +21,7 @@ function Hero() {
       <div className="cont-expertos">
         <div className="expertos">
           <div className="left-expertos">
-            <p>Expertos</p>
+            <p>Expert@s</p>
             <h2 className="expertos-title">
               Trabajá cuando quieras, <br></br> de lo que quieras.
             </h2>
@@ -63,7 +63,7 @@ function Hero() {
               src={Personaje}
               className="photo-experto"
               alt="personaje"
-              width={280}
+              width={330}
             />
           </div>
         </div>

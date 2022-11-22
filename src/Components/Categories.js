@@ -7,7 +7,7 @@ import TecnoIcon from "../Assets/Hero/tecno-icon.png";
 function Categories() {
   return (
     <>
-      <div style={{backgroundColor: "#f7f8f8"}}>
+      <div className="background-categories">
         <div className="categories-container">
           <div className="categories-left-container">
             <p style={{marginBottom: "15px"}}>¿Necesitás una mano?</p>
@@ -16,8 +16,9 @@ function Categories() {
               categorías de expertos, <br></br>una sola app.
             </h2>
             <p style={{marginTop: "30px"}}>
-              Contactá expertos en tareas para el hogar, <br></br> profes, gurús
-              de la tecnología o handys arreglatodo.
+              Contactá expertos en tareas para el hogar,{" "}
+              <br className="br-right-p-categories" />
+              profes, gurús de la tecnología o handys arreglatodo.
             </p>
           </div>
           <div className="categories-right-container">

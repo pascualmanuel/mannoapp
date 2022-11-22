@@ -1,15 +1,14 @@
 import React from "react";
-import {Link} from "react-router-dom";
-import MannoLogo from "../Assets/Hero/logo-horizontal-sinfondo-azul.png";
-import iPhone from "../Assets/Hero/prueba-phine.png";
-import iPhoneSvg from "../Assets/Hero/phone-svg.svg";
+// import {Link} from "react-router-dom";
+// import MannoLogo from "../Assets/Hero/logo-horizontal-sinfondo-azul.png";
+// import iPhone from "../Assets/Hero/prueba-phine.png";
+// import iPhoneSvg from "../Assets/Hero/phone-svg.svg";
+// import iPhoneVideo from "../Assets/manno-video.MP4";
 import Step1 from "../Assets/Steps/step-1.png";
 import Step2 from "../Assets/Steps/step-2.png";
 import Step3 from "../Assets/Steps/step-3.png";
 import Step4 from "../Assets/Steps/step-4.png";
-
-import iPhoneVideo from "../Assets/manno-video.MP4";
-import {Tabs, Tab, Carousel, Card, Stack} from "react-bootstrap";
+import {Carousel} from "react-bootstrap";
 
 function UsuariosTab() {
   return (

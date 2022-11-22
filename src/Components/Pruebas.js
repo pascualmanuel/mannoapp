@@ -1,46 +1,67 @@
-import React from "react";
-import {Link} from "react-router-dom";
-import MannoLogo from "../Assets/Hero/logo-horizontal-sinfondo-azul.png";
-
-import iPhoneApple from "../Assets/apple-iphone.png";
-import iPhoneVideo from "../Assets/manno-video.MP4";
-import PhoneSvg from "../Assets/Hero/phone-svg.svg";
-import Gif from "../Assets/manno-gif.gif";
-import Phone from "./UsuariosTab";
-import $ from "jquery";
+import React, {useState} from "react";
+import Step1 from "../Assets/Steps/step-1.png";
+import Step2 from "../Assets/Steps/step-2.png";
+import Step3 from "../Assets/Steps/step-3.png";
+import Step4 from "../Assets/Steps/step-4.png";
+// import Step5 from "../../Assets/Steps/step-5.png";
 
 function Pruebas() {
+  const [bgColour, setBgColour] = useState(Step1);
+
+  const appStyles = {
+    height: "500px",
+    width: "300px",
+    // backgroundImg: `${bgColour}`,
+    backgroundImage: "url(" + bgColour + ")",
+    backgroundSize: "contain",
+    backgroundRepeat: "no-repeat",
+    cursor: "default",
+  };
+
+  const styles = {
+    width: "100px",
+    fontSize: "20px",
+    // borderRadius: "40px",
+    border: "1px solid black",
+    color: "white",
+    margin: "0.5em 1em",
+    padding: "0.25em 1em",
+    background: "#c83f49",
+    cursor: "default",
+  };
+
   return (
     <>
-      <div className="container2">
-        {/* <video
-          className="fullscreen"
-          id="inlinevideo"
-          muted
-          autoPlay
-          playsInline
-          loop
-          src={iPhoneVideo}
-          type="video/mp4"
-        /> */}
-
-        <img
-          alt="gif-manno"
-          className="fullscreen"
-          id="inlinevideo"
-          // muted
-          // autoPlay
-          // playsInline
-          // loop
-          src={Gif}
-          // type="video/mp4"
-        />
-
-        <div className="content">
-          <img src={iPhoneApple} alt="prueb" width={250} />
-        </div>
+      <div className="App" style={appStyles}></div>
+      <div
+        style={styles}
+        onMouseEnter={() => setBgColour(Step1)}
+        onMouseLeave={() => setBgColour(Step1)}
+      >
+        Foto 1
       </div>
-      {/* <Phone /> */}
+
+      <div
+        style={styles}
+        onMouseEnter={() => setBgColour(Step2)}
+        onMouseLeave={() => setBgColour(Step2)}
+      >
+        Foto 2
+      </div>
+      <div
+        style={styles}
+        onMouseEnter={() => setBgColour(Step3)}
+        onMouseLeave={() => setBgColour(Step3)}
+      >
+        Foto 3
+      </div>
+      <div
+        style={styles}
+        onMouseEnter={() => setBgColour(Step4)}
+        onMouseLeave={() => setBgColour(Step4)}
+      >
+        Foto 4
+      </div>
     </>
   );
 }

@@ -340,7 +340,8 @@ section#hero > div {
   }
 }
 .carousel-item {
-  height: 100vh !important;
+  /* height: 100vh !important; */
+  height: 800px;
 }
 .carousel-caption {
   margin-top: 75px;

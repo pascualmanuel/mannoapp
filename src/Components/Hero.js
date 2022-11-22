@@ -8,7 +8,7 @@ import Google from "../Assets/Hero/google-svg.svg";
 // import {Routes, Route} from "react-router-dom";
 import {ExternalLink} from "react-external-link";
 import {useEffect, useState, useCallback} from "react";
-import Pruebas from "./Pruebas";
+import Pruebas from "./PhoneVideo";
 
 const MannoBlue = "#5d80ff";
 const MannoText = "#646C7C";
