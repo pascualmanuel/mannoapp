@@ -79,7 +79,7 @@ function Phone() {
         </div>
         <div className="mobile-footer">
           <p style={{color: "white", fontSize: "14px", marginBottom: "2rem"}}>
-            <a href="mailto:email@example.com" id="tyc-link">
+            <a href="mailto:ayuda@manno.com" id="tyc-link">
               ayuda@manno.com
             </a>
           </p>
