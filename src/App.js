@@ -4,8 +4,14 @@ import logo from "./logo.svg";
 import "./App.css";
 import "./index.css";
 import "./Components/Tabs/Tabs.css";
+// import {BrowserRouter as Router, Route, Switch, Routes} from "react-router-dom";
+import {
+  BrowserRouter,
+  Routes, // instead of "Switch"
+  Route,
+} from "react-router-dom";
 
-import {Routes, Route} from "react-router-dom";
+// import {Routes, Route} from "react-router-dom";
 import Hero from "./Components/Hero";
 import "./Fonts/AirbnbCerealBlack.ttf";
 import "./Fonts/AirbnbCerealBold.ttf";
@@ -28,17 +34,43 @@ import Faqs from "./Components/Faqs";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Usuario from "./Components/UsuariosTab";
 import Pruebas from "./Components/Pruebas";
-
+import Terms from "./Components/Terms";
+import Home from "./Components/Home";
+import ScrollToTop from "./Components/ScrollToTop";
 function App() {
   return (
     <>
-      <Hero />
-      <TabsComp />
-      <Categories />
-      <Expertos />
-      <Faqs />
-      <Pruebas />
-      <Footer />
+      {/* <Hero />
+        <TabsComp />
+        <Categories />
+        <Expertos />
+        <Faqs />
+        <Pruebas />
+        <Footer /> */}
+      {/* <Routes>
+        <Router>
+
+          <Route path="/" render={() => <Home />} />
+          <Route path="/terms" component={Terms} />
+        </Router>
+      </Routes> */}
+
+      {/* <Router>
+        <Home />
+        <Switch>
+          <Route exact path="/" component={Home} />
+          <Route path="/terms" component={Terms} />
+        </Switch>
+      </Router> */}
+
+      <BrowserRouter>
+        <ScrollToTop />
+        <Routes>
+          <Route path="/" element={<Home />} />
+          <Route path="/terms" element={<Terms />} />
+          {/* <Route index element={<Terms />} /> */}
+        </Routes>
+      </BrowserRouter>
     </>
   );
 }

@@ -5,7 +5,8 @@ import Manno from "../Assets/Hero/manno.png";
 import Phone from "./UsuariosTab";
 import Apple from "../Assets/Hero/apple-svg.svg";
 import Google from "../Assets/Hero/google-svg.svg";
-// import {Routes, Route} from "react-router-dom";
+import {Link} from "react-router-dom";
+
 import {ExternalLink} from "react-external-link";
 import {useEffect, useState, useCallback} from "react";
 import Pruebas from "./PhoneVideo";
@@ -49,10 +50,14 @@ function Hero() {
             <img src={MannoLogo} alt="Manno Logo" height={30} />
           </div>
           <div className="puntos">
-            <p>Preguntas Frecuentes</p>
-            <p style={{marginRight: "45px", marginLeft: "45px"}}>
-              Como Funciona
-            </p>
+            <a href={"#faq"}>
+              <p>Preguntas Frecuentes</p>
+            </a>
+            <Link to={"/terms"}>
+              <p style={{marginRight: "45px", marginLeft: "45px"}}>
+                Términos y condiciones
+              </p>
+            </Link>
           </div>
         </nav>
         <div className="hero-container">

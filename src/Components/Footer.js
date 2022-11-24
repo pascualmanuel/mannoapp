@@ -1,11 +1,14 @@
 import React from "react";
 import {ExternalLink} from "react-external-link";
+import {Link} from "react-router-dom";
+// import Terms from "./Terms";
+
 import Apple from "../Assets/Hero/apple-svg.svg";
 import Google from "../Assets/Hero/google-svg.svg";
 import Facebook from "../Assets/instagram.svg";
 import Instagram from "../Assets/facebook.svg";
 import Linkedin from "../Assets/linkedin.svg";
-
+import "../index.css";
 import Logo from "../Assets/Hero/isologo-background-hero.png";
 
 function Phone() {
@@ -17,7 +20,7 @@ function Phone() {
           className="up-conteiner-footer"
           style={{backgroundColor: "rgba(255, 255, 255, 0.2)"}}
         >
-          <h2>Descargá la app</h2>
+          <h2 style={{color: "white"}}>Descargá la app</h2>
           <div style={{marginTop: "8px"}}>
             <ExternalLink
               href={`https://apps.apple.com/ar/app/manno-soluciones-recomendadas/id1477854373?l=en`}
@@ -41,20 +44,13 @@ function Phone() {
 
         <div className="down-conteiner-footer">
           <div>
-            <ExternalLink href={`/`} target="">
+            <Link to={"/"}>
               <img src={Logo} alt="Logo" className="logo-footer" />
-            </ExternalLink>
+            </Link>
           </div>
           <div className="footer-p">
             <p className="footer-tyc">
-              <a
-                href="https://mannoapp.com/terminos.html"
-                target="_blank"
-                rel="noopener noreferrer"
-                style={{color: "#646c7c"}}
-              >
-                Términos y condiciones
-              </a>
+              <Link to={"/terms"}>Términos y condiciones</Link>
             </p>
             <p className="footer-priv">Privacidad</p>
             <p style={{color: "#5d80ff"}}>

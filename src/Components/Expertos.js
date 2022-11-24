@@ -1,5 +1,5 @@
 import React from "react";
-// import {Link} from "react-router-dom";
+import {Link} from "react-router-dom";
 import MannoLogo from "../Assets/Hero/logo-horizontal-sinfondo-azul.png";
 import Manno from "../Assets/Hero/manno.png";
 
@@ -53,10 +53,11 @@ function Hero() {
               />
               <p> Aprovechá miles de oportunidades, gratis.</p>
             </div>
-
-            <div className="button-experto">
-              <span style={{color: "#5d80ff"}}>Quiero Ser experto</span>
-            </div>
+            <Link to={"#terms"}>
+              <div className="button-experto">
+                <span style={{color: "#5d80ff"}}>Quiero Ser experto</span>
+              </div>
+            </Link>
           </div>
           <div className="right-expertos">
             <img

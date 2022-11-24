@@ -5,17 +5,17 @@
 }
 @font-face {
   font-family: "Medium"; /*Can be any text*/
-  src: local("AirbnbCerealLight"),
+  src: local("AirbnbCerealMedium"),
     url("./Fonts/AirbnbCerealMedium.ttf") format("truetype");
 }
 @font-face {
   font-family: "ExtraBold"; /*Can be any text*/
-  src: local("AirbnbCerealLight"),
+  src: local("AirbnbCerealExtraBold"),
     url("./Fonts/AirbnbCerealExtraBold.ttf") format("truetype");
 }
 @font-face {
   font-family: "Bold"; /*Can be any text*/
-  src: local("AirbnbCerealLight"),
+  src: local("AirbnbCerealBold"),
     url("./Fonts/AirbnbCerealBold.ttf") format("truetype");
 }
 @font-face {
@@ -25,6 +25,13 @@
 }
 @font-face {
   font-family: "Black"; /*Can be any text*/
-  src: local("AirbnbCerealLight"),
+  src: local("AirbnbCerealBlack"),
     url("./Fonts/AirbnbCerealBlack.ttf") format("truetype");
 }
+
+/* 800 ExtraBold */
+/* 700 Bold */
+/* 600 Black */
+/* 500 Medium*/
+/* 400 Book*/
+/* 300 Light*/

@@ -1,15 +1,18 @@
 body {
-  /* scroll-behavior: smooth; */
+  /* scroll-behavior: smooth !important; */
   /* height: 100%; */
 }
-
+a {
+  /* cursor: pointer !important; */
+}
 * {
-  font-family: "Book";
+  /* font-family: "Book"; */
   margin: 0;
 }
 
 p {
   color: #646c7c;
+  font-family: Light;
 }
 
 a {
@@ -20,6 +23,15 @@ a {
   color: white;
 }
 
+strong {
+  font-family: Bold;
+}
+
+h2 {
+  color: #2b2e33;
+  font-family: Medium;
+  /* font-size: 43px; */
+}
 /* .fondo {
   background-image: url("Assets/Hero/hero-cut-isologo.png");
   background-position: bottom right;
@@ -58,6 +70,7 @@ a {
 
 .puntos {
   display: flex;
+  z-index: 100;
 }
 
 .manno-te-salva {
@@ -72,7 +85,7 @@ a {
 }
 
 .alguien-conoce {
-  font-family: Light;
+  font-family: Book;
   font-size: 35px;
   white-space: nowrap;
   position: absolute;
@@ -600,6 +613,11 @@ a {
   border: 1px solid #657ff6 !important;
   border-radius: 7px !important;
 }
+
+.accordion-header {
+  font-family: Book;
+}
+
 .accordion-item .accordion-button {
   /* border: 0.5px solid #657ff6 !important; */
   border-radius: 7px !important;

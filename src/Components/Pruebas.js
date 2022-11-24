@@ -8,7 +8,7 @@ import Step4 from "../Assets/Steps/step-4.png";
 function Pruebas() {
   const [bgColour, setBgColour] = useState(Step1);
 
-  const appStyles = {
+  const changeImageStyle = {
     height: "500px",
     width: "300px",
     // backgroundImg: `${bgColour}`,
@@ -18,7 +18,7 @@ function Pruebas() {
     cursor: "default",
   };
 
-  const styles = {
+  const comoFuncionaStyle = {
     width: "100px",
     fontSize: "20px",
     // borderRadius: "40px",
@@ -32,9 +32,9 @@ function Pruebas() {
 
   return (
     <>
-      <div className="App" style={appStyles}></div>
+      <div className="App" style={changeImageStyle}></div>
       <div
-        style={styles}
+        style={comoFuncionaStyle}
         onMouseEnter={() => setBgColour(Step1)}
         onMouseLeave={() => setBgColour(Step1)}
       >
@@ -42,21 +42,21 @@ function Pruebas() {
       </div>
 
       <div
-        style={styles}
+        style={comoFuncionaStyle}
         onMouseEnter={() => setBgColour(Step2)}
         onMouseLeave={() => setBgColour(Step2)}
       >
         Foto 2
       </div>
       <div
-        style={styles}
+        style={comoFuncionaStyle}
         onMouseEnter={() => setBgColour(Step3)}
         onMouseLeave={() => setBgColour(Step3)}
       >
         Foto 3
       </div>
       <div
-        style={styles}
+        style={comoFuncionaStyle}
         onMouseEnter={() => setBgColour(Step4)}
         onMouseLeave={() => setBgColour(Step4)}
       >
