@@ -3,8 +3,8 @@ import {ExternalLink} from "react-external-link";
 import {Link} from "react-router-dom";
 // import Terms from "./Terms";
 
-import Apple from "../Assets/Hero/apple-svg.svg";
-import Google from "../Assets/Hero/google-svg.svg";
+import Apple from "../Assets/Hero/apple-webp.webp";
+import Google from "../Assets/Hero/google-webp.webp";
 import Facebook from "../Assets/instagram.svg";
 import Instagram from "../Assets/facebook.svg";
 import Linkedin from "../Assets/linkedin.svg";

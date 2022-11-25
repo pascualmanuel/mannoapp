@@ -1,9 +1,43 @@
 // import Step5 from "../../Assets/Steps/step-5.png";
 import React from "react";
+import MannoLogoBlanco from "../Assets/manno-logo-blanco.png";
+import {Link} from "react-router-dom";
+
+// import
 
 function Terms() {
   return (
     <>
+      <nav
+        className="manno-header"
+        style={{
+          backgroundColor: "#657ff6",
+          marginTop: "0px",
+          marginRight: "0px",
+          marginLeft: "0px",
+          paddingRight: "120px",
+          paddingLeft: "120px",
+          paddingTop: "50px",
+        }}
+      >
+        <div>
+          <Link to={"/"}>
+            <img src={MannoLogoBlanco} alt="Manno-Logo" height={30} />
+          </Link>
+        </div>
+        <div className="puntos">
+          <a href={"#faq"}>
+            <p style={{color: "white"}}>Preguntas Frecuentes</p>
+          </a>
+          <Link to={"/terms"}>
+            <p
+              style={{marginRight: "45px", marginLeft: "45px", color: "white"}}
+            >
+              Términos y condiciones
+            </p>
+          </Link>
+        </div>
+      </nav>
       <div className="terms-container">
         <section id="main">
           <div className="terms-inner">
@@ -1406,6 +1440,7 @@ function Terms() {
           </div>
         </section>
       </div>
+      <div className="terms-bottom-div"></div>
     </>
   );
 }

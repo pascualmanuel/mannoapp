@@ -204,6 +204,7 @@
 
 .nav-tabs {
   /* border: solid red !important; */
+  font-family: "Book";
   border-bottom: solid gray 2px !important;
   --bs-nav-tabs-link-hover-border-color: transparent !important;
   --bs-nav-tabs-border-width: 0px !important;
