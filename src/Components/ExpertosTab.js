@@ -28,7 +28,9 @@ function ExpertosTabs() {
                 {/* <div className="right-slide"> */}
                 <div className="left-in-slide">
                   <div className="step-bullet">1</div>
-                  <h2 style={{fontSize: "23px"}}>Expertos</h2>
+                  <h2 className="slider-h2" style={{fontSize: "23px"}}>
+                    Expertos
+                  </h2>
                 </div>
                 <div className="right-in-slide">
                   <p style={{color: "white"}}>
@@ -51,7 +53,9 @@ function ExpertosTabs() {
                 {/* <div className="right-slide"> */}
                 <div className="left-in-slide">
                   <div className="step-bullet">2</div>
-                  <h2 style={{fontSize: "23px"}}>Cargá tu tarea</h2>
+                  <h2 className="slider-h2" style={{fontSize: "23px"}}>
+                    Cargá tu tarea
+                  </h2>
                 </div>
                 <div className="right-in-slide">
                   <p style={{color: "white"}}>
@@ -74,7 +78,9 @@ function ExpertosTabs() {
                 {/* <div className="right-slide"> */}
                 <div className="left-in-slide">
                   <div className="step-bullet">3</div>
-                  <h2 style={{fontSize: "23px"}}>Recibí presupuestos</h2>
+                  <h2 className="slider-h2" style={{fontSize: "23px"}}>
+                    Recibí presupuestos
+                  </h2>
                 </div>
                 <div className="right-in-slide">
                   <p style={{color: "white"}}>
@@ -96,7 +102,9 @@ function ExpertosTabs() {
                 {/* <div className="right-slide"> */}
                 <div className="left-in-slide">
                   <div className="step-bullet">4</div>
-                  <h2 style={{fontSize: "23px"}}>Contratá</h2>
+                  <h2 className="slider-h2" style={{fontSize: "23px"}}>
+                    Contratá
+                  </h2>
                 </div>
                 <div className="right-in-slide">
                   <p style={{color: "white"}}>
@@ -118,7 +126,9 @@ function ExpertosTabs() {
                 {/* <div className="right-slide"> */}
                 <div className="left-in-slide">
                   <div className="step-bullet">5</div>
-                  <h2 style={{fontSize: "23px"}}>Valorá</h2>
+                  <h2 className="slider-h2" style={{fontSize: "23px"}}>
+                    Valorá
+                  </h2>
                 </div>
                 <div className="right-in-slide">
                   <p style={{color: "white"}}>
