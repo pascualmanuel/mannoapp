@@ -3,7 +3,7 @@
 import logo from "./logo.svg";
 import "./App.css";
 import "./index.css";
-import "./Components/Tabs/Tabs.css";
+// import "./Components/Tabs/Tabs.css";
 // import {BrowserRouter as Router, Route, Switch, Routes} from "react-router-dom";
 import {
   BrowserRouter,
@@ -33,7 +33,7 @@ import Testimonios from "./Components/Testimonios";
 import Faqs from "./Components/Faqs";
 import "bootstrap/dist/css/bootstrap.min.css";
 import Usuario from "./Components/UsuariosTab";
-import Pruebas from "./Components/Pruebas";
+import Pruebas from "./Components/ComoFuncionaUsuario";
 import Terms from "./Components/Terms";
 import Home from "./Components/Home";
 import ScrollToTop from "./Components/ScrollToTop";

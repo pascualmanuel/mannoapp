@@ -26,7 +26,7 @@ import Testimonios from "./Testimonios";
 import Faqs from "./Faqs";
 
 import Usuario from "./UsuariosTab";
-import Pruebas from "./Pruebas";
+import Pruebas from "./ComoFuncionaUsuario";
 import Terms from "./Terms";
 
 function Home() {
@@ -37,10 +37,13 @@ function Home() {
       <Categories />
       <Expertos />
       <Faqs />
-      <Pruebas />
+      {/* <Pruebas /> */}
       <Footer />
     </>
   );
 }
 
 export default Home;
+
+
+

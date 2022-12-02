@@ -79,7 +79,7 @@ function ExpertosTabs() {
                 <div className="left-in-slide">
                   <div className="step-bullet">3</div>
                   <h2 className="slider-h2" style={{fontSize: "23px"}}>
-                    Recibí presupuestos
+                    Recibí prewsupuestos
                   </h2>
                 </div>
                 <div className="right-in-slide">

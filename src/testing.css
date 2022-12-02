@@ -241,7 +241,7 @@ hr {
   padding-bottom: 60px;
 }
 
-.probi {
+.step-cont-hiw {
   width: 380px;
   height: 180px;
   display: flex;
@@ -256,8 +256,11 @@ hr {
   align-items: center;
   justify-content: space-around;
   margin-bottom: 100px;
-  background: linear-gradient(124.96deg, #657ff6 0.66%, #64d8a7 122.12%);
+
   padding-top: 100px;
+}
+.full-container-hiw {
+  background: linear-gradient(124.96deg, #657ff6 0.66%, #64d8a7 122.12%);
 }
 
 .bullet-hiw {
@@ -283,11 +286,11 @@ hr {
   font-size: 24px;
 }
 
-.probi:hover {
+.step-cont-hiw:hover {
   border: white 2px solid;
   transition: 1s;
 }
 
-/* .probi:active {
+/* .step-cont-hiw:active {
   border: red;
 } */

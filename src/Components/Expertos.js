@@ -56,7 +56,7 @@ function Hero() {
             <Link to={"#terms"}>
               <div className="button-experto">
                 <span style={{color: "#5d80ff", fontFamily: "Book"}}>
-                  Quiero Ser experto
+                  Quiero ser experto.
                 </span>
               </div>
             </Link>
