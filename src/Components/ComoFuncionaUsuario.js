@@ -43,7 +43,7 @@ function ComoFuncionaUsuario() {
               onMouseLeave={() => setBgColour(Step1)}
             >
               <div className="bullet-hiw">1</div>
-              <section style={{marginLeft: "60px"}}>
+              <section className="step-cont-section">
                 <h3 className="title-hiw"> Cargá tu tarea</h3>
                 <p className="text-hiw">
                   Seleccioná entre las categorías y describí lo que necesitás
@@ -57,13 +57,24 @@ function ComoFuncionaUsuario() {
                 onMouseEnter={() => setBgColour(Step3)}
                 onMouseLeave={() => setBgColour(Step3)}
               >
-                <div className="bullet-hiw">3</div>
+                <div className="bullet-hiw">
+                  <span className="desktop-bullet">3</span>
+                  <span className="mobile-bullet">2</span>
+                </div>
 
-                <section style={{marginLeft: "60px"}}>
-                  <h3 className="title-hiw"> Contratá</h3>
-                  <p className="text-hiw">
-                    Chateá con el experto y coordiná los detalles.
-                  </p>
+                <section className="step-cont-section">
+                  <span className="mobile-bullet">
+                    <h3 className="title-hiw"> Recibí presupuestos</h3>
+                    <p className="text-hiw">
+                      Y elegí al expert@ indicado para vos.
+                    </p>
+                  </span>
+                  <span className="desktop-bullet">
+                    <h3 className="title-hiw">Contratá</h3>
+                    <p className="text-hiw">
+                      Chateá con el experto y coordiná los detalles.
+                    </p>
+                  </span>
                 </section>
               </div>
             </div>
@@ -75,12 +86,23 @@ function ComoFuncionaUsuario() {
               onMouseEnter={() => setBgColour(Step2)}
               onMouseLeave={() => setBgColour(Step2)}
             >
-              <div className="bullet-hiw">2</div>
-              <section style={{marginLeft: "60px"}}>
-                <h3 className="title-hiw"> Recibí presupuestos</h3>
-                <p className="text-hiw">
-                  Y elegí al expert@ indicado para vos.
-                </p>
+              <div className="bullet-hiw">
+                <span className="desktop-bullet">2</span>
+                <span className="mobile-bullet">3</span>
+              </div>
+              <section className="step-cont-section">
+                <span className="desktop-bullet">
+                  <h3 className="title-hiw">Recibí presupuestos</h3>
+                  <p className="text-hiw">
+                    Y elegí al expert@ indicado para vos.
+                  </p>
+                </span>
+                <span className="mobile-bullet">
+                  <h3 className="title-hiw"> Step 3: Contratá</h3>
+                  <p className="text-hiw">
+                    Chateá con el experto y coordiná los detalles.
+                  </p>
+                </span>
               </section>
             </div>
             <div
@@ -89,11 +111,11 @@ function ComoFuncionaUsuario() {
               onMouseLeave={() => setBgColour(Step4)}
             >
               <div className="bullet-hiw">4</div>
-              <section style={{marginLeft: "60px"}}>
+              <section className="step-cont-section">
                 <h3 className="title-hiw"> Valorá</h3>
                 <p className="text-hiw">
-                  Cuando soluciones tu problema, compartí tu experiencia y dale
-                  un puntaje a tu expert@.
+                  Cuando soluciones tu problema, compartí tu experiencia
+                  poniéndole un puntaje a tu expert@.
                 </p>
               </section>
             </div>

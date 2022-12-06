@@ -28,6 +28,7 @@ function TabsComp() {
     <>
       <div className="full-container-hiw">
         <div className="content-hiw-flex">
+        <div className="hr-hiw"></div>
           <h2 className="h2-hiw">¿Cómo Funciona?</h2>
           <Tabs fill transition={false}>
             <Tab
