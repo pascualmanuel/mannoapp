@@ -15,6 +15,14 @@ import IconMon from "../Assets/icon-3.svg";
 
 // import {Routes, Route} from "react-router-dom";
 
+let os = "Unknown";
+
+// if (navigator.appVersion.indexOf("Win") != -1) os = "Windows";
+// if (navigator.appVersion.indexOf("Mac") != -1) os = "MacOS";
+// if (navigator.appVersion.indexOf("Linux") != -1) os = "Linuxxxx";
+// if (navigator.appVersion.indexOf("X11") != -1) os = "UNIX";
+// console.log(os);
+
 function Hero() {
   return (
     <>
@@ -53,7 +61,7 @@ function Hero() {
               />
               <p> Aprovechá miles de oportunidades, gratis.</p>
             </div>
-            <Link to={"#terms"}>
+            <Link to={""}>
               <div className="button-experto">
                 <span style={{color: "#5d80ff", fontFamily: "Book"}}>
                   Quiero ser experto.

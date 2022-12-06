@@ -44,7 +44,7 @@ function ComoFuncionaExperto() {
     <>
       {/* <div className="full-container-hiw"> */}
 
-      <div className="container-h-i-w">
+      <div className="container-hiw">
         <div>
           <div
             // style={changeBorder}

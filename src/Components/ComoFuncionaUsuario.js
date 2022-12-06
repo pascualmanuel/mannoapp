@@ -35,7 +35,7 @@ function ComoFuncionaUsuario() {
     <>
       <div className="full-container-hiw">
         <div>{/* <h2 style={{color: "white"}}>Usuario</h2> */}</div>
-        <div className="container-h-i-w">
+        <div className="container-hiw">
           <div>
             <div
               className="step-cont-hiw"
