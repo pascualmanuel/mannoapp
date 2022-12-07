@@ -36,8 +36,8 @@ function Home() {
       <TabsComp />
       <Categories />
       <Expertos />
-      <Faqs />
       <Reviews />
+      <Faqs />
       <Footer />
     </>
   );
