@@ -9,7 +9,6 @@ function Faqs() {
           style={{
             textAlign: "center",
             paddingTop: "100px",
-            marginBottom: "70px",
           }}
         >
           Preguntas Frecuentes
