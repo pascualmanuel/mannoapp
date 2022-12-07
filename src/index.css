@@ -97,11 +97,12 @@ h2 {
 }
 
 .background-categories {
-  /* background-image: url("./Assets/background-categories5.webp"); */
+  /* background-image: url("./Assets/background-categories2.webp"); */
   background-image: url("./Assets/background-full-categories.webp");
   background-position: left;
   background-repeat: no-repeat;
   background-size: cover;
+  /* background-size: contain; */
   padding-top: 50px;
 }
 
@@ -146,6 +147,13 @@ h2 {
   justify-content: flex-end;
   margin-bottom: 100px;
   width: 70%;
+}
+
+.box-container {
+  width: 600px;
+  height: 600px;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .box {
@@ -362,6 +370,10 @@ h2 {
   .background-categories {
     background-image: none;
   }
+  .box-container {
+    justify-content: center;
+    height: auto;
+  }
 }
 
 @media (max-width: 900px) {
@@ -519,7 +531,7 @@ h2 {
   }
   .cont-expertos {
     margin-top: 50px;
-    height: 900px;
+    height: auto;
   }
   .photo-experto {
     width: 225px;

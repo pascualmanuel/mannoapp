@@ -374,3 +374,9 @@ hr {
 /* .step-cont-hiw:active {
   border: red;
 } */
+
+#reviews-box {
+  border: solid pink 2px;
+  width: 200px;
+  height: 200px;
+}

@@ -28,7 +28,7 @@ import {useParallax} from "react-scroll-parallax";
 import {Parallax} from "react-scroll-parallax";
 import TabsComp from "./Components/Tabs/TabsComp";
 import Expertos from "./Components/Expertos";
-import Testimonios from "./Components/Testimonios";
+import Reviews from "./Components/Reviews";
 
 import Faqs from "./Components/Faqs";
 import "bootstrap/dist/css/bootstrap.min.css";

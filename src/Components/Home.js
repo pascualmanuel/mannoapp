@@ -21,7 +21,7 @@ import Footer from "./Footer";
 
 import TabsComp from "./Tabs/TabsComp";
 import Expertos from "./Expertos";
-import Testimonios from "./Testimonios";
+import Reviews from "./Reviews";
 
 import Faqs from "./Faqs";
 
@@ -37,13 +37,10 @@ function Home() {
       <Categories />
       <Expertos />
       <Faqs />
-      {/* <Pruebas /> */}
+      <Reviews />
       <Footer />
     </>
   );
 }
 
 export default Home;
-
-
-
