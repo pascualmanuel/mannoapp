@@ -4,10 +4,10 @@ import MannoLogo from "../Assets/Hero/logo-horizontal-sinfondo-azul.png";
 import Manno from "../Assets/Hero/manno.png";
 import Phone from "./UsuariosTab";
 import Apple from "../Assets/Hero/apple-svg.svg";
-import Apple2 from "../Assets/app.png";
-import Google2 from "../Assets/app2.png";
+import Apple2 from "../Assets/Hero/boton-apple.svg";
+import Google2 from "../Assets/Hero/boton-google.svg";
 import Google from "../Assets/Hero/google-svg.svg";
-
+import Isologo from "../Assets/Hero/isologo-background-hero.png";
 import {Link} from "react-router-dom";
 
 import {ExternalLink} from "react-external-link";
@@ -48,6 +48,9 @@ function Hero() {
   return (
     <>
       <div className="fondo">
+        <div className="logo-mobile">
+          <img src={Isologo} alt="logo" width={50} />
+        </div>
         <nav className="manno-header">
           <div>
             <img src={MannoLogo} alt="Manno Logo" height={30} />
@@ -66,15 +69,15 @@ function Hero() {
         <div className="hero-container">
           <section className="flexx">
             <h2 className="alguien-conoce">
-              <span style={{color: MannoBlue}}> #AlguienConoce un </span>
+              <span style={{color: MannoBlue}}> #AlguienConoceUn </span>
               {newName}
             </h2>
             <h1 className="manno-te-salva">
-              <img src={Manno} alt="Manno Logo" className="img-manno" /> te
-              salva.
+              <img src={Manno} alt="Manno Logo" className="img-manno" />
+              &nbsp;te salva.
             </h1>
             <p className="subtitle-hero">
-              Contratá a los mejores expertos y solucioná lo que
+              Contratá a los mejores expert@s y solucioná lo que
               <br className="br"></br> necesitás, sin perder tiempo.
             </p>
             <div className="download">

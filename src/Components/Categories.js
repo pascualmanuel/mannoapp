@@ -13,12 +13,12 @@ function Categories() {
             <p style={{marginBottom: "15px"}}>¿Necesitás una mano?</p>
             <h2>
               <span style={{color: "#5d80ff"}}> Cuatro </span>
-              categorías de expertos, <br></br>una sola app.
+              categorías de expert@s, <br></br>una sola app.
             </h2>
-            <p style={{marginTop: "30px"}}>
-              Contactá expertos en tareas para el hogar,{" "}
+            <p style={{marginTop: "10px"}}>
+              Contactá expert@s en tareas para el hogar,
               <br className="br-right-p-categories" />
-              profes, gurús de la tecnología o handys arreglatodo.
+              &nbsp;profes, gurús de la tecnología o handys arreglatodo.
             </p>
           </div>
           <div className="categories-right-container">
@@ -30,16 +30,16 @@ function Categories() {
                   width={80}
                   style={{marginLeft: "8px", marginTop: "5px"}}
                 />
-                <h2 style={{marginLeft: "20px", fontSize: "20px"}}>Hogar</h2>
+                <h2 style={{marginLeft: "20px", fontSize: "24px"}}>Hogar</h2>
                 <p
                   style={{
                     marginLeft: "20px",
                     marginTop: "8px",
                     marginRight: "20px",
-                    fontSize: "15px",
+                    // fontSize: "15px",
                   }}
                 >
-                  Contactá al experto ideal para resolver cualquier imprevisto
+                  Contactá al expert@ ideal para resolver cualquier imprevisto
                   en tu hogar.
                 </p>
               </div>
@@ -50,7 +50,7 @@ function Categories() {
                   width={80}
                   style={{marginLeft: "8px", marginTop: "5px"}}
                 />
-                <h2 style={{marginLeft: "20px", fontSize: "20px"}}>
+                <h2 style={{marginLeft: "20px", fontSize: "24px"}}>
                   Tecnología
                 </h2>
                 <p
@@ -58,10 +58,10 @@ function Categories() {
                     marginLeft: "20px",
                     marginTop: "8px",
                     marginRight: "20px",
-                    fontSize: "15px",
+                    // fontSize: "15px",
                   }}
                 >
-                  Elegí entre los mejores expertos en celulares, tablets o
+                  Elegí entre los mejores expert@s en celulares, tablets o
                   computadoras.
                 </p>
               </div>
@@ -72,13 +72,13 @@ function Categories() {
                   width={80}
                   style={{marginLeft: "8px", marginTop: "5px"}}
                 />
-                <h2 style={{marginLeft: "20px", fontSize: "20px"}}>Clases</h2>
+                <h2 style={{marginLeft: "20px", fontSize: "24px"}}>Clases</h2>
                 <p
                   style={{
                     marginLeft: "20px",
                     marginTop: "8px",
                     marginRight: "20px",
-                    fontSize: "15px",
+                    // fontSize: "15px",
                   }}
                 >
                   Potenciá tu canto, tu inglés, o tu entrenamiento físico! Está
@@ -92,7 +92,7 @@ function Categories() {
                   width={80}
                   style={{marginLeft: "8px", marginTop: "5px"}}
                 />
-                <h2 style={{marginLeft: "20px", fontSize: "20px"}}>
+                <h2 style={{marginLeft: "20px", fontSize: "24px"}}>
                   Arreglatodo
                 </h2>
                 <p
@@ -100,7 +100,7 @@ function Categories() {
                     marginLeft: "20px",
                     marginTop: "8px",
                     marginRight: "20px",
-                    fontSize: "15px",
+                    // fontSize: "15px",
                   }}
                 >
                   Esta categoría no la entiendo muy bien todavía. Pero acá va un

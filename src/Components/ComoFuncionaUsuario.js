@@ -72,7 +72,7 @@ function ComoFuncionaUsuario() {
                   <span className="desktop-bullet">
                     <h3 className="title-hiw">Contratá</h3>
                     <p className="text-hiw">
-                      Chateá con el experto y coordiná los detalles.
+                      Chateá con el expert@ y coordiná los detalles.
                     </p>
                   </span>
                 </section>
@@ -100,7 +100,7 @@ function ComoFuncionaUsuario() {
                 <span className="mobile-bullet">
                   <h3 className="title-hiw"> Step 3: Contratá</h3>
                   <p className="text-hiw">
-                    Chateá con el experto y coordiná los detalles.
+                    Chateá con el expert@ y coordiná los detalles.
                   </p>
                 </span>
               </section>

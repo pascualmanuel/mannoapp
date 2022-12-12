@@ -124,7 +124,7 @@ function UsuariosTab() {
                 </div>
                 <div className="right-in-slide">
                   <p style={{color: "white"}}>
-                    Chateá con el experto y coordiná los detalles.
+                    Chateá con tu expert@ y coordiná los detalles.
                   </p>
                 </div>
                 {/* </div> */}

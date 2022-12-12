@@ -40,7 +40,7 @@ function Reviews() {
             fontSize: "15px",
           }}
         >
-          Contactá al experto ideal para resolver cualquier imprevisto en tu
+          Contactá al expert@ ideal para resolver cualquier imprevisto en tu
           hogar.
         </p>
       </div>
@@ -66,7 +66,7 @@ function Reviews() {
             fontSize: "15px",
           }}
         >
-          Contactá al experto ideal para resolver cualquier imprevisto en tu
+          Contactá al expert@ ideal para resolver cualquier imprevisto en tu
           hogar.
         </p>
       </div>
@@ -92,7 +92,7 @@ function Reviews() {
             fontSize: "15px",
           }}
         >
-          Contactá al experto ideal para resolver cualquier imprevisto en tu
+          Contactá al expert@ ideal para resolver cualquier imprevisto en tu
           hogar.
         </p>
       </div>
@@ -118,7 +118,7 @@ function Reviews() {
             fontSize: "15px",
           }}
         >
-          Contactá al experto ideal para resolver cualquier imprevisto en tu
+          Contactá al expert@ ideal para resolver cualquier imprevisto en tu
           hogar.
         </p>
       </div>

@@ -54,6 +54,26 @@ h2 {
   min-height: 630px;
 }
 
+.logo-mobile {
+  margin-top: 30px;
+  margin-left: 40px;
+  margin-bottom: 50px;
+}
+
+@media (min-width: 761px) {
+  .logo-mobile {
+    display: none;
+  }
+}
+@media (max-width: 761px) {
+  .alguien-conoce,
+  .manno-te-salva,
+  .subtitle-hero,
+  .download {
+    margin-left: 20px;
+  }
+}
+
 .manno-header {
   height: 5vh;
   display: flex;
@@ -93,13 +113,16 @@ h2 {
 }
 
 .img-manno {
-  width: 3em;
+  width: 3.3em;
 }
 
 .background-categories {
-  /* background-image: url("./Assets/background-categories2.webp"); */
-  background-image: url("./Assets/background-full-categories.webp");
+  /* background-image: url("./Assets/pincelada\ deskto.png"); */
+  background-image: url("./Assets/pincelada2.png");
+
+  /* background-image: url("./Assets/background-full-categories.webp"); */
   background-position: left;
+  /* background-position: bottom; */
   background-repeat: no-repeat;
   background-size: cover;
   /* background-size: contain; */
@@ -131,21 +154,28 @@ h2 {
 }
 
 .box {
-  border: #dde2e9 solid;
+  border: #dde2e9 solid 1px;
   border-radius: 13px;
   width: 240px;
   height: 230px;
   margin: 20px;
 }
+
+@media (max-width: 1000px) {
+  .box {
+    width: 300px;
+  }
+}
+
 .categories-right-container {
   display: flex;
   flex-direction: row;
   flex-wrap: wrap;
   align-content: center;
   /* justify-content: end; no.. poner flex-end para safari */
-
   justify-content: flex-end;
-  margin-bottom: 100px;
+  margin-bottom: 200px;
+  /* margin-bottom for mobile */
   width: 70%;
 }
 
@@ -363,16 +393,25 @@ h2 {
     align-items: center;
     margin-left: 50px;
     margin-right: 50px;
+    margin-top: 40px;
   }
   .categories-right-container {
+    width: 90% !important;
     justify-content: center;
   }
   .background-categories {
     background-image: none;
+    background-image: url("Assets/pincelada.png");
+    background-size: cover;
+    background-position: bottom;
   }
   .box-container {
     justify-content: center;
     height: auto;
+    width: 100% !important;
+  }
+  .categories-left-container {
+    margin-bottom: 55px;
   }
 }
 
@@ -413,20 +452,20 @@ h2 {
   .hero-container {
     display: flex;
     flex-direction: column;
-    margin-top: 100px;
+    /* margin-top: 30px; */
     margin-right: 20px;
     margin-left: 20px;
   }
   .alguien-conoce {
     margin-top: -20px;
     position: relative;
-    font-size: 16px;
+    font-size: 18px;
   }
   .manno-header {
     display: none;
   }
   .fondo {
-    margin-bottom: 190px !important;
+    margin-bottom: 250px !important;
   }
   .br {
     display: none;
@@ -435,7 +474,7 @@ h2 {
     font-size: 40px;
   }
   .download {
-    margin-top: 0;
+    margin-top: 40px;
     display: flex;
   }
   .container2 {
@@ -447,6 +486,11 @@ h2 {
   }
   #mobile-faq {
     width: 80vw !important;
+  }
+  .box-container {
+    justify-content: center;
+    height: auto !important;
+    width: auto !important;
   }
 }
 /* Expertos */
@@ -515,12 +559,13 @@ h2 {
   .expertos-title {
     font-size: 24px;
     color: white;
-    font-weight: 600;
     margin-bottom: 37px;
     margin-top: 20px;
   }
   .left-expertos {
-    margin: 35px;
+    margin-left: 40px;
+    margin-right: 40px;
+    margin-top: 95px;
   }
   .right-expertos {
     margin: 0;
@@ -530,7 +575,6 @@ h2 {
     display: flex;
   }
   .cont-expertos {
-    margin-top: 50px;
     height: auto;
   }
   .photo-experto {
@@ -606,6 +650,64 @@ h2 {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
     120px 120px 120px rgba(0, 0, 0, 0.16), 80px 80px 80px rgba(0, 0, 0, 0.16),
     48px 48px 48px rgba(0, 0, 0, 0.24), 32px 32px 32px rgba(0, 0, 0, 0.24);
+}
+
+#fullscreen-cf2 {
+  position: absolute;
+  width: 246px;
+  height: 491px;
+  position: absolute;
+  object-fit: cover;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  border-radius: 30px;
+  z-index: 3;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
+    120px 120px 120px rgba(0, 0, 0, 0.16), 80px 80px 80px rgba(0, 0, 0, 0.16),
+    48px 48px 48px rgba(0, 0, 0, 0.24), 32px 32px 32px rgba(0, 0, 0, 0.24);
+  background-image: url("Assets/Hero/img-home2.png");
+}
+
+#fullscreen-cf2::after {
+  content: " ";
+  display: block;
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  border-radius: 30px;
+
+  z-index: 1;
+  background-image: url("Assets/Hero/img-home1.png");
+  background-repeat: no-repeat;
+  background-position: 50% 0;
+  background-size: cover;
+}
+
+@keyframes cf3FadeInOut {
+  0% {
+    opacity: 1;
+  }
+  45% {
+    opacity: 1;
+  }
+  55% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+#fullscreen-cf2::after {
+  animation-name: cf3FadeInOut;
+  animation-timing-function: ease-in-out;
+  /* animation-iteration-count: infinite; */
+  animation-iteration-count: 2;
+  animation-duration: 4s;
+  /* animation-direction: alternate; */
 }
 
 .container2 {

@@ -29,7 +29,7 @@ function Hero() {
       <div className="cont-expertos">
         <div className="expertos">
           <div className="left-expertos">
-            <p>Expert@s</p>
+            <p style={{fontSize: "18px"}}>Expert@s</p>
             <h2 className="expertos-title">
               Trabajá cuando quieras, <br></br> de lo que quieras.
             </h2>
@@ -41,7 +41,9 @@ function Hero() {
                 width={20}
                 style={{marginRight: "10px", marginBottom: "18px"}}
               />
-              <p>Ganá dinero extra en tu tiempo libre.</p>
+              <p style={{fontSize: "18px"}}>
+                Ganá dinero extra en tu tiempo libre.
+              </p>
             </div>
             <div className="text-icon-experto">
               <img
@@ -50,7 +52,9 @@ function Hero() {
                 width={20}
                 style={{marginRight: "10px", marginBottom: "18px"}}
               />
-              <p>Ampliá tu red de contactos y crecé profesionalmente.</p>
+              <p style={{fontSize: "18px"}}>
+                Ampliá tu red de contactos y crecé profesionalmente.
+              </p>
             </div>
             <div className="text-icon-experto">
               <img
@@ -59,12 +63,15 @@ function Hero() {
                 width={20}
                 style={{marginRight: "10px", marginBottom: "18px"}}
               />
-              <p> Aprovechá miles de oportunidades, gratis.</p>
+              <p style={{fontSize: "18px"}}>
+                {" "}
+                Aprovechá miles de oportunidades, gratis.
+              </p>
             </div>
             <Link to={""}>
               <div className="button-experto">
                 <span style={{color: "#5d80ff", fontFamily: "Book"}}>
-                  Quiero ser experto.
+                  Quiero ser expert@
                 </span>
               </div>
             </Link>
