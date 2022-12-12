@@ -4,7 +4,10 @@ import MannoLogo from "../Assets/Hero/logo-horizontal-sinfondo-azul.png";
 import Manno from "../Assets/Hero/manno.png";
 import Phone from "./UsuariosTab";
 import Apple from "../Assets/Hero/apple-svg.svg";
+import Apple2 from "../Assets/app.png";
+import Google2 from "../Assets/app2.png";
 import Google from "../Assets/Hero/google-svg.svg";
+
 import {Link} from "react-router-dom";
 
 import {ExternalLink} from "react-external-link";
@@ -80,7 +83,7 @@ function Hero() {
                 target="_blank"
               >
                 <img
-                  src={Apple}
+                  src={Apple2}
                   alt="prueba"
                   height={50}
                   style={{marginRight: "20px"}}
@@ -90,7 +93,7 @@ function Hero() {
                 href={`https://play.google.com/store/apps/details?id=com.app.mannoapp&hl=es_AR&gl=US`}
                 target="_blank"
               >
-                <img src={Google} alt="prueb" height={50} />
+                <img src={Google2} alt="prueb" height={50} />
               </ExternalLink>
             </div>
           </section>

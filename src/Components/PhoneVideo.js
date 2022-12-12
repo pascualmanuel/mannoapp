@@ -6,6 +6,7 @@ import iPhoneApple from "../Assets/apple-iphone.png";
 // import iPhoneVideo from "../Assets/manno-video.MP4";
 // import PhoneSvg from "../Assets/Hero/phone-svg.svg";
 import Gif from "../Assets/manno-gif.gif";
+import Video from "../Assets/manno-gif-splash.GIF";
 // import UsuariosTab from "./UsuariosTab";
 
 function PhoneVideo() {
@@ -34,7 +35,6 @@ function PhoneVideo() {
           src={Gif}
           // type="video/mp4"
         />
-
         <div className="content">
           <img src={iPhoneApple} alt="prueb" width={250} />
         </div>
