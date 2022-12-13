@@ -1,8 +1,5 @@
-import React, {useState} from "react";
-import ArreglatodoIcon from "../Assets/Hero/arreglatodo-icon.png";
-import HogarIcon from "../Assets/Hero/hogar-icono.png";
-import TecnoIcon from "../Assets/Hero/tecno-icon.png";
-import ClasesIcon from "../Assets/Hero/clases-icon.png";
+import React from "react";
+
 import PersonitaUno from "../Assets/Personitas/personita1.png";
 import PersonitaDos from "../Assets/Personitas/personita2.png";
 import PersonitaTres from "../Assets/Personitas/personita3.png";
@@ -128,10 +125,19 @@ function Reviews() {
   return (
     <>
       <div
-        style={{backgroundColor: "rgba(247, 248, 248, 1)", paddingTop: "100px"}}
+        style={{
+          backgroundColor: "rgba(247, 248, 248, 1)",
+          paddingBottom: "100px",
+        }}
       >
-        <div className="categories-left-container">
-          <p style={{marginBottom: "15px"}}>Qué dicen sobre nosotros</p>
+        <div className="reviews-container">
+          <p
+            style={{
+              marginBottom: "15px",
+            }}
+          >
+            Qué dicen sobre nosotros
+          </p>
           <h2>
             Usuarios que recibieron <br></br>una
             <span style={{color: "#5d80ff"}}> manno. </span>

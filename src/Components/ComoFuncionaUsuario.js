@@ -10,6 +10,7 @@ import {Tabs, Tab} from "react-bootstrap";
 
 function ComoFuncionaUsuario() {
   const [bgColour, setBgColour] = useState(Step1);
+  const [bgBorder, setBgBorder] = useState("solid 1px white");
 
   const changeImageStyle = {
     height: "500px",
@@ -22,6 +23,9 @@ function ComoFuncionaUsuario() {
     cursor: "default",
   };
 
+  const changeBorder = {
+    border: bgBorder,
+  };
   // const comoFuncionaStyle = {
   //   fontSize: "20px",
   //   borderRadius: "40px",
@@ -33,11 +37,14 @@ function ComoFuncionaUsuario() {
 
   return (
     <>
-      <div className="full-container-hiw">
-        <div>{/* <h2 style={{color: "white"}}>Usuario</h2> */}</div>
-        <div className="container-hiw">
-          <div>
+      <div className="container-hiw">
+        <div>
+          <div
+            onMouseEnter={() => setBgBorder("")}
+            onMouseLeave={() => setBgBorder("")}
+          >
             <div
+              style={changeBorder}
               className="step-cont-hiw"
               onMouseEnter={() => setBgColour(Step1)}
               onMouseLeave={() => setBgColour(Step1)}
@@ -51,40 +58,51 @@ function ComoFuncionaUsuario() {
                 </p>
               </section>
             </div>
-            <div className="pruebabla">
-              <div
-                className="step-cont-hiw"
-                onMouseEnter={() => setBgColour(Step3)}
-                onMouseLeave={() => setBgColour(Step3)}
-              >
-                <div className="bullet-hiw">
-                  <span className="desktop-bullet">3</span>
-                  <span className="mobile-bullet">2</span>
-                </div>
-
-                <section className="step-cont-section">
-                  <span className="mobile-bullet">
-                    <h3 className="title-hiw"> Recibí presupuestos</h3>
-                    <p className="text-hiw">
-                      Y elegí al expert@ indicado para vos.
-                    </p>
-                  </span>
-                  <span className="desktop-bullet">
-                    <h3 className="title-hiw">Contratá</h3>
-                    <p className="text-hiw">
-                      Chateá con el expert@ y coordiná los detalles.
-                    </p>
-                  </span>
-                </section>
-              </div>
-            </div>
           </div>
-          <div className="phone-hiw" style={changeImageStyle}></div>
-          <div>
+          <div
+            // style={changeBorder}
+            onMouseEnter={() => setBgBorder("")}
+            onMouseLeave={() => setBgBorder("")}
+          >
             <div
               className="step-cont-hiw"
               onMouseEnter={() => setBgColour(Step2)}
               onMouseLeave={() => setBgColour(Step2)}
+            >
+              <div className="bullet-hiw">
+                <span className="desktop-bullet">3</span>
+                <span className="mobile-bullet">2</span>
+              </div>
+
+              <section className="step-cont-section">
+                <span className="mobile-bullet">
+                  <h3 className="title-hiw">Recibí presupuestos</h3>
+                  <p className="text-hiw">
+                    Y elegí al expert@ indicado para vos.
+                  </p>
+                </span>
+                <span className="desktop-bullet">
+                  <h3 className="title-hiw">Contratá</h3>
+                  <p className="text-hiw">
+                    Chateá con el expert@ y coordiná los detalles.
+                  </p>
+                </span>
+              </section>
+            </div>
+          </div>
+        </div>
+
+        <div className="phone-hiw" style={changeImageStyle}></div>
+        <div>
+          <div
+            // style={changeBorder}
+            onMouseEnter={() => setBgBorder("")}
+            onMouseLeave={() => setBgBorder("")}
+          >
+            <div
+              className="step-cont-hiw"
+              onMouseEnter={() => setBgColour(Step3)}
+              onMouseLeave={() => setBgColour(Step3)}
             >
               <div className="bullet-hiw">
                 <span className="desktop-bullet">2</span>
@@ -98,13 +116,19 @@ function ComoFuncionaUsuario() {
                   </p>
                 </span>
                 <span className="mobile-bullet">
-                  <h3 className="title-hiw"> Step 3: Contratá</h3>
+                  <h3 className="title-hiw">Contratá</h3>
                   <p className="text-hiw">
                     Chateá con el expert@ y coordiná los detalles.
                   </p>
                 </span>
               </section>
             </div>
+          </div>
+          <div
+            // style={changeBorder}
+            onMouseEnter={() => setBgBorder("")}
+            onMouseLeave={() => setBgBorder("")}
+          >
             <div
               className="step-cont-hiw"
               onMouseEnter={() => setBgColour(Step4)}
@@ -112,10 +136,9 @@ function ComoFuncionaUsuario() {
             >
               <div className="bullet-hiw">4</div>
               <section className="step-cont-section">
-                <h3 className="title-hiw"> Valorá</h3>
+                <h3 className="title-hiw"> Recibí presupuestos</h3>
                 <p className="text-hiw">
-                  Cuando soluciones tu problema, compartí tu experiencia
-                  poniéndole un puntaje a tu expert@.
+                  Y elegí al expert@ indicado para vos.
                 </p>
               </section>
             </div>

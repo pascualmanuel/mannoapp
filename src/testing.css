@@ -266,13 +266,14 @@ hr {
 .bullet-hiw {
   border: 1px solid white;
   border-radius: 50%;
-  width: 37px;
-  height: 37px;
+  width: 51px;
+  height: 51px;
   text-align: center;
-  padding: 5px;
+  padding: 11px;
   color: white;
   position: absolute;
   font-family: Medium;
+  font-size: 18px;
 }
 
 .text-hiw {
@@ -317,7 +318,7 @@ hr {
 }
 
 .step-cont-section {
-  margin-left: 60px;
+  margin-left: 75px;
 }
 @media (max-width: 800px) {
   .h2-hiw {
@@ -366,7 +367,7 @@ hr {
   }
   .step-cont-section {
     margin-left: 0px;
-    margin-top: 55px;
+    margin-top: 70px;
   }
 }
 /* .step-cont-hiw:active {
@@ -377,6 +378,12 @@ hr {
   border: solid pink 2px;
   width: 200px;
   height: 200px;
+}
+
+.reviews-container {
+  padding-top: 100px;
+  padding-bottom: 80px;
+  padding-left: 150px;
 }
 /* 
 .alice-carousel__next-btn-item {

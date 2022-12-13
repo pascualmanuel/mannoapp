@@ -47,7 +47,6 @@ function ComoFuncionaExperto() {
       <div className="container-hiw">
         <div>
           <div
-            // style={changeBorder}
             onMouseEnter={() => setBgBorder("")}
             onMouseLeave={() => setBgBorder("")}
           >

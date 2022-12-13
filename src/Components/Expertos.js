@@ -35,14 +35,10 @@ function Hero() {
             </h2>
 
             <div className="text-icon-experto">
-              <img
-                src={IconCal}
-                alt="ef"
-                width={20}
-                style={{marginRight: "10px", marginBottom: "18px"}}
-              />
+              <img src={IconCal} alt="ef" width={20} className="expert-icons" />
               <p style={{fontSize: "18px"}}>
-                Ganá dinero extra en tu tiempo libre.
+                Ganá dinero extra en tu tiempo <br className="br-mobile" />
+                libre.
               </p>
             </div>
             <div className="text-icon-experto">
@@ -50,19 +46,14 @@ function Hero() {
                 src={IconCert}
                 alt="ef"
                 width={20}
-                style={{marginRight: "10px", marginBottom: "18px"}}
+                className="expert-icons"
               />
               <p style={{fontSize: "18px"}}>
                 Ampliá tu red de contactos y crecé profesionalmente.
               </p>
             </div>
             <div className="text-icon-experto">
-              <img
-                src={IconMon}
-                alt="ef"
-                width={20}
-                style={{marginRight: "10px", marginBottom: "18px"}}
-              />
+              <img src={IconMon} alt="ef" width={20} className="expert-icons" />
               <p style={{fontSize: "18px"}}>
                 {" "}
                 Aprovechá miles de oportunidades, gratis.

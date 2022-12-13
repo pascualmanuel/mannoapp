@@ -59,15 +59,15 @@ function Hero() {
             <a href={"#faq"}>
               <p>Preguntas Frecuentes</p>
             </a>
-            <Link to={"/terms"}>
+            <a href={"#como-funciona"}>
               <p style={{marginRight: "45px", marginLeft: "45px"}}>
-                Términos y condiciones
+                ¿Cómo funciona?
               </p>
-            </Link>
+            </a>
           </div>
         </nav>
         <div className="hero-container">
-          <section className="flexx">
+          <section className="flexx" style={{width: "100%"}}>
             <h2 className="alguien-conoce">
               <span style={{color: MannoBlue}}> #AlguienConoceUn </span>
               {newName}
@@ -87,7 +87,7 @@ function Hero() {
               >
                 <img
                   src={Apple2}
-                  alt="prueba"
+                  alt="Apple"
                   height={50}
                   style={{marginRight: "20px"}}
                 />
@@ -96,7 +96,7 @@ function Hero() {
                 href={`https://play.google.com/store/apps/details?id=com.app.mannoapp&hl=es_AR&gl=US`}
                 target="_blank"
               >
-                <img src={Google2} alt="prueb" height={50} />
+                <img src={Google2} alt="Google" height={50} />
               </ExternalLink>
             </div>
           </section>

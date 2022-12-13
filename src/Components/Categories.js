@@ -1,8 +1,8 @@
 import React from "react";
-import HogarIcon from "../Assets/Hero/hogar-icono.png";
-import ClasesIcon from "../Assets/Hero/clases-icon.png";
-import ArreglatodoIcon from "../Assets/Hero/arreglatodo-icon.png";
-import TecnoIcon from "../Assets/Hero/tecno-icon.png";
+import HogarIcon from "../Assets/Categories/casita.png";
+import ClasesIcon from "../Assets/Categories/clases.png";
+import ArreglatodoIcon from "../Assets/Categories/pibitos.png";
+import TecnoIcon from "../Assets/Categories/celu.png";
 
 function Categories() {
   return (
@@ -16,9 +16,10 @@ function Categories() {
               categorías de expert@s, <br></br>una sola app.
             </h2>
             <p style={{marginTop: "10px"}}>
-              Contactá expert@s en tareas para el hogar,
+              Contactá expert@s en tareas para el hogar,&nbsp;
               <br className="br-right-p-categories" />
-              &nbsp;profes, gurús de la tecnología o handys arreglatodo.
+              profes, gurús de la tecnología o handys{" "}
+              <br className="br-right-p-categories" /> arreglatodo.
             </p>
           </div>
           <div className="categories-right-container">
@@ -27,13 +28,17 @@ function Categories() {
                 <img
                   src={HogarIcon}
                   alt="prueb"
-                  width={80}
-                  style={{marginLeft: "8px", marginTop: "5px"}}
+                  width={65}
+                  style={{
+                    marginLeft: "17px",
+                    marginTop: "15px",
+                    marginBottom: "10px",
+                  }}
                 />
                 <h2 style={{marginLeft: "20px", fontSize: "24px"}}>Hogar</h2>
                 <p
                   style={{
-                    marginLeft: "20px",
+                    marginLeft: "17px",
                     marginTop: "8px",
                     marginRight: "20px",
                     // fontSize: "15px",
@@ -47,8 +52,12 @@ function Categories() {
                 <img
                   src={TecnoIcon}
                   alt="prueb"
-                  width={80}
-                  style={{marginLeft: "8px", marginTop: "5px"}}
+                  width={65}
+                  style={{
+                    marginLeft: "17px",
+                    marginTop: "15px",
+                    marginBottom: "10px",
+                  }}
                 />
                 <h2 style={{marginLeft: "20px", fontSize: "24px"}}>
                   Tecnología
@@ -69,8 +78,12 @@ function Categories() {
                 <img
                   src={ClasesIcon}
                   alt="prueb"
-                  width={80}
-                  style={{marginLeft: "8px", marginTop: "5px"}}
+                  width={65}
+                  style={{
+                    marginLeft: "17px",
+                    marginTop: "15px",
+                    marginBottom: "10px",
+                  }}
                 />
                 <h2 style={{marginLeft: "20px", fontSize: "24px"}}>Clases</h2>
                 <p
@@ -82,15 +95,19 @@ function Categories() {
                   }}
                 >
                   Potenciá tu canto, tu inglés, o tu entrenamiento físico! Está
-                  todo en tus manos.
+                  en tus manos.
                 </p>
               </div>
               <div className="box">
                 <img
                   src={ArreglatodoIcon}
                   alt="prueb"
-                  width={80}
-                  style={{marginLeft: "8px", marginTop: "5px"}}
+                  width={65}
+                  style={{
+                    marginLeft: "17px",
+                    marginTop: "15px",
+                    marginBottom: "10px",
+                  }}
                 />
                 <h2 style={{marginLeft: "20px", fontSize: "24px"}}>
                   Arreglatodo
@@ -104,7 +121,7 @@ function Categories() {
                   }}
                 >
                   Esta categoría no la entiendo muy bien todavía. Pero acá va un
-                  breve texto descriptivo.
+                  breve texto.
                 </p>
               </div>
             </div>

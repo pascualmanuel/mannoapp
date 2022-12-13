@@ -29,7 +29,7 @@ function PhoneVideo() {
 
   return (
     <>
-      <div className="container2">
+      <div className="phone-hero-cont">
         {/* <video
           className="fullscreen"
           id="inlinevideo"
@@ -54,7 +54,7 @@ function PhoneVideo() {
         /> */}
         <div id="fullscreen-cf2"></div>
         <div className="content">
-          <img src={iPhoneApple} alt="prueb" width={250} />
+          <img src={iPhoneApple} alt="prueb" width={200} />
         </div>
       </div>
       {/* <Phone /> */}

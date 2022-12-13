@@ -47,7 +47,7 @@ h2 {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  margin-right: 125px;
+  margin-right: 225px;
   margin-left: 125px;
   height: 70vh;
   max-height: 650px;
@@ -70,7 +70,7 @@ h2 {
   .manno-te-salva,
   .subtitle-hero,
   .download {
-    margin-left: 20px;
+    margin-left: 20px !important;
   }
 }
 
@@ -181,7 +181,7 @@ h2 {
 
 .box-container {
   width: 600px;
-  height: 600px;
+  /* height: 600px; */
   display: flex;
   flex-wrap: wrap;
 }
@@ -356,7 +356,7 @@ h2 {
   }
   .background-categories {
     /* padding-top: 0px; */
-    background-size: contain;
+    /* background-size: contain; */
   }
 }
 @media (max-width: 1200px) {
@@ -448,6 +448,11 @@ h2 {
   }
 }
 
+@media (max-width: 370px) {
+  .alguien-conoce {
+    font-size: 17px;
+  }
+}
 @media (max-width: 760px) {
   .hero-container {
     display: flex;
@@ -459,7 +464,7 @@ h2 {
   .alguien-conoce {
     margin-top: -20px;
     position: relative;
-    font-size: 18px;
+    font-size: 17px;
   }
   .manno-header {
     display: none;
@@ -477,7 +482,7 @@ h2 {
     margin-top: 40px;
     display: flex;
   }
-  .container2 {
+  .phone-hero-cont {
     height: auto !important;
     margin-top: 70px !important;
   }
@@ -525,6 +530,7 @@ h2 {
 
 .left-expertos {
   margin-bottom: 35px;
+  /* margin-left: -108px; */
 }
 
 .button-experto {
@@ -588,6 +594,11 @@ h2 {
     width: 100%;
   }
 }
+@media (min-width: 800px) {
+  .button-experto {
+    display: none;
+  }
+}
 
 @media (max-width: 680px) {
   .footer-p {
@@ -607,6 +618,15 @@ h2 {
   .footer-download-icon {
     height: 40px;
   }
+  .reviews-container {
+    padding-left: 40px;
+  }
+}
+
+@media (min-width: 500px) {
+  .br-mobile {
+    display: none;
+  }
 }
 
 @media (max-width: 500px) {
@@ -619,6 +639,15 @@ h2 {
   }
 }
 
+.expert-icons {
+  margin-right: 10px;
+  margin-bottom: 18px;
+}
+@media (max-width: 450px) {
+  .expert-icons {
+    margin-bottom: 40px;
+  }
+}
 @media (max-width: 425px) {
   .button-experto {
     font-size: 15px !important;
@@ -632,10 +661,9 @@ h2 {
   }
 }
 /* VIDEO IPHONE */
-
-.fullscreen {
+/*  */
+/* .fullscreen {
   position: absolute;
-  /* z-index: 0; */
   object-fit: cover;
   width: 246px;
   height: 491px;
@@ -644,18 +672,16 @@ h2 {
   transform: translate(-50%, -50%);
   border-radius: 30px;
   z-index: 3;
-  /* box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px,
-    rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px,
-    rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px; */
+
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
     120px 120px 120px rgba(0, 0, 0, 0.16), 80px 80px 80px rgba(0, 0, 0, 0.16),
     48px 48px 48px rgba(0, 0, 0, 0.24), 32px 32px 32px rgba(0, 0, 0, 0.24);
-}
+} */
 
 #fullscreen-cf2 {
   position: absolute;
-  width: 246px;
-  height: 491px;
+  width: 194px;
+  height: 391px;
   position: absolute;
   object-fit: cover;
   top: 50%;
@@ -666,7 +692,8 @@ h2 {
   box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
     120px 120px 120px rgba(0, 0, 0, 0.16), 80px 80px 80px rgba(0, 0, 0, 0.16),
     48px 48px 48px rgba(0, 0, 0, 0.24), 32px 32px 32px rgba(0, 0, 0, 0.24);
-  background-image: url("Assets/Hero/img-home2.png");
+  background-image: url("Assets/Hero/img-home1.png");
+  background-size: cover;
 }
 
 #fullscreen-cf2::after {
@@ -678,9 +705,8 @@ h2 {
   width: 100%;
   height: 100%;
   border-radius: 30px;
-
   z-index: 1;
-  background-image: url("Assets/Hero/img-home1.png");
+  background-image: url("Assets/Hero/img-home2.png");
   background-repeat: no-repeat;
   background-position: 50% 0;
   background-size: cover;
@@ -688,39 +714,33 @@ h2 {
 
 @keyframes cf3FadeInOut {
   0% {
-    opacity: 1;
+    opacity: 0;
   }
   45% {
-    opacity: 1;
+    opacity: 0;
   }
   55% {
-    opacity: 0;
+    opacity: 1;
   }
   100% {
-    opacity: 0;
+    opacity: 1;
   }
 }
 
 #fullscreen-cf2::after {
   animation-name: cf3FadeInOut;
-  animation-timing-function: ease-in-out;
-  /* animation-iteration-count: infinite; */
-  animation-iteration-count: 2;
-  animation-duration: 4s;
-  /* animation-direction: alternate; */
+  animation-timing-function: ease-out;
+  animation-iteration-count: 1;
+  animation-duration: 10s;
 }
 
-.container2 {
-  /* height: 100vh; */
-
+.phone-hero-cont {
   position: relative;
   display: grid;
   place-items: center;
-  height: 75vh;
-  /* width: 70vw; */
   margin: 0 auto;
-  /* background: #ccc; */
   z-index: -1;
+  bottom: 30px;
 }
 
 .content {
