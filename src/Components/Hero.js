@@ -18,18 +18,11 @@ const MannoBlue = "#5d80ff";
 const MannoText = "#646C7C";
 
 const names = [
-  "Plomero?",
-  "ProfesorDeGuitarra?",
-  "Gasista?",
-  "Electrisista?",
-  "ProfesorDeInglés?",
-  "Cerrajero?",
-  "TécnicoDeTv?",
-  "ProfesorParticular?",
-  //   "ProfesorDeInglés?",
-  "TécnicoInformatico?",
-  "ProfesorParticular?",
-  //   "ProfesorParticular?",
+  "Arreglatodo?",
+  "Arreglatodo?",
+  "Arreglatodo?",
+  "Arreglatodo?",
+  "Arreglatodo?",
 ];
 
 function Hero() {
@@ -80,24 +73,27 @@ function Hero() {
               Contratá a los mejores expert@s y solucioná lo que
               <br className="br"></br> necesitás, sin perder tiempo.
             </p>
-            <div className="download">
-              <ExternalLink
-                href={`https://apps.apple.com/ar/app/manno-soluciones-recomendadas/id1477854373?l=en`}
-                target="_blank"
-              >
-                <img
-                  src={Apple2}
-                  alt="Apple"
-                  height={50}
-                  style={{marginRight: "20px"}}
-                />
-              </ExternalLink>
-              <ExternalLink
-                href={`https://play.google.com/store/apps/details?id=com.app.mannoapp&hl=es_AR&gl=US`}
-                target="_blank"
-              >
-                <img src={Google2} alt="Google" height={50} />
-              </ExternalLink>
+            <div className="download-cont">
+              <div className="download">
+                <ExternalLink
+                  href={`https://apps.apple.com/ar/app/manno-soluciones-recomendadas/id1477854373?l=en`}
+                  target="_blank"
+                >
+                  <img
+                    className="download-icons"
+                    src={Apple2}
+                    alt="Apple"
+                    height={50}
+                    style={{marginRight: "20px"}}
+                  />
+                </ExternalLink>
+                <ExternalLink
+                  href={`https://play.google.com/store/apps/details?id=com.app.mannoapp&hl=es_AR&gl=US`}
+                  target="_blank"
+                >
+                  <img src={Google2} alt="Google" className="download-icons" />
+                </ExternalLink>
+              </div>
             </div>
           </section>
 

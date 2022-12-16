@@ -329,7 +329,30 @@ h2 {
   margin-top: 80px;
   /* z-index: -3; */
 }
+.download-icons {
+  height: 50px;
+}
+@media (max-width: 425px) {
+  .download-cont {
+    display: flex;
+    justify-content: center;
+    margin-top: -20px;
+  }
+  .download {
+    margin-left: 0px !important;
+  }
+}
 
+@media (max-width: 400px) {
+  .download-icons {
+    height: 45px;
+  }
+  .alguien-conoce {
+    font-size: 10px;
+  }
+}
+
+/* all and (max-width: 1000px) and (min-width: 700px) */
 .fondo {
   /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
   /* background-size: 400% 400%; */
@@ -442,29 +465,18 @@ h2 {
   }
 }
 
-@media (max-width: 790px) {
-  .alguien-conoce {
-    font-size: 23px;
-  }
-}
-
-@media (max-width: 370px) {
-  .alguien-conoce {
-    font-size: 17px;
-  }
-}
 @media (max-width: 760px) {
   .hero-container {
     display: flex;
     flex-direction: column;
-    /* margin-top: 30px; */
+
     margin-right: 20px;
     margin-left: 20px;
   }
   .alguien-conoce {
     margin-top: -20px;
     position: relative;
-    font-size: 17px;
+    font-size: 25px;
   }
   .manno-header {
     display: none;
@@ -496,6 +508,27 @@ h2 {
     justify-content: center;
     height: auto !important;
     width: auto !important;
+  }
+}
+
+@media (max-width: 450px) {
+  .alguien-conoce {
+    font-size: 20px;
+  }
+}
+
+@media (max-width: 370px) {
+  .alguien-conoce {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 357px) {
+  .manno-te-salva {
+    font-size: 30px;
+  }
+  .download-icons {
+    height: 40px;
   }
 }
 /* Expertos */

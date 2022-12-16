@@ -153,6 +153,7 @@ function Reviews() {
           autoPlayInterval={2000}
           disableButtonsControls={true}
           disableDotsControls={true}
+          autoPlayStrategy={"none"}
         />
       </div>
     </>
