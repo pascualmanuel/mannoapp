@@ -381,10 +381,19 @@ hr {
 }
 
 .reviews-container {
+  margin-left: 140px;
   padding-top: 100px;
-  padding-bottom: 80px;
-  padding-left: 150px;
+  margin-bottom: 100px;
 }
+
+@media (max-width: 1000px) {
+  .reviews-container {
+    margin-left: 40px;
+    padding-top: 100px;
+    margin-bottom: 100px;
+  }
+}
+
 /* 
 .alice-carousel__next-btn-item {
   display: none !important;
