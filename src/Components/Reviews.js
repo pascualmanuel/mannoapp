@@ -27,7 +27,7 @@ function Reviews() {
           style={{marginLeft: "15px", marginTop: "15px"}}
         />
         <h2 style={{marginLeft: "20px", fontSize: "20px", marginTop: "8px"}}>
-          Felipe
+          Matías
         </h2>
         <p
           style={{
@@ -37,8 +37,8 @@ function Reviews() {
             fontSize: "15px",
           }}
         >
-          Contactá al expert@ ideal para resolver cualquier imprevisto en tu
-          hogar.
+          Super recomendable, explico el paso a paso de lo que hacia y me dio
+          consejos a tener en cuenta para el mantenimiento de la cocina.
         </p>
       </div>
     </div>,
@@ -53,7 +53,7 @@ function Reviews() {
           style={{marginLeft: "15px", marginTop: "15px"}}
         />
         <h2 style={{marginLeft: "20px", fontSize: "20px", marginTop: "8px"}}>
-          Catalina
+          Paula
         </h2>
         <p
           style={{
@@ -63,8 +63,7 @@ function Reviews() {
             fontSize: "15px",
           }}
         >
-          Contactá al expert@ ideal para resolver cualquier imprevisto en tu
-          hogar.
+          Impecable. Vino al toque. Instaló la hamaca. Quedó perfecto. gracias!
         </p>
       </div>
     </div>,
@@ -79,7 +78,7 @@ function Reviews() {
           style={{marginLeft: "15px", marginTop: "15px"}}
         />
         <h2 style={{marginLeft: "20px", fontSize: "20px", marginTop: "8px"}}>
-          Iñaki
+          Guadalupe
         </h2>
         <p
           style={{
@@ -89,8 +88,8 @@ function Reviews() {
             fontSize: "15px",
           }}
         >
-          Contactá al expert@ ideal para resolver cualquier imprevisto en tu
-          hogar.
+          Super puntual! Prolijo, profesional, süper recomendable. quedó todo
+          perfecto. Muchas gracias Juan
         </p>
       </div>
     </div>,
@@ -98,14 +97,14 @@ function Reviews() {
       <div className="box">
         {" "}
         <img
-          src={PersonitaCuatro}
+          src={PersonitaUno}
           alt="prueb"
           width={55}
           height={55}
           style={{marginLeft: "15px", marginTop: "15px"}}
         />
         <h2 style={{marginLeft: "20px", fontSize: "20px", marginTop: "8px"}}>
-          Sofía
+          Fernando
         </h2>
         <p
           style={{
@@ -115,8 +114,314 @@ function Reviews() {
             fontSize: "15px",
           }}
         >
-          Contactá al expert@ ideal para resolver cualquier imprevisto en tu
-          hogar.
+          Fue puntual, trabajo my bien, profesional.
+        </p>
+      </div>
+    </div>,
+    <div className="item" data-value="5">
+      <div className="box">
+        {" "}
+        <img
+          src={PersonitaTres}
+          alt="prueb"
+          width={55}
+          height={55}
+          style={{marginLeft: "15px", marginTop: "15px"}}
+        />
+        <h2 style={{marginLeft: "20px", fontSize: "20px", marginTop: "8px"}}>
+          Monica
+        </h2>
+        <p
+          style={{
+            marginLeft: "20px",
+            marginTop: "8px",
+            marginRight: "20px",
+            fontSize: "15px",
+          }}
+        >
+          Excelente todo , hasta me trajo una aspiradora para tener mientras
+          arreglaba la mia. IMPECABLE!!!
+        </p>
+      </div>
+    </div>,
+    <div className="item" data-value="5">
+      <div className="box">
+        {" "}
+        <img
+          src={PersonitaTres}
+          alt="prueb"
+          width={55}
+          height={55}
+          style={{marginLeft: "15px", marginTop: "15px"}}
+        />
+        <h2 style={{marginLeft: "20px", fontSize: "20px", marginTop: "8px"}}>
+          Martín
+        </h2>
+        <p
+          style={{
+            marginLeft: "20px",
+            marginTop: "8px",
+            marginRight: "20px",
+            fontSize: "15px",
+          }}
+        >
+          My responsable. Lo recomiendo!
+        </p>
+      </div>
+    </div>,
+
+    <div className="item" data-value="6">
+      <div className="box">
+        {" "}
+        <img
+          src={PersonitaTres}
+          alt="prueb"
+          width={55}
+          height={55}
+          style={{marginLeft: "15px", marginTop: "15px"}}
+        />
+        <h2 style={{marginLeft: "20px", fontSize: "20px", marginTop: "8px"}}>
+          Antonella
+        </h2>
+        <p
+          style={{
+            marginLeft: "20px",
+            marginTop: "8px",
+            marginRight: "20px",
+            fontSize: "15px",
+          }}
+        >
+          En un ratito me solucionó el problema de la persiana para que funcione
+          correctamente. Süper amable y profesional.
+        </p>
+      </div>
+    </div>,
+    <div className="item" data-value="5">
+      <div className="box">
+        {" "}
+        <img
+          src={PersonitaTres}
+          alt="prueb"
+          width={55}
+          height={55}
+          style={{marginLeft: "15px", marginTop: "15px"}}
+        />
+        <h2 style={{marginLeft: "20px", fontSize: "20px", marginTop: "8px"}}>
+          Carmen
+        </h2>
+        <p
+          style={{
+            marginLeft: "20px",
+            marginTop: "8px",
+            marginRight: "20px",
+            fontSize: "15px",
+          }}
+        >
+          Buen trabajo, ordenado, recomendable
+        </p>
+      </div>
+    </div>,
+
+    <div className="item" data-value="5">
+      <div className="box">
+        {" "}
+        <img
+          src={PersonitaTres}
+          alt="prueb"
+          width={55}
+          height={55}
+          style={{marginLeft: "15px", marginTop: "15px"}}
+        />
+        <h2 style={{marginLeft: "20px", fontSize: "20px", marginTop: "8px"}}>
+          Adela
+        </h2>
+        <p
+          style={{
+            marginLeft: "20px",
+            marginTop: "8px",
+            marginRight: "20px",
+            fontSize: "15px",
+          }}
+        >
+          Impecable. Cometi un error con los materiales y Julián me ayudó a
+          solucionarlo. El trabajo quedó impecable
+        </p>
+      </div>
+    </div>,
+    <div className="item" data-value="5">
+      <div className="box">
+        {" "}
+        <img
+          src={PersonitaTres}
+          alt="prueb"
+          width={55}
+          height={55}
+          style={{marginLeft: "15px", marginTop: "15px"}}
+        />
+        <h2 style={{marginLeft: "20px", fontSize: "20px", marginTop: "8px"}}>
+          Roxana
+        </h2>
+        <p
+          style={{
+            marginLeft: "20px",
+            marginTop: "8px",
+            marginRight: "20px",
+            fontSize: "15px",
+          }}
+        >
+          Solucionaron todo con eficiencia y precio justo. Recomiendo!
+        </p>
+      </div>
+    </div>,
+
+    <div className="item" data-value="5">
+      <div className="box">
+        {" "}
+        <img
+          src={PersonitaTres}
+          alt="prueb"
+          width={55}
+          height={55}
+          style={{marginLeft: "15px", marginTop: "15px"}}
+        />
+        <h2 style={{marginLeft: "20px", fontSize: "20px", marginTop: "8px"}}>
+          Juan
+        </h2>
+        <p
+          style={{
+            marginLeft: "20px",
+            marginTop: "8px",
+            marginRight: "20px",
+            fontSize: "15px",
+          }}
+        >
+          Muy profesional y atento
+        </p>
+      </div>
+    </div>,
+    <div className="item" data-value="5">
+      <div className="box">
+        {" "}
+        <img
+          src={PersonitaTres}
+          alt="prueb"
+          width={55}
+          height={55}
+          style={{marginLeft: "15px", marginTop: "15px"}}
+        />
+        <h2 style={{marginLeft: "20px", fontSize: "20px", marginTop: "8px"}}>
+          Adri
+        </h2>
+        <p
+          style={{
+            marginLeft: "20px",
+            marginTop: "8px",
+            marginRight: "20px",
+            fontSize: "15px",
+          }}
+        >
+          Fue muy amable y soluciono el inconveniente muy rápido. Recomendable
+        </p>
+      </div>
+    </div>,
+    <div className="item" data-value="5">
+      <div className="box">
+        {" "}
+        <img
+          src={PersonitaTres}
+          alt="prueb"
+          width={55}
+          height={55}
+          style={{marginLeft: "15px", marginTop: "15px"}}
+        />
+        <h2 style={{marginLeft: "20px", fontSize: "20px", marginTop: "8px"}}>
+          Manuel
+        </h2>
+        <p
+          style={{
+            marginLeft: "20px",
+            marginTop: "8px",
+            marginRight: "20px",
+            fontSize: "15px",
+          }}
+        >
+          Totalmente recomendable.
+        </p>
+      </div>
+    </div>,
+    <div className="item" data-value="5">
+      <div className="box">
+        {" "}
+        <img
+          src={PersonitaTres}
+          alt="prueb"
+          width={55}
+          height={55}
+          style={{marginLeft: "15px", marginTop: "15px"}}
+        />
+        <h2 style={{marginLeft: "20px", fontSize: "20px", marginTop: "8px"}}>
+          Karina
+        </h2>
+        <p
+          style={{
+            marginLeft: "20px",
+            marginTop: "8px",
+            marginRight: "20px",
+            fontSize: "15px",
+          }}
+        >
+          Excelente trabajo, atención y asesoramiento,
+        </p>
+      </div>
+    </div>,
+    <div className="item" data-value="5">
+      <div className="box">
+        {" "}
+        <img
+          src={PersonitaTres}
+          alt="prueb"
+          width={55}
+          height={55}
+          style={{marginLeft: "15px", marginTop: "15px"}}
+        />
+        <h2 style={{marginLeft: "20px", fontSize: "20px", marginTop: "8px"}}>
+          María Mercedes
+        </h2>
+        <p
+          style={{
+            marginLeft: "20px",
+            marginTop: "8px",
+            marginRight: "20px",
+            fontSize: "15px",
+          }}
+        >
+          Desinstaló un aire acondicionado viejo e instalo uno nuevo. Todo
+          perfecto
+        </p>
+      </div>
+    </div>,
+    <div className="item" data-value="5">
+      <div className="box">
+        {" "}
+        <img
+          src={PersonitaTres}
+          alt="prueb"
+          width={55}
+          height={55}
+          style={{marginLeft: "15px", marginTop: "15px"}}
+        />
+        <h2 style={{marginLeft: "20px", fontSize: "20px", marginTop: "8px"}}>
+          Graciela
+        </h2>
+        <p
+          style={{
+            marginLeft: "20px",
+            marginTop: "8px",
+            marginRight: "20px",
+            fontSize: "15px",
+          }}
+        >
+          Excelente profesional. <br></br>Puntual y prolijo
         </p>
       </div>
     </div>,
