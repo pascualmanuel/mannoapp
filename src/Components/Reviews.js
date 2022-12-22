@@ -136,11 +136,11 @@ function Reviews() {
               marginBottom: "15px",
             }}
           >
-            Qué dicen sobre nosotros
+            Lo que dicen los Usuarios
           </p>
           <h2>
-            Usuarios que recibieron <br></br>una
-            <span style={{color: "#5d80ff"}}> manno. </span>
+            Comunidad
+            <span style={{color: "#5d80ff"}}> Manno. </span>
           </h2>
         </div>
         <AliceCarousel

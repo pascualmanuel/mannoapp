@@ -35,7 +35,11 @@ function Hero() {
               </p>
             </div>
 
-            <a href="https://smart.link/1fadhmjx04pjq ">
+            <a
+              href="https://smart.link/1fadhmjx04pjq"
+              target="_blank"
+              rel="noreferrer"
+            >
               <div className="button-experto">
                 <span style={{color: "#5d80ff", fontFamily: "Book"}}>
                   Quiero ser expert@

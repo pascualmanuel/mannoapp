@@ -1,13 +1,15 @@
 import React from "react";
 import {ExternalLink} from "react-external-link";
 import {Link} from "react-router-dom";
-// import Terms from "./Terms";
 
 import Apple from "../Assets/Hero/apple-webp.webp";
 import Google from "../Assets/Hero/google-webp.webp";
 import Facebook from "../Assets/instagram.svg";
 import Instagram from "../Assets/facebook.svg";
 import Linkedin from "../Assets/linkedin.svg";
+import Twitter from "../Assets/twitter.svg";
+import TikTok from "../Assets/tiktok.svg";
+
 import "../index.css";
 import Logo from "../Assets/Hero/isologo-background-hero.png";
 
@@ -52,35 +54,55 @@ function Phone() {
             <p className="footer-tyc">
               <Link to={"/terms"}>Términos y condiciones</Link>
             </p>
-            <p className="footer-priv">Privacidad</p>
+            {/* <p className="footer-priv">Privacidad</p> */}
             <p style={{color: "#5d80ff"}}>
-              <a href="mailto:ayuda@manno.com" style={{color: "#5d80ff"}}>
-                ayuda@manno.com
+              <a href="mailto:hola@mannoapp.com" style={{color: "#5d80ff"}}>
+                hola@mannoapp.com
               </a>
             </p>
           </div>
           <div>
-            <img
-              src={Facebook}
-              alt="Facebook"
-              className="sm-icon"
-
-              // style={{marginRight: "30px"}}
-            />
-            <img
-              src={Instagram}
-              alt="Instagram"
-              className="sm-icon"
-
-              // style={{marginRight: "30px"}}
-            />
-            <img src={Linkedin} alt="Linkedin" className="sm-icon" />
+            <a
+              href="https://www.facebook.com/mannoapp"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={Facebook} alt="Facebook" className="sm-icon" />
+            </a>
+            <a
+              href="https://www.instagram.com/manno.app/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={Instagram} alt="Instagram" className="sm-icon" />
+            </a>
+            <a
+              href="https://www.linkedin.com/company/manno/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={Linkedin} alt="Linkedin" className="sm-icon" />
+            </a>
+            <a
+              href="https://www.linkedin.com/company/manno/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={Twitter} alt="Twitter" className="sm-icon" />
+            </a>{" "}
+            <a
+              href="https://www.linkedin.com/company/manno/"
+              target="_blank"
+              rel="noreferrer"
+            >
+              <img src={TikTok} alt="TikTok" className="sm-icon" />
+            </a>
           </div>
         </div>
         <div className="mobile-footer">
           <p style={{color: "white", fontSize: "14px", marginBottom: "2rem"}}>
-            <a href="mailto:ayuda@manno.com" id="tyc-link">
-              ayuda@manno.com
+            <a href="mailto:hola@mannoapp.com" id="tyc-link">
+              hola@mannoapp.com
             </a>
           </p>
           <p

@@ -1,21 +1,20 @@
 import React from "react";
-import Testing from "../testing.css";
+import "../testing.css";
 import MannoLogo from "../Assets/Hero/logo-horizontal-sinfondo-azul.png";
 import Manno from "../Assets/Hero/manno.png";
-import Phone from "./UsuariosTab";
-import Apple from "../Assets/Hero/apple-svg.svg";
+// import Phone from "./UsuariosTab";
+// import Apple from "../Assets/Hero/apple-svg.svg";
+// import Google from "../Assets/Hero/google-svg.svg";
+// import {Link} from "react-router-dom";
 import Apple2 from "../Assets/Hero/boton-apple.svg";
 import Google2 from "../Assets/Hero/boton-google.svg";
-import Google from "../Assets/Hero/google-svg.svg";
 import Isologo from "../Assets/Hero/isologo-background-hero.png";
-import {Link} from "react-router-dom";
 
 import {ExternalLink} from "react-external-link";
 import {useEffect, useState, useCallback} from "react";
 import Pruebas from "./PhoneVideo";
 
 const MannoBlue = "#5d80ff";
-const MannoText = "#646C7C";
 
 const names = [
   "Pintor?",

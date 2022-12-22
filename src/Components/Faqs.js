@@ -21,105 +21,50 @@ function Faqs() {
               </Accordion.Header>
               <Accordion.Body>
                 <p>
-                  {" "}
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                  Si, publicar tu tarea, recibir presupuestos, chatear con los
+                  Expertos y contratar es totalmente gratis. Manno no te cobrará
+                  nada por el servicio, solo abonarás al Experto contratado el
+                  importe acordado.
                 </p>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="1" style={{marginBottom: "20px"}}>
               <Accordion.Header>
-                <div className="faq-bullet">2</div>¿Manno es gratis?
+                <div className="faq-bullet">2</div>¿Cómo funciona?
               </Accordion.Header>
               <Accordion.Body>
                 <p>
-                  {" "}
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                  ¡Es muy fácil! Elige la categoría, describe tu tarea y
+                  recibirás presupuestos de los Expertos más recomendados.
+                  Contrata y una vez resuelta tu Tarea, no olvides valorar al
+                  Experto para que todos sepan cómo te ha ido.
                 </p>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="2" style={{marginBottom: "20px"}}>
               <Accordion.Header>
-                <div className="faq-bullet">3</div>Manno es gratis?
+                <div className="faq-bullet">3</div>¿Qué información podré ver
+                acerca de mi Experto antes de contratarlo?
               </Accordion.Header>
               <Accordion.Body>
                 <p>
-                  {" "}
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                  Vas a poder conocer sus calificaciones, trabajos realizados y
+                  recomendaciones por parte de otros usuarios que ya lo han
+                  contratado. También podrás ver la descripción de su
+                  experiencia y si su identidad ha sido verificada.
                 </p>
               </Accordion.Body>
             </Accordion.Item>
             <Accordion.Item eventKey="3" style={{marginBottom: "20px"}}>
               <Accordion.Header>
-                <div className="faq-bullet">4</div>Manno es gratis?
+                <div className="faq-bullet">4</div>¿Cuáles son los medios de
+                Pago y garantías?
               </Accordion.Header>
               <Accordion.Body>
                 <p>
-                  {" "}
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
-                </p>
-              </Accordion.Body>
-            </Accordion.Item>
-            <Accordion.Item eventKey="4" style={{marginBottom: "20px"}}>
-              <Accordion.Header>
-                <div className="faq-bullet">5</div>Manno es gratis?
-              </Accordion.Header>
-              <Accordion.Body>
-                <p>
-                  {" "}
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
-                </p>
-              </Accordion.Body>
-            </Accordion.Item>
-            <Accordion.Item eventKey="5" style={{marginBottom: "20px"}}>
-              <Accordion.Header>
-                <div className="faq-bullet">6</div>Manno es gratis?
-              </Accordion.Header>
-              <Accordion.Body>
-                <p>
-                  {" "}
-                  Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                  do eiusmod tempor incididunt ut labore et dolore magna aliqua.
-                  Ut enim ad minim veniam, quis nostrud exercitation ullamco
-                  laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                  irure dolor in reprehenderit in voluptate velit esse cillum
-                  dolore eu fugiat nulla pariatur. Excepteur sint occaecat
-                  cupidatat non proident, sunt in culpa qui officia deserunt
-                  mollit anim id est laborum.
+                  Manno no interviene en las condiciones de pago y garantías.
+                  Cada Experto brinda de forma independiente sus medios de pago
+                  y las garantías según la Tarea.
                 </p>
               </Accordion.Body>
             </Accordion.Item>
