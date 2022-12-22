@@ -77,7 +77,7 @@ function Hero() {
             <div className="download-cont">
               <div className="download">
                 <ExternalLink
-                  href={`https://apps.apple.com/ar/app/manno-soluciones-recomendadas/id1477854373?l=en`}
+                  href={`https://smart.link/1fadhmjx04pjq`}
                   target="_blank"
                 >
                   <img
@@ -89,7 +89,7 @@ function Hero() {
                   />
                 </ExternalLink>
                 <ExternalLink
-                  href={`https://play.google.com/store/apps/details?id=com.app.mannoapp&hl=es_AR&gl=US`}
+                  href={`https://smart.link/1fadhmjx04pjq`}
                   target="_blank"
                 >
                   <img src={Google2} alt="Google" className="download-icons" />

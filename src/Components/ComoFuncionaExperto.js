@@ -58,10 +58,10 @@ function ComoFuncionaExperto() {
             >
               <div className="bullet-hiw">1</div>
               <section className="step-cont-section">
-                <h3 className="title-hiw"> Busca lroem</h3>
+                <h3 className="title-hiw">Completa tu perfil</h3>
                 <p className="text-hiw">
-                  Seleccioná entre las categorías y describí lo que necesitás
-                  solucionar.
+                  Regístrate en las categorías en las que desees trabajar y
+                  agrega una descripción detallada de tu experiencia.
                 </p>
               </section>
             </div>
@@ -83,15 +83,16 @@ function ComoFuncionaExperto() {
 
               <section className="step-cont-section">
                 <span className="mobile-bullet">
-                  <h3 className="title-hiw"> Step 2: Recibí presupuestos</h3>
+                  <h3 className="title-hiw">Presupuesta</h3>
                   <p className="text-hiw">
-                    Y elegí al expert@ indicado para vos.
+                    Envía tus presupuestos en las Tareas recibidas y consigue
+                    nuevos clientes todos los días.
                   </p>
                 </span>
                 <span className="desktop-bullet">
-                  <h3 className="title-hiw"> Step 3: Contratá</h3>
+                  <h3 className="title-hiw"> Chatea</h3>
                   <p className="text-hiw">
-                    Chateá con el expert@ y coordiná los detalles.
+                    Coordina con tus clientes los detalles de tus Tareas.
                   </p>
                 </span>
               </section>
@@ -117,15 +118,16 @@ function ComoFuncionaExperto() {
               </div>
               <section className="step-cont-section">
                 <span className="desktop-bullet">
-                  <h3 className="title-hiw"> Step 2: Recibí presupuestos</h3>
+                  <h3 className="title-hiw">Presupuesta</h3>
                   <p className="text-hiw">
-                    Y elegí al expert@ indicado para vos.
+                    Envía tus presupuestos en las Tareas recibidas y consigue
+                    nuevos clientes todos los días.
                   </p>
                 </span>
                 <span className="mobile-bullet">
-                  <h3 className="title-hiw"> Step 3: Contratá</h3>
+                  <h3 className="title-hiw"> Chatea</h3>
                   <p className="text-hiw">
-                    Chateá con el expert@ y coordiná los detalles.
+                    Coordina con tus clientes los detalles de tus Tareas.
                   </p>
                 </span>
               </section>
@@ -143,10 +145,10 @@ function ComoFuncionaExperto() {
             >
               <div className="bullet-hiw">4</div>
               <section className="step-cont-section">
-                <h3 className="title-hiw"> Recibi el dinero</h3>
+                <h3 className="title-hiw">Solicita tu clasificación</h3>
                 <p className="text-hiw">
-                  Cuando soluciones tu problema, compartí tu experiencia y dale
-                  un puntaje a tu expert@.
+                  Recuérdale a tu cliente que te califique para sumar
+                  experiencia y destacarte como Experto dentro de la App.
                 </p>
               </section>
             </div>

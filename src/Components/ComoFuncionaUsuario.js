@@ -51,10 +51,9 @@ function ComoFuncionaUsuario() {
             >
               <div className="bullet-hiw">1</div>
               <section className="step-cont-section">
-                <h3 className="title-hiw"> Cargá tu tarea</h3>
+                <h3 className="title-hiw">Cargá tu Tarea</h3>
                 <p className="text-hiw">
-                  Seleccioná entre las categorías y describí lo que necesitás
-                  solucionar.
+                  Seleccioná entre las categorías y describe lo que necesitas.
                 </p>
               </section>
             </div>
@@ -76,7 +75,7 @@ function ComoFuncionaUsuario() {
 
               <section className="step-cont-section">
                 <span className="mobile-bullet">
-                  <h3 className="title-hiw">Recibí presupuestos</h3>
+                  <h3 className="title-hiw">Recibe presupuestos</h3>
                   <p className="text-hiw">
                     Y elegí al expert@ indicado para vos.
                   </p>
@@ -84,7 +83,7 @@ function ComoFuncionaUsuario() {
                 <span className="desktop-bullet">
                   <h3 className="title-hiw">Contratá</h3>
                   <p className="text-hiw">
-                    Chateá con el expert@ y coordiná los detalles.
+                    Chatea con tu Experto y coordina los detalles.
                   </p>
                 </span>
               </section>
@@ -110,15 +109,13 @@ function ComoFuncionaUsuario() {
               </div>
               <section className="step-cont-section">
                 <span className="desktop-bullet">
-                  <h3 className="title-hiw">Recibí presupuestos</h3>
-                  <p className="text-hiw">
-                    Y elegí al expert@ indicado para vos.
-                  </p>
+                  <h3 className="title-hiw">Recibe presupuestos</h3>
+                  <p className="text-hiw">Y elige a tu Experto ideal.</p>
                 </span>
                 <span className="mobile-bullet">
                   <h3 className="title-hiw">Contratá</h3>
                   <p className="text-hiw">
-                    Chateá con el expert@ y coordiná los detalles.
+                    Chatea con tu Experto y coordina los detalles.
                   </p>
                 </span>
               </section>
@@ -136,9 +133,9 @@ function ComoFuncionaUsuario() {
             >
               <div className="bullet-hiw">4</div>
               <section className="step-cont-section">
-                <h3 className="title-hiw"> Recibí presupuestos</h3>
+                <h3 className="title-hiw"> Clasifica y Recomienda</h3>
                 <p className="text-hiw">
-                  Y elegí al expert@ indicado para vos.
+                  Cuentanos cómo te ha ido y ayuda a toda la comunidad Manno.
                 </p>
               </section>
             </div>
