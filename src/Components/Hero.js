@@ -18,15 +18,15 @@ const MannoBlue = "#5d80ff";
 const MannoText = "#646C7C";
 
 const names = [
+  "Pintor?",
   "Arreglatodo?",
-  "Arreglatodo?",
-  "Arreglatodo?",
-  "Arreglatodo?",
-  "Arreglatodo?",
+  "Electricista?",
+  "Profesor?",
+  "Plomero?",
 ];
 
 function Hero() {
-  const [newName, setnewName] = useState("Gasista");
+  const [newName, setnewName] = useState("Pintor?");
 
   const shuffle = useCallback(() => {
     const index = Math.floor(Math.random() * names.length);
@@ -70,8 +70,9 @@ function Hero() {
               &nbsp;te salva.
             </h1>
             <p className="subtitle-hero">
-              Contratá a los mejores expert@s y solucioná lo que
-              <br className="br"></br> necesitás, sin perder tiempo.
+              Cambia tu froma de solucionar. Encuetra a los Expertos
+              <br className="br"></br> más recomendados y soluciona lo que
+              necesites,<br className="br"></br> sin perder el tiempo.
             </p>
             <div className="download-cont">
               <div className="download">
