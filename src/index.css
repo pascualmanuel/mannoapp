@@ -159,8 +159,22 @@ h2 {
   width: 240px;
   height: 230px;
   margin: 20px;
+  background-color: white;
 }
 
+.reviews-box {
+  border: #dde2e9 solid 1px;
+  border-radius: 13px;
+  width: 240px;
+  height: 230px;
+  margin: 20px;
+  background-color: white;
+}
+@media (max-width: 512px) {
+  .reviews-box {
+    width: 300px;
+  }
+}
 @media (max-width: 1000px) {
   .box {
     width: 300px;
@@ -184,10 +198,6 @@ h2 {
   /* height: 600px; */
   display: flex;
   flex-wrap: wrap;
-}
-
-.box {
-  background-color: white;
 }
 
 /* FOOTER/ */
@@ -643,7 +653,11 @@ h2 {
     height: 40px;
   }
 }
-
+@media (max-width: 340px) {
+  .footer-download-icon {
+    height: 32px;
+  }
+}
 @media (min-width: 500px) {
   .br-mobile {
     display: none;
@@ -806,12 +820,26 @@ h2 {
 .faq-bullet {
   border: 1px solid #657ff6;
   border-radius: 50%;
-  width: 37px;
-  height: 37px;
+  width: 37px !important;
+  height: 37px !important;
   text-align: center;
   padding: 8px;
   color: #657ff6;
   margin-right: 23px;
+}
+/* screen and (max-device-width:640px), screen and (max-width:640px) */
+@media (max-width: 761px) {
+  .faq-position-mobile {
+    position: absolute;
+    margin: 55px;
+  }
+}
+
+@media (max-width: 332px) {
+  .faq-position-mobile {
+    position: relative;
+    margin: 0px;
+  }
 }
 
 .accordion-button.collapsed::after {

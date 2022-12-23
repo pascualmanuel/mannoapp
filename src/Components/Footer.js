@@ -119,7 +119,7 @@ function Phone() {
             >
               Términos y condiciones
             </a>
-            <span style={{marginLeft: "40px"}}>Privacidad</span>
+            {/* <span style={{marginLeft: "40px"}}>Privacidad</span> */}
           </p>
         </div>
         <div style={{height: "100px"}}></div>

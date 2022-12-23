@@ -10,15 +10,16 @@ import "react-alice-carousel/lib/alice-carousel.css";
 
 function Reviews() {
   const responsive = {
-    0: {items: 1},
-    568: {items: 2},
-    1024: {items: 4, itemsFit: "undefined"},
+    300: {items: 1},
+    512: {items: 2},
+    750: {items: 3},
+    1024: {items: 4},
   };
 
   const handleDragStart = (e) => e.preventDefault();
   const items = [
     <div className="item" data-value="1">
-      <div className="box">
+      <div className="reviews-box">
         <img
           src={PersonitaUno}
           alt="prueb"
@@ -43,7 +44,7 @@ function Reviews() {
       </div>
     </div>,
     <div className="item" data-value="2">
-      <div className="box">
+      <div className="reviews-box">
         {" "}
         <img
           src={PersonitaDos}
@@ -68,7 +69,7 @@ function Reviews() {
       </div>
     </div>,
     <div className="item" data-value="3">
-      <div className="box">
+      <div className="reviews-box">
         {" "}
         <img
           src={PersonitaTres}
@@ -94,7 +95,7 @@ function Reviews() {
       </div>
     </div>,
     <div className="item" data-value="4">
-      <div className="box">
+      <div className="reviews-box">
         {" "}
         <img
           src={PersonitaUno}
@@ -119,7 +120,7 @@ function Reviews() {
       </div>
     </div>,
     <div className="item" data-value="5">
-      <div className="box">
+      <div className="reviews-box">
         {" "}
         <img
           src={PersonitaTres}
@@ -144,8 +145,8 @@ function Reviews() {
         </p>
       </div>
     </div>,
-    <div className="item" data-value="5">
-      <div className="box">
+    <div className="item" data-value="6">
+      <div className="reviews-box">
         {" "}
         <img
           src={PersonitaTres}
@@ -170,8 +171,8 @@ function Reviews() {
       </div>
     </div>,
 
-    <div className="item" data-value="6">
-      <div className="box">
+    <div className="item" data-value="7">
+      <div className="reviews-box">
         {" "}
         <img
           src={PersonitaTres}
@@ -196,8 +197,8 @@ function Reviews() {
         </p>
       </div>
     </div>,
-    <div className="item" data-value="5">
-      <div className="box">
+    <div className="item" data-value="8">
+      <div className="reviews-box">
         {" "}
         <img
           src={PersonitaTres}
@@ -222,8 +223,8 @@ function Reviews() {
       </div>
     </div>,
 
-    <div className="item" data-value="5">
-      <div className="box">
+    <div className="item" data-value="9">
+      <div className="reviews-box">
         {" "}
         <img
           src={PersonitaTres}
@@ -248,8 +249,8 @@ function Reviews() {
         </p>
       </div>
     </div>,
-    <div className="item" data-value="5">
-      <div className="box">
+    <div className="item" data-value="10">
+      <div className="reviews-box">
         {" "}
         <img
           src={PersonitaTres}
@@ -274,8 +275,8 @@ function Reviews() {
       </div>
     </div>,
 
-    <div className="item" data-value="5">
-      <div className="box">
+    <div className="item" data-value="11">
+      <div className="reviews-box">
         {" "}
         <img
           src={PersonitaTres}
@@ -299,8 +300,8 @@ function Reviews() {
         </p>
       </div>
     </div>,
-    <div className="item" data-value="5">
-      <div className="box">
+    <div className="item" data-value="12">
+      <div className="reviews-box">
         {" "}
         <img
           src={PersonitaTres}
@@ -324,8 +325,8 @@ function Reviews() {
         </p>
       </div>
     </div>,
-    <div className="item" data-value="5">
-      <div className="box">
+    <div className="item" data-value="13">
+      <div className="reviews-box">
         {" "}
         <img
           src={PersonitaTres}
@@ -349,8 +350,8 @@ function Reviews() {
         </p>
       </div>
     </div>,
-    <div className="item" data-value="5">
-      <div className="box">
+    <div className="item" data-value="14">
+      <div className="reviews-box">
         {" "}
         <img
           src={PersonitaTres}
@@ -374,8 +375,8 @@ function Reviews() {
         </p>
       </div>
     </div>,
-    <div className="item" data-value="5">
-      <div className="box">
+    <div className="item" data-value="15">
+      <div className="reviews-box">
         {" "}
         <img
           src={PersonitaTres}
@@ -400,8 +401,8 @@ function Reviews() {
         </p>
       </div>
     </div>,
-    <div className="item" data-value="5">
-      <div className="box">
+    <div className="item" data-value="16">
+      <div className="reviews-box">
         {" "}
         <img
           src={PersonitaTres}
@@ -459,6 +460,7 @@ function Reviews() {
           disableButtonsControls={true}
           disableDotsControls={true}
           autoPlayStrategy={"none"}
+          paddingLeft={20}
         />
       </div>
     </>

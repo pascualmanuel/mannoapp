@@ -18,7 +18,7 @@ function ComoFuncionaExperto() {
     backgroundImage: "url(" + bgColour + ")",
     backgroundSize: "contain",
     backgroundRepeat: "no-repeat",
-    transition: "1s",
+
     cursor: "default",
   };
 

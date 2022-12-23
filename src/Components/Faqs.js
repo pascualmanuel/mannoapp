@@ -43,8 +43,11 @@ function Faqs() {
             </Accordion.Item>
             <Accordion.Item eventKey="2" style={{marginBottom: "20px"}}>
               <Accordion.Header>
-                <div className="faq-bullet">3</div>¿Qué información podré ver
-                acerca de mi Experto antes de contratarlo?
+                <div className="faq-bullet">3</div>
+                <span className="faq-position-mobile">
+                  ¿Qué información podré ver acerca de mi Experto antes de
+                  contratarlo?
+                </span>
               </Accordion.Header>
               <Accordion.Body>
                 <p>
@@ -57,8 +60,10 @@ function Faqs() {
             </Accordion.Item>
             <Accordion.Item eventKey="3" style={{marginBottom: "20px"}}>
               <Accordion.Header>
-                <div className="faq-bullet">4</div>¿Cuáles son los medios de
-                Pago y garantías?
+                <div className="faq-bullet">4</div>
+                <span className="faq-position-mobile">
+                  ¿Cuáles son los medios de Pago y garantías?{" "}
+                </span>
               </Accordion.Header>
               <Accordion.Body>
                 <p>
