@@ -4,6 +4,8 @@ import PersonitaUno from "../Assets/Personitas/personita1.png";
 import PersonitaDos from "../Assets/Personitas/personita2.png";
 import PersonitaTres from "../Assets/Personitas/personita3.png";
 import PersonitaCuatro from "../Assets/Personitas/personita4.png";
+import Star from "../Assets/star.svg";
+import FiveStars from "../Assets/five-stars.svg";
 
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
@@ -27,25 +29,21 @@ function Reviews() {
           height={55}
           style={{marginLeft: "15px", marginTop: "15px"}}
         />
-        <h2 style={{marginLeft: "20px", fontSize: "20px", marginTop: "8px"}}>
-          Matías
-        </h2>
-        <p
-          style={{
-            marginLeft: "20px",
-            marginTop: "8px",
-            marginRight: "20px",
-            fontSize: "15px",
-          }}
-        >
+        <h2 className="reviews-title">Matías</h2>
+        <p className="reviews-text">
           Super recomendable, explico el paso a paso de lo que hacia y me dio
           consejos a tener en cuenta para el mantenimiento de la cocina.
         </p>
+        <img
+          src={FiveStars}
+          alt="FiveStars"
+          height={20}
+          style={{marginLeft: "20px"}}
+        />
       </div>
     </div>,
     <div className="item" data-value="2">
       <div className="reviews-box">
-        {" "}
         <img
           src={PersonitaDos}
           alt="prueb"
@@ -53,19 +51,16 @@ function Reviews() {
           height={55}
           style={{marginLeft: "15px", marginTop: "15px"}}
         />
-        <h2 style={{marginLeft: "20px", fontSize: "20px", marginTop: "8px"}}>
-          Paula
-        </h2>
-        <p
-          style={{
-            marginLeft: "20px",
-            marginTop: "8px",
-            marginRight: "20px",
-            fontSize: "15px",
-          }}
-        >
+        <h2 className="reviews-title">Paula</h2>
+        <p className="reviews-text">
           Impecable. Vino al toque. Instaló la hamaca. Quedó perfecto. gracias!
         </p>
+        <img
+          src={FiveStars}
+          alt="FiveStars"
+          height={20}
+          style={{marginLeft: "20px"}}
+        />
       </div>
     </div>,
     <div className="item" data-value="3">
@@ -78,25 +73,21 @@ function Reviews() {
           height={55}
           style={{marginLeft: "15px", marginTop: "15px"}}
         />
-        <h2 style={{marginLeft: "20px", fontSize: "20px", marginTop: "8px"}}>
-          Guadalupe
-        </h2>
-        <p
-          style={{
-            marginLeft: "20px",
-            marginTop: "8px",
-            marginRight: "20px",
-            fontSize: "15px",
-          }}
-        >
+        <h2 className="reviews-title">Guadalupe</h2>
+        <p className="reviews-text">
           Super puntual! Prolijo, profesional, süper recomendable. quedó todo
-          perfecto. Muchas gracias Juan
+          perfecto. Muchas gracias
         </p>
+        <img
+          src={FiveStars}
+          alt="FiveStars"
+          height={20}
+          style={{marginLeft: "20px"}}
+        />
       </div>
     </div>,
     <div className="item" data-value="4">
       <div className="reviews-box">
-        {" "}
         <img
           src={PersonitaUno}
           alt="prueb"
@@ -104,24 +95,20 @@ function Reviews() {
           height={55}
           style={{marginLeft: "15px", marginTop: "15px"}}
         />
-        <h2 style={{marginLeft: "20px", fontSize: "20px", marginTop: "8px"}}>
-          Fernando
-        </h2>
-        <p
-          style={{
-            marginLeft: "20px",
-            marginTop: "8px",
-            marginRight: "20px",
-            fontSize: "15px",
-          }}
-        >
+        <h2 className="reviews-title">Fernando</h2>
+        <p className="reviews-text">
           Fue puntual, trabajo my bien, profesional.
         </p>
+        <img
+          src={FiveStars}
+          alt="FiveStars"
+          height={20}
+          style={{marginLeft: "20px"}}
+        />
       </div>
     </div>,
     <div className="item" data-value="5">
       <div className="reviews-box">
-        {" "}
         <img
           src={PersonitaTres}
           alt="prueb"
@@ -129,20 +116,17 @@ function Reviews() {
           height={55}
           style={{marginLeft: "15px", marginTop: "15px"}}
         />
-        <h2 style={{marginLeft: "20px", fontSize: "20px", marginTop: "8px"}}>
-          Monica
-        </h2>
-        <p
-          style={{
-            marginLeft: "20px",
-            marginTop: "8px",
-            marginRight: "20px",
-            fontSize: "15px",
-          }}
-        >
+        <h2 className="reviews-title">Monica</h2>
+        <p className="reviews-text">
           Excelente todo , hasta me trajo una aspiradora para tener mientras
           arreglaba la mia. IMPECABLE!!!
         </p>
+        <img
+          src={FiveStars}
+          alt="FiveStars"
+          height={20}
+          style={{marginLeft: "20px"}}
+        />
       </div>
     </div>,
     <div className="item" data-value="6">
@@ -155,19 +139,14 @@ function Reviews() {
           height={55}
           style={{marginLeft: "15px", marginTop: "15px"}}
         />
-        <h2 style={{marginLeft: "20px", fontSize: "20px", marginTop: "8px"}}>
-          Martín
-        </h2>
-        <p
-          style={{
-            marginLeft: "20px",
-            marginTop: "8px",
-            marginRight: "20px",
-            fontSize: "15px",
-          }}
-        >
-          My responsable. Lo recomiendo!
-        </p>
+        <h2 className="reviews-title">Martín</h2>
+        <p className="reviews-text">My responsable. Lo recomiendo!</p>
+        <img
+          src={FiveStars}
+          alt="FiveStars"
+          height={20}
+          style={{marginLeft: "20px"}}
+        />
       </div>
     </div>,
 
@@ -181,20 +160,17 @@ function Reviews() {
           height={55}
           style={{marginLeft: "15px", marginTop: "15px"}}
         />
-        <h2 style={{marginLeft: "20px", fontSize: "20px", marginTop: "8px"}}>
-          Antonella
-        </h2>
-        <p
-          style={{
-            marginLeft: "20px",
-            marginTop: "8px",
-            marginRight: "20px",
-            fontSize: "15px",
-          }}
-        >
+        <h2 className="reviews-title">Antonella</h2>
+        <p className="reviews-text">
           En un ratito me solucionó el problema de la persiana para que funcione
           correctamente. Süper amable y profesional.
         </p>
+        <img
+          src={FiveStars}
+          alt="FiveStars"
+          height={20}
+          style={{marginLeft: "20px"}}
+        />
       </div>
     </div>,
     <div className="item" data-value="8">
@@ -207,19 +183,14 @@ function Reviews() {
           height={55}
           style={{marginLeft: "15px", marginTop: "15px"}}
         />
-        <h2 style={{marginLeft: "20px", fontSize: "20px", marginTop: "8px"}}>
-          Carmen
-        </h2>
-        <p
-          style={{
-            marginLeft: "20px",
-            marginTop: "8px",
-            marginRight: "20px",
-            fontSize: "15px",
-          }}
-        >
-          Buen trabajo, ordenado, recomendable
-        </p>
+        <h2 className="reviews-title">Carmen</h2>
+        <p className="reviews-text">Buen trabajo, ordenado, recomendable</p>
+        <img
+          src={FiveStars}
+          alt="FiveStars"
+          height={20}
+          style={{marginLeft: "20px"}}
+        />
       </div>
     </div>,
 
@@ -233,20 +204,17 @@ function Reviews() {
           height={55}
           style={{marginLeft: "15px", marginTop: "15px"}}
         />
-        <h2 style={{marginLeft: "20px", fontSize: "20px", marginTop: "8px"}}>
-          Adela
-        </h2>
-        <p
-          style={{
-            marginLeft: "20px",
-            marginTop: "8px",
-            marginRight: "20px",
-            fontSize: "15px",
-          }}
-        >
+        <h2 className="reviews-title">Adela</h2>
+        <p className="reviews-text">
           Impecable. Cometi un error con los materiales y Julián me ayudó a
           solucionarlo. El trabajo quedó impecable
         </p>
+        <img
+          src={FiveStars}
+          alt="FiveStars"
+          height={20}
+          style={{marginLeft: "20px"}}
+        />
       </div>
     </div>,
     <div className="item" data-value="10">
@@ -259,19 +227,16 @@ function Reviews() {
           height={55}
           style={{marginLeft: "15px", marginTop: "15px"}}
         />
-        <h2 style={{marginLeft: "20px", fontSize: "20px", marginTop: "8px"}}>
-          Roxana
-        </h2>
-        <p
-          style={{
-            marginLeft: "20px",
-            marginTop: "8px",
-            marginRight: "20px",
-            fontSize: "15px",
-          }}
-        >
+        <h2 className="reviews-title">Roxana</h2>
+        <p className="reviews-text">
           Solucionaron todo con eficiencia y precio justo. Recomiendo!
         </p>
+        <img
+          src={FiveStars}
+          alt="FiveStars"
+          height={20}
+          style={{marginLeft: "20px"}}
+        />
       </div>
     </div>,
 
@@ -285,19 +250,14 @@ function Reviews() {
           height={55}
           style={{marginLeft: "15px", marginTop: "15px"}}
         />
-        <h2 style={{marginLeft: "20px", fontSize: "20px", marginTop: "8px"}}>
-          Juan
-        </h2>
-        <p
-          style={{
-            marginLeft: "20px",
-            marginTop: "8px",
-            marginRight: "20px",
-            fontSize: "15px",
-          }}
-        >
-          Muy profesional y atento
-        </p>
+        <h2 className="reviews-title">Juan</h2>
+        <p className="reviews-text">Muy profesional y atento</p>
+        <img
+          src={FiveStars}
+          alt="FiveStars"
+          height={20}
+          style={{marginLeft: "20px"}}
+        />
       </div>
     </div>,
     <div className="item" data-value="12">
@@ -310,19 +270,16 @@ function Reviews() {
           height={55}
           style={{marginLeft: "15px", marginTop: "15px"}}
         />
-        <h2 style={{marginLeft: "20px", fontSize: "20px", marginTop: "8px"}}>
-          Adri
-        </h2>
-        <p
-          style={{
-            marginLeft: "20px",
-            marginTop: "8px",
-            marginRight: "20px",
-            fontSize: "15px",
-          }}
-        >
+        <h2 className="reviews-title">Adri</h2>
+        <p className="reviews-text">
           Fue muy amable y soluciono el inconveniente muy rápido. Recomendable
         </p>
+        <img
+          src={FiveStars}
+          alt="FiveStars"
+          height={20}
+          style={{marginLeft: "20px"}}
+        />
       </div>
     </div>,
     <div className="item" data-value="13">
@@ -335,19 +292,14 @@ function Reviews() {
           height={55}
           style={{marginLeft: "15px", marginTop: "15px"}}
         />
-        <h2 style={{marginLeft: "20px", fontSize: "20px", marginTop: "8px"}}>
-          Manuel
-        </h2>
-        <p
-          style={{
-            marginLeft: "20px",
-            marginTop: "8px",
-            marginRight: "20px",
-            fontSize: "15px",
-          }}
-        >
-          Totalmente recomendable.
-        </p>
+        <h2 className="reviews-title">Manuel</h2>
+        <p className="reviews-text">Totalmente recomendable.</p>
+        <img
+          src={FiveStars}
+          alt="FiveStars"
+          height={20}
+          style={{marginLeft: "20px"}}
+        />
       </div>
     </div>,
     <div className="item" data-value="14">
@@ -360,19 +312,16 @@ function Reviews() {
           height={55}
           style={{marginLeft: "15px", marginTop: "15px"}}
         />
-        <h2 style={{marginLeft: "20px", fontSize: "20px", marginTop: "8px"}}>
-          Karina
-        </h2>
-        <p
-          style={{
-            marginLeft: "20px",
-            marginTop: "8px",
-            marginRight: "20px",
-            fontSize: "15px",
-          }}
-        >
+        <h2 className="reviews-title">Karina</h2>
+        <p className="reviews-text">
           Excelente trabajo, atención y asesoramiento,
         </p>
+        <img
+          src={FiveStars}
+          alt="FiveStars"
+          height={20}
+          style={{marginLeft: "20px"}}
+        />
       </div>
     </div>,
     <div className="item" data-value="15">
@@ -385,25 +334,21 @@ function Reviews() {
           height={55}
           style={{marginLeft: "15px", marginTop: "15px"}}
         />
-        <h2 style={{marginLeft: "20px", fontSize: "20px", marginTop: "8px"}}>
-          María Mercedes
-        </h2>
-        <p
-          style={{
-            marginLeft: "20px",
-            marginTop: "8px",
-            marginRight: "20px",
-            fontSize: "15px",
-          }}
-        >
+        <h2 className="reviews-title">María Mercedes</h2>
+        <p className="reviews-text">
           Desinstaló un aire acondicionado viejo e instalo uno nuevo. Todo
           perfecto
         </p>
+        <img
+          src={FiveStars}
+          alt="FiveStars"
+          height={20}
+          style={{marginLeft: "20px"}}
+        />
       </div>
     </div>,
     <div className="item" data-value="16">
       <div className="reviews-box">
-        {" "}
         <img
           src={PersonitaTres}
           alt="prueb"
@@ -411,19 +356,16 @@ function Reviews() {
           height={55}
           style={{marginLeft: "15px", marginTop: "15px"}}
         />
-        <h2 style={{marginLeft: "20px", fontSize: "20px", marginTop: "8px"}}>
-          Graciela
-        </h2>
-        <p
-          style={{
-            marginLeft: "20px",
-            marginTop: "8px",
-            marginRight: "20px",
-            fontSize: "15px",
-          }}
-        >
+        <h2 className="reviews-title">Graciela</h2>
+        <p className="reviews-text">
           Excelente profesional. <br></br>Puntual y prolijo
         </p>
+        <img
+          src={FiveStars}
+          alt="FiveStars"
+          height={20}
+          style={{marginLeft: "20px"}}
+        />
       </div>
     </div>,
   ];
@@ -437,13 +379,7 @@ function Reviews() {
         }}
       >
         <div className="reviews-container">
-          <p
-            style={{
-              marginBottom: "15px",
-            }}
-          >
-            Lo que dicen los Usuarios
-          </p>
+          <p>Lo que dicen los Usuarios</p>
           <h2>
             Comunidad
             <span style={{color: "#5d80ff"}}> Manno. </span>

@@ -133,7 +133,7 @@ function ComoFuncionaUsuario() {
             >
               <div className="bullet-hiw">4</div>
               <section className="step-cont-section">
-                <h3 className="title-hiw"> Clasifica y Recomienda</h3>
+                <h3 className="title-hiw"> Califica y Recomienda</h3>
                 <p className="text-hiw">
                   Cuentanos cómo te ha ido y ayuda a toda la comunidad Manno.
                 </p>

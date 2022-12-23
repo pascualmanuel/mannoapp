@@ -69,7 +69,7 @@ function Hero() {
               &nbsp;te salva.
             </h1>
             <p className="subtitle-hero">
-              Cambia tu froma de solucionar. Encuetra a los Expertos
+              Cambia tu froma de solucionar. Encuentra a los Expertos
               <br className="br"></br> más recomendados y soluciona lo que
               necesites,<br className="br"></br> sin perder el tiempo.
             </p>

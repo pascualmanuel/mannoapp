@@ -165,11 +165,26 @@ h2 {
 .reviews-box {
   border: #dde2e9 solid 1px;
   border-radius: 13px;
-  width: 240px;
-  height: 230px;
+  width: 250px;
+  height: 250px;
   margin: 20px;
   background-color: white;
 }
+
+.reviews-title {
+  margin-left: 20px;
+  font-size: 20px;
+  margin-top: 8px;
+}
+
+.reviews-text {
+  margin-left: 20px;
+  margin-top: 8px;
+  margin-right: 20px;
+  font-size: 15px;
+  height: 80px;
+}
+
 @media (max-width: 512px) {
   .reviews-box {
     width: 300px;
