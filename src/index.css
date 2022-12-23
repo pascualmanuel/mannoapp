@@ -132,9 +132,10 @@ h2 {
 .categories-container {
   /* height: 1000px; */
   display: flex;
-  margin-right: 165px;
+  margin-right: 65px;
   margin-left: 165px;
   margin-top: 100px;
+  justify-content: space-between;
   /* Utilizamos vh o no?? */
   /* height: 100vh; */
 }
@@ -203,9 +204,7 @@ h2 {
   align-content: center;
   /* justify-content: end; no.. poner flex-end para safari */
   justify-content: flex-end;
-  margin-bottom: 200px;
-  /* margin-bottom for mobile */
-  width: 70%;
+  margin-bottom: 130px;
 }
 
 .box-container {
@@ -397,17 +396,17 @@ h2 {
     background-position: 0% 50%;
   }
 }
+
 @media (max-width: 1300px) {
   .categories-container {
     margin-right: 30px;
-    margin-left: 30px;
-  }
-  .background-categories {
-    /* padding-top: 0px; */
-    /* background-size: contain; */
   }
 }
+
 @media (max-width: 1200px) {
+  .categories-container {
+    margin-left: 60px;
+  }
   .hero-container {
     margin-right: 40px;
     margin-left: 40px;
