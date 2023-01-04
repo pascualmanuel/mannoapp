@@ -1,12 +1,9 @@
 import React from "react";
-
 import PersonitaUno from "../Assets/Personitas/personita1.png";
 import PersonitaDos from "../Assets/Personitas/personita2.png";
 import PersonitaTres from "../Assets/Personitas/personita3.png";
 import PersonitaCuatro from "../Assets/Personitas/personita4.png";
-import Star from "../Assets/star.svg";
 import FiveStars from "../Assets/five-stars.svg";
-
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
 
@@ -133,14 +130,14 @@ function Reviews() {
       <div className="reviews-box">
         {" "}
         <img
-          src={PersonitaTres}
+          src={PersonitaCuatro}
           alt="prueb"
           width={55}
           height={55}
           style={{marginLeft: "15px", marginTop: "15px"}}
         />
         <h2 className="reviews-title">Martín</h2>
-        <p className="reviews-text">My responsable. Lo recomiendo!</p>
+        <p className="reviews-text">Muy responsable. Lo recomiendo!</p>
         <img
           src={FiveStars}
           alt="FiveStars"

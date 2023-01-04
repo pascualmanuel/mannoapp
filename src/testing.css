@@ -147,10 +147,9 @@
 .auto-style2 {
   font-family: Bold;
   text-decoration: underline;
-  font-size: 24px;
+  font-size: 16px;
   color: black;
-
-  /* font-family: "AirbnbCerealBold"; */
+  margin-top: 10px;
 }
 .terms-title {
   color: rgba(0, 0, 0, 0.5);
@@ -158,8 +157,8 @@
 }
 
 .auto-style3 {
-  font-size: 24px;
-  text-align: justify;
+  font-size: 14px;
+  text-align: left;
   font-family: Light;
   color: #00000080;
   /* font-family: "AirbnbCerealLight"; */
@@ -196,7 +195,7 @@
   margin: 0;
 }
 .terms-wrapper.style1 .content {
-  text-align: justify;
+  text-align: left;
   padding: 6rem;
 }
 
@@ -273,7 +272,7 @@ hr {
   color: white;
   position: absolute;
   font-family: Medium;
-  font-size: 18px;
+  font-size: 16px;
 }
 
 .text-hiw {
@@ -284,7 +283,7 @@ hr {
 .title-hiw {
   color: white;
   font-family: Medium;
-  font-size: 24px;
+  font-size: 19px;
 }
 
 .step-cont-hiw:hover {

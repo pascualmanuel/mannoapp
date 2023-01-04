@@ -1,16 +1,10 @@
 import React from "react";
 import {useEffect, useState, useCallback} from "react";
-// import {Link} f rom "react-router-dom";
-// import MannoLogo from "../Assets/Hero/logo-horizontal-sinfondo-azul.png";
 
 import iPhoneApple from "../Assets/apple-iphone.png";
-// import iPhoneVideo from "../Assets/manno-video.MP4";
-// import PhoneSvg from "../Assets/Hero/phone-svg.svg";
-import Gif from "../Assets/manno-gif.gif";
+
 import ImgHome1 from "../Assets/Hero/img-home1.png";
 import ImgHome2 from "../Assets/Hero/img-home2.png";
-
-// import UsuariosTab from "./UsuariosTab";
 
 function PhoneVideo() {
   const names = [ImgHome1, ImgHome2];
@@ -30,34 +24,11 @@ function PhoneVideo() {
   return (
     <>
       <div className="phone-hero-cont">
-        {/* <video
-          className="fullscreen"
-          id="inlinevideo"
-          muted
-          autoPlay
-          playsInline
-          loop
-          src={iPhoneVideo}
-          type="video/mp4"
-        /> */}
-
-        {/* <img
-          alt="gif-manno"
-          className="fullscreen"
-          id="inlinevideo"
-          // muted
-          // autoPlay
-          // playsInline
-          // loop
-          src={newName}
-          // type="video/mp4"
-        /> */}
         <div id="fullscreen-cf2"></div>
         <div className="content">
           <img src={iPhoneApple} alt="prueb" width={200} />
         </div>
       </div>
-      {/* <Phone /> */}
     </>
   );
 }

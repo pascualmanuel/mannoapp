@@ -1,9 +1,6 @@
-// import Step5 from "../../Assets/Steps/step-5.png";
 import React from "react";
 import MannoLogoBlanco from "../Assets/manno-logo-blanco.png";
 import {Link} from "react-router-dom";
-
-// import
 
 function Terms() {
   return (

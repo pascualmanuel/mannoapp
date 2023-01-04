@@ -1,12 +1,8 @@
 import React, {useState} from "react";
-import Step1 from "../Assets/Steps/step-1.png";
-import Step2 from "../Assets/Steps/step-2.png";
-import Step3 from "../Assets/Steps/step-3.png";
-import Step4 from "../Assets/Steps/step-4.png";
-import Prueba from "../Assets/apple-iphone.png";
-import {Tabs, Tab} from "react-bootstrap";
-
-// import Step5 from "../../Assets/Steps/step-5.png";
+import Step1 from "../Assets/Steps/user-step1.webp";
+import Step2 from "../Assets/Steps/user-step2.webp";
+import Step3 from "../Assets/Steps/user-step3.webp";
+import Step4 from "../Assets/Steps/user-step4.webp";
 
 function ComoFuncionaUsuario() {
   const [bgColour, setBgColour] = useState(Step1);
@@ -15,25 +11,15 @@ function ComoFuncionaUsuario() {
   const changeImageStyle = {
     height: "500px",
     width: "210px",
-    // backgroundImg: `${bgColour}`,
     backgroundImage: "url(" + bgColour + ")",
     backgroundSize: "contain",
     backgroundRepeat: "no-repeat",
-    // transition: "1s",
     cursor: "default",
   };
 
   const changeBorder = {
     border: bgBorder,
   };
-  // const comoFuncionaStyle = {
-  //   fontSize: "20px",
-  //   borderRadius: "40px",
-  //   border: "1px solid red",
-  //   color: "white",
-  //   background: "#c83f49",
-  //   cursor: "default",
-  // };
 
   return (
     <>
@@ -77,7 +63,7 @@ function ComoFuncionaUsuario() {
                 <span className="mobile-bullet">
                   <h3 className="title-hiw">Recibe presupuestos</h3>
                   <p className="text-hiw">
-                    Y elegí al expert@ indicado para vos.
+                    Y elegí al Experto indicado para vos.
                   </p>
                 </span>
                 <span className="desktop-bullet">
@@ -133,7 +119,7 @@ function ComoFuncionaUsuario() {
             >
               <div className="bullet-hiw">4</div>
               <section className="step-cont-section">
-                <h3 className="title-hiw"> Califica y Recomienda</h3>
+                <h3 className="title-hiw"> Clasificá y Recomienda</h3>
                 <p className="text-hiw">
                   Cuentanos cómo te ha ido y ayuda a toda la comunidad Manno.
                 </p>

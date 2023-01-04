@@ -1,10 +1,3 @@
-body {
-  /* scroll-behavior: smooth !important; */
-  /* height: 100%; */
-}
-a {
-  /* cursor: pointer !important; */
-}
 * {
   /* font-family: "Book"; */
   margin: 0;
@@ -117,20 +110,14 @@ h2 {
 }
 
 .background-categories {
-  /* background-image: url("./Assets/pincelada\ deskto.png"); */
   background-image: url("./Assets/pincelada2.png");
-
-  /* background-image: url("./Assets/background-full-categories.webp"); */
   background-position: left;
-  /* background-position: bottom; */
   background-repeat: no-repeat;
   background-size: cover;
-  /* background-size: contain; */
   padding-top: 50px;
 }
 
 .categories-container {
-  /* height: 1000px; */
   display: flex;
   margin-right: 65px;
   margin-left: 165px;
@@ -140,12 +127,6 @@ h2 {
   /* height: 100vh; */
 }
 
-@media (min-width: 1560px) {
-  .categories-container {
-    /* margin-right: 400px;  */
-    /* margin-left: 400px;  */
-  }
-}
 /* background-color: ; */
 .categories-left-container {
   display: flex;
@@ -374,15 +355,6 @@ h2 {
   .alguien-conoce {
     font-size: 10px;
   }
-}
-
-/* all and (max-width: 1000px) and (min-width: 700px) */
-.fondo {
-  /* background: linear-gradient(-45deg, #ee7752, #e73c7e, #23a6d5, #23d5ab); */
-  /* background-size: 400% 400%; */
-  /* animation: gradient 15s ease infinite; */
-  /* height: 100vh; */
-  /* margin-bottom: 190px !important; */
 }
 
 @keyframes gradient {
@@ -642,11 +614,11 @@ h2 {
     width: 100%;
   }
 }
-@media (min-width: 800px) {
+/* @media (min-width: 800px) {
   .button-experto {
     display: none;
   }
-}
+} */
 
 @media (max-width: 680px) {
   .footer-p {
@@ -682,6 +654,7 @@ h2 {
   .categories-container {
     margin-left: 40px;
     margin-right: 40px;
+    padding-bottom: 100px;
   }
   .br-right-p-categories {
     display: none;
@@ -824,9 +797,7 @@ h2 {
   margin-bottom: 40px;
   /* margin-bottom: 10vh; */
 }
-.accordion-button {
-  /* color: red !important; */
-}
+
 .accordion-item:first-of-type .accordion-button {
   margin-top: 0px !important;
 }

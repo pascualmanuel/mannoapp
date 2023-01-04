@@ -1,19 +1,5 @@
 import React from "react";
-import {Link} from "react-router-dom";
-import MannoLogo from "../Assets/Hero/logo-horizontal-sinfondo-azul.png";
-import Manno from "../Assets/Hero/manno.png";
-
-import Apple from "../Assets/Hero/apple-svg.svg";
-import Google from "../Assets/Hero/google-svg.svg";
-import Personaje from "../Assets/experto-personaje copy.webp";
-// import Iconuno from "../Assets/icon-cal.svg";
-// import Icondos from "../Assets/icon-cert.svg";
-// import Icontres from "../Assets/icon-money.svg";
-import IconCal from "../Assets/icon-1.svg";
-import IconCert from "../Assets/icon-2.svg";
-import IconMon from "../Assets/icon-3.svg";
-
-// import {Routes, Route} from "react-router-dom";
+import Personaje from "../Assets/experto-personaje.webp";
 
 function Hero() {
   return (
@@ -27,11 +13,11 @@ function Hero() {
             </h2>
 
             <div className="text-icon-experto">
-              {/* <img src={IconCal} alt="ef" width={20} className="expert-icons" /> */}
               <p style={{fontSize: "19px"}}>
-                Manno llegó para democratizar la forma de obtener<br></br>
-                nuevos clientes, donde lo más importante es la<br></br> calidad
-                de tu trabajo.
+                Manno llegó para democratizar la forma de obtener&nbsp;
+                <br className="br" />
+                &nbsp;nuevos clientes, donde lo más importante es la
+                <br className="br" /> calidad de tu trabajo.
               </p>
             </div>
 
@@ -42,7 +28,7 @@ function Hero() {
             >
               <div className="button-experto">
                 <span style={{color: "#5d80ff", fontFamily: "Book"}}>
-                  Quiero ser expert@
+                  Quiero ser Experto
                 </span>
               </div>
             </a>

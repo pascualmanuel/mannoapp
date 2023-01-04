@@ -1,11 +1,8 @@
 import React, {useState} from "react";
-import Step1 from "../Assets/Steps/step-1.png";
-import Step2 from "../Assets/Steps/step-2.png";
-import Step3 from "../Assets/Steps/step-3.png";
-import Step4 from "../Assets/Steps/step-4.png";
-import Prueba from "../Assets/apple-iphone.png";
-import {Tabs, Tab} from "react-bootstrap";
-// import Step5 from "../../Assets/Steps/step-5.png";
+import Step1 from "../Assets/Steps/expert-step1.webp";
+import Step2 from "../Assets/Steps/expert-step2.webp";
+import Step3 from "../Assets/Steps/expert-step3.webp";
+import Step4 from "../Assets/Steps/expert-step4.webp";
 
 function ComoFuncionaExperto() {
   const [bgColour, setBgColour] = useState(Step1);
@@ -14,36 +11,18 @@ function ComoFuncionaExperto() {
   const changeImageStyle = {
     height: "500px",
     width: "210px",
-    // backgroundImg: `${bgColour}`,
     backgroundImage: "url(" + bgColour + ")",
     backgroundSize: "contain",
     backgroundRepeat: "no-repeat",
-
     cursor: "default",
   };
-
-  // const active = {
-  //   border: "solid 2px red",
-  // };
 
   const changeBorder = {
     border: bgBorder,
   };
 
-  // const comoFuncionaStyle = {
-  //   fontSize: "20px",
-  //   borderRadius: "40px",
-  //   border: "1px solid red",
-  //   color: "white",
-  //   background: "#c83f49",
-  //   cursor: "default",
-
-  // };
-
   return (
     <>
-      {/* <div className="full-container-hiw"> */}
-
       <div className="container-hiw">
         <div>
           <div

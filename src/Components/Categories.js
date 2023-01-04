@@ -16,7 +16,7 @@ function Categories() {
               categorías, <br></br> todas las soluciones.
             </h2>
             <p style={{marginTop: "10px"}}>
-              Encuentra a los Experos más
+              Encuentra a los Expertos más
               <br className="br-right-p-categories" /> recomendados para tu
               hogar, <br className="br-right-p-categories" /> clases o
               tecnología.

@@ -1,7 +1,6 @@
 import React from "react";
 import {ExternalLink} from "react-external-link";
 import {Link} from "react-router-dom";
-
 import Apple from "../Assets/Hero/apple-webp.webp";
 import Google from "../Assets/Hero/google-webp.webp";
 import Facebook from "../Assets/instagram.svg";
@@ -67,14 +66,14 @@ function Phone() {
               target="_blank"
               rel="noreferrer"
             >
-              <img src={Facebook} alt="Facebook" className="sm-icon" />
+              <img src={Instagram} alt="Facebook" className="sm-icon" />
             </a>
             <a
               href="https://www.instagram.com/manno.app/"
               target="_blank"
               rel="noreferrer"
             >
-              <img src={Instagram} alt="Instagram" className="sm-icon" />
+              <img src={Facebook} alt="Instagram" className="sm-icon" />
             </a>
             <a
               href="https://www.linkedin.com/company/manno/"
@@ -83,7 +82,7 @@ function Phone() {
             >
               <img src={Linkedin} alt="Linkedin" className="sm-icon" />
             </a>
-            <a
+            {/* <a
               href="https://www.linkedin.com/company/manno/"
               target="_blank"
               rel="noreferrer"
@@ -96,7 +95,7 @@ function Phone() {
               rel="noreferrer"
             >
               <img src={TikTok} alt="TikTok" className="sm-icon" />
-            </a>
+            </a> */}
           </div>
         </div>
         <div className="mobile-footer">
@@ -111,14 +110,9 @@ function Phone() {
               fontSize: "12px",
             }}
           >
-            <a
-              href="https://mannoapp.com/terminos.html"
-              id="tyc-link"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              Términos y condiciones
-            </a>
+            <Link to={"/terms"}>
+              <span style={{color: "white"}}> Términos y condiciones </span>
+            </Link>
             {/* <span style={{marginLeft: "40px"}}>Privacidad</span> */}
           </p>
         </div>

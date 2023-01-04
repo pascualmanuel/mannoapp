@@ -2,12 +2,8 @@ import React from "react";
 import "../testing.css";
 import MannoLogo from "../Assets/Hero/logo-horizontal-sinfondo-azul.png";
 import Manno from "../Assets/Hero/manno.png";
-// import Phone from "./UsuariosTab";
-// import Apple from "../Assets/Hero/apple-svg.svg";
-// import Google from "../Assets/Hero/google-svg.svg";
-// import {Link} from "react-router-dom";
-import Apple2 from "../Assets/Hero/boton-apple.svg";
-import Google2 from "../Assets/Hero/boton-google.svg";
+import AppleDownload from "../Assets/Hero/boton-apple.svg";
+import GoogleDownload from "../Assets/Hero/boton-google.svg";
 import Isologo from "../Assets/Hero/isologo-background-hero.png";
 
 import {ExternalLink} from "react-external-link";
@@ -81,7 +77,7 @@ function Hero() {
                 >
                   <img
                     className="download-icons"
-                    src={Apple2}
+                    src={AppleDownload}
                     alt="Apple"
                     height={50}
                     style={{marginRight: "20px"}}
@@ -91,7 +87,11 @@ function Hero() {
                   href={`https://smart.link/1fadhmjx04pjq`}
                   target="_blank"
                 >
-                  <img src={Google2} alt="Google" className="download-icons" />
+                  <img
+                    src={GoogleDownload}
+                    alt="Google"
+                    className="download-icons"
+                  />
                 </ExternalLink>
               </div>
             </div>
