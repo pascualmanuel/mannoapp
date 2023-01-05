@@ -21,7 +21,7 @@ function Phone() {
           className="up-conteiner-footer"
           style={{backgroundColor: "rgba(255, 255, 255, 0.2)"}}
         >
-          <h2 style={{color: "white"}}>Descargá la app</h2>
+          <h2 style={{color: "white"}}>Descarga la app</h2>
           <div style={{marginTop: "8px"}}>
             <ExternalLink
               href={`https://apps.apple.com/ar/app/manno-soluciones-recomendadas/id1477854373?l=en`}

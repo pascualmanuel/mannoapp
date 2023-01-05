@@ -46,7 +46,6 @@ function ComoFuncionaExperto() {
             </div>
           </div>
           <div
-            // style={changeBorder}
             onMouseEnter={() => setBgBorder("")}
             onMouseLeave={() => setBgBorder("")}
           >
@@ -82,7 +81,6 @@ function ComoFuncionaExperto() {
         <div className="phone-hiw" style={changeImageStyle}></div>
         <div>
           <div
-            // style={changeBorder}
             onMouseEnter={() => setBgBorder("")}
             onMouseLeave={() => setBgBorder("")}
           >
@@ -113,7 +111,6 @@ function ComoFuncionaExperto() {
             </div>
           </div>
           <div
-            // style={changeBorder}
             onMouseEnter={() => setBgBorder("")}
             onMouseLeave={() => setBgBorder("")}
           >
@@ -134,7 +131,6 @@ function ComoFuncionaExperto() {
           </div>
         </div>
       </div>
-      {/* </div> */}
     </>
   );
 }
