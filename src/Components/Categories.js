@@ -41,7 +41,6 @@ function Categories() {
                     marginLeft: "17px",
                     marginTop: "8px",
                     marginRight: "20px",
-                    // fontSize: "15px",
                   }}
                 >
                   Electricistas, Plomeros, Gasistas, Cerrajeros y mucho más.
@@ -50,7 +49,7 @@ function Categories() {
               <div className="box">
                 <img
                   src={TecnoIcon}
-                  alt="prueb"
+                  alt="Icono Tecnología"
                   width={65}
                   style={{
                     marginLeft: "17px",
@@ -66,7 +65,6 @@ function Categories() {
                     marginLeft: "20px",
                     marginTop: "8px",
                     marginRight: "20px",
-                    // fontSize: "15px",
                   }}
                 >
                   Repara tu Teléfono móvil, Tablet o Computadora.
@@ -75,7 +73,7 @@ function Categories() {
               <div className="box">
                 <img
                   src={ClasesIcon}
-                  alt="prueb"
+                  alt="Icono Clases"
                   width={65}
                   style={{
                     marginLeft: "17px",
@@ -89,7 +87,6 @@ function Categories() {
                     marginLeft: "20px",
                     marginTop: "8px",
                     marginRight: "20px",
-                    // fontSize: "15px",
                   }}
                 >
                   Aprende un idioma, música o comienza a entrenar.
@@ -98,7 +95,7 @@ function Categories() {
               <div className="box">
                 <img
                   src={ArreglatodoIcon}
-                  alt="prueb"
+                  alt="Icono Arreglatodo"
                   width={65}
                   style={{
                     marginLeft: "17px",
@@ -114,7 +111,6 @@ function Categories() {
                     marginLeft: "20px",
                     marginTop: "8px",
                     marginRight: "20px",
-                    // fontSize: "15px",
                   }}
                 >
                   Elige tu Handyman para esas pequeñas tareas de rápida
