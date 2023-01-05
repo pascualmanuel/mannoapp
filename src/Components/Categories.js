@@ -27,7 +27,7 @@ function Categories() {
               <div className="box">
                 <img
                   src={HogarIcon}
-                  alt="prueb"
+                  alt="Icono Hogar"
                   width={65}
                   style={{
                     marginLeft: "17px",

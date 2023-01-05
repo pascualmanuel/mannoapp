@@ -37,9 +37,9 @@ function ComoFuncionaUsuario() {
             >
               <div className="bullet-hiw">1</div>
               <section className="step-cont-section">
-                <h3 className="title-hiw">Cargá tu Tarea</h3>
+                <h3 className="title-hiw">Carga tu Tarea</h3>
                 <p className="text-hiw">
-                  Seleccioná entre las categorías y describe lo que necesitas.
+                  Selecciona entre las categorías y describe lo que necesitas.
                 </p>
               </section>
             </div>
@@ -62,12 +62,10 @@ function ComoFuncionaUsuario() {
               <section className="step-cont-section">
                 <span className="mobile-bullet">
                   <h3 className="title-hiw">Recibe presupuestos</h3>
-                  <p className="text-hiw">
-                    Y elegí al Experto indicado para vos.
-                  </p>
+                  <p className="text-hiw">Y elige a tu Experto ideal.</p>
                 </span>
                 <span className="desktop-bullet">
-                  <h3 className="title-hiw">Contratá</h3>
+                  <h3 className="title-hiw">Contrata</h3>
                   <p className="text-hiw">
                     Chatea con tu Experto y coordina los detalles.
                   </p>
@@ -99,7 +97,7 @@ function ComoFuncionaUsuario() {
                   <p className="text-hiw">Y elige a tu Experto ideal.</p>
                 </span>
                 <span className="mobile-bullet">
-                  <h3 className="title-hiw">Contratá</h3>
+                  <h3 className="title-hiw">Contrata</h3>
                   <p className="text-hiw">
                     Chatea con tu Experto y coordina los detalles.
                   </p>
@@ -119,9 +117,9 @@ function ComoFuncionaUsuario() {
             >
               <div className="bullet-hiw">4</div>
               <section className="step-cont-section">
-                <h3 className="title-hiw"> Clasificá y Recomienda</h3>
+                <h3 className="title-hiw"> Califica y Recomienda</h3>
                 <p className="text-hiw">
-                  Cuentanos cómo te ha ido y ayuda a toda la comunidad Manno.
+                  Cuéntanos cómo te ha ido y ayuda a toda la comunidad Manno.
                 </p>
               </section>
             </div>
