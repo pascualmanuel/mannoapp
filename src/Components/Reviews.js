@@ -18,7 +18,7 @@ function Reviews() {
     1024: {items: 4},
   };
 
-  const handleDragStart = (e) => e.preventDefault();
+  // const handleDragStart = (e) => e.preventDefault();
   const items = [
     <div className="item" data-value="1">
       <div className="reviews-box">
@@ -296,7 +296,7 @@ function Reviews() {
     <div className="item" data-value="14">
       <div className="reviews-box">
         <img
-          src={PersonitaTres}
+          src={PersonitaCuatro}
           alt="Avatar"
           width={55}
           height={55}
