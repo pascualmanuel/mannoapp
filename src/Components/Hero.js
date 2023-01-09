@@ -8,7 +8,7 @@ import Isologo from "../Assets/Hero/isologo-background-hero.png";
 
 import {ExternalLink} from "react-external-link";
 import {useEffect, useState, useCallback} from "react";
-import Pruebas from "./PhoneVideo";
+import Phone from "./PhoneVideo";
 
 const MannoBlue = "#5d80ff";
 
@@ -98,14 +98,10 @@ function Hero() {
           </section>
 
           <div>
-            <Pruebas />
+            <Phone />
           </div>
         </div>
       </div>
-      {/* <div className="elipse-cont">
-        <div className="elipse"> </div>
-        <div className="elipse2"></div>
-      </div> */}
 
       <div className="bubbles-cont">
         <div className="bubble-left"> </div>

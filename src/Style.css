@@ -32,29 +32,18 @@
   width: 300px;
   height: 300px;
   border-radius: 500px;
-
   background-color: #657ff6;
   opacity: 0.5;
   filter: blur(20px);
   position: absolute;
   right: 251px;
   top: 230px;
-  /* margin-left: -200px; */
-  /* background: linear-gradient(
-    146.93deg,
-    #657ff6 7.8%,
-    #6593e4 30.32%,
-    #64d8a7 109.4%
-  );
-  background-size: 400% 400%;
-  animation: gradient 15s ease infinite; */
 }
 
 .bubble-right-two {
   width: 300px;
   height: 300px;
   border-radius: 500px;
-
   background-color: #64d8a7;
   opacity: 0.5;
   filter: blur(20px);
@@ -108,7 +97,6 @@
   text-align: left;
   font-family: Light;
   color: #00000080;
-  /* font-family: "AirbnbCerealLight"; */
 }
 .terms-container {
   padding-top: 6rem;
@@ -203,10 +191,6 @@ hr {
   margin-bottom: 50px;
   padding-top: 100px;
   flex-direction: row;
-}
-.full-container-hiw {
-  /* background: linear-gradient(124.96deg, #657ff6 0.66%, #64d8a7 122.12%); */
-  /* background: linear-gradient(rgba(101, 127, 246, 1), rgba(100, 216, 167, 1)); */
 }
 
 .bullet-hiw {

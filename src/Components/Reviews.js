@@ -24,7 +24,7 @@ function Reviews() {
       <div className="reviews-box">
         <img
           src={Avatar5}
-          alt="prueb"
+          alt="Avatar"
           width={55}
           height={55}
           style={{marginLeft: "15px", marginTop: "15px"}}
@@ -46,7 +46,7 @@ function Reviews() {
       <div className="reviews-box">
         <img
           src={PersonitaDos}
-          alt="prueb"
+          alt="Avatar"
           width={55}
           height={55}
           style={{marginLeft: "15px", marginTop: "15px"}}
@@ -67,7 +67,7 @@ function Reviews() {
       <div className="reviews-box">
         <img
           src={PersonitaTres}
-          alt="prueb"
+          alt="Avatar"
           width={55}
           height={55}
           style={{marginLeft: "15px", marginTop: "15px"}}
@@ -89,7 +89,7 @@ function Reviews() {
       <div className="reviews-box">
         <img
           src={PersonitaUno}
-          alt="prueb"
+          alt="Avatar"
           width={55}
           height={55}
           style={{marginLeft: "15px", marginTop: "15px"}}
@@ -110,7 +110,7 @@ function Reviews() {
       <div className="reviews-box">
         <img
           src={PersonitaTres}
-          alt="prueb"
+          alt="Avatar"
           width={55}
           height={55}
           style={{marginLeft: "15px", marginTop: "15px"}}
@@ -132,7 +132,7 @@ function Reviews() {
       <div className="reviews-box">
         <img
           src={Avatar4}
-          alt="prueb"
+          alt="Avatar"
           width={55}
           height={55}
           style={{marginLeft: "15px", marginTop: "15px"}}
@@ -152,7 +152,7 @@ function Reviews() {
       <div className="reviews-box">
         <img
           src={PersonitaTres}
-          alt="prueb"
+          alt="Avatar"
           width={55}
           height={55}
           style={{marginLeft: "15px", marginTop: "15px"}}
@@ -174,7 +174,7 @@ function Reviews() {
       <div className="reviews-box">
         <img
           src={PersonitaTres}
-          alt="prueb"
+          alt="Avatar"
           width={55}
           height={55}
           style={{marginLeft: "15px", marginTop: "15px"}}
@@ -194,7 +194,7 @@ function Reviews() {
       <div className="reviews-box">
         <img
           src={PersonitaTres}
-          alt="prueb"
+          alt="Avatar"
           width={55}
           height={55}
           style={{marginLeft: "15px", marginTop: "15px"}}
@@ -216,7 +216,7 @@ function Reviews() {
       <div className="reviews-box">
         <img
           src={PersonitaTres}
-          alt="prueb"
+          alt="Avatar"
           width={55}
           height={55}
           style={{marginLeft: "15px", marginTop: "15px"}}
@@ -238,7 +238,7 @@ function Reviews() {
       <div className="reviews-box">
         <img
           src={PersonitaTres}
-          alt="prueb"
+          alt="Avatar"
           width={55}
           height={55}
           style={{marginLeft: "15px", marginTop: "15px"}}
@@ -257,7 +257,7 @@ function Reviews() {
       <div className="reviews-box">
         <img
           src={PersonitaTres}
-          alt="prueb"
+          alt="Avatar"
           width={55}
           height={55}
           style={{marginLeft: "15px", marginTop: "15px"}}
@@ -278,7 +278,7 @@ function Reviews() {
       <div className="reviews-box">
         <img
           src={PersonitaTres}
-          alt="prueb"
+          alt="Avatar"
           width={55}
           height={55}
           style={{marginLeft: "15px", marginTop: "15px"}}
@@ -297,7 +297,7 @@ function Reviews() {
       <div className="reviews-box">
         <img
           src={PersonitaTres}
-          alt="prueb"
+          alt="Avatar"
           width={55}
           height={55}
           style={{marginLeft: "15px", marginTop: "15px"}}
@@ -318,7 +318,7 @@ function Reviews() {
       <div className="reviews-box">
         <img
           src={PersonitaTres}
-          alt="prueb"
+          alt="Avatar"
           width={55}
           height={55}
           style={{marginLeft: "15px", marginTop: "15px"}}
@@ -340,7 +340,7 @@ function Reviews() {
       <div className="reviews-box">
         <img
           src={PersonitaTres}
-          alt="prueb"
+          alt="Avatar"
           width={55}
           height={55}
           style={{marginLeft: "15px", marginTop: "15px"}}

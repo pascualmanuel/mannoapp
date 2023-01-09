@@ -22,35 +22,11 @@ import ScrollToTop from "./Components/ScrollToTop";
 function App() {
   return (
     <>
-      {/* <Hero />
-        <TabsComp />
-        <Categories />
-        <Expertos />
-        <Faqs />
-        <Pruebas />
-        <Footer /> */}
-      {/* <Routes>
-        <Router>
-
-          <Route path="/" render={() => <Home />} />
-          <Route path="/terms" component={Terms} />
-        </Router>
-      </Routes> */}
-
-      {/* <Router>
-        <Home />
-        <Switch>
-          <Route exact path="/" component={Home} />
-          <Route path="/terms" component={Terms} />
-        </Switch>
-      </Router> */}
-
       <BrowserRouter>
         <ScrollToTop />
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/terms" element={<Terms />} />
-          {/* <Route index element={<Terms />} /> */}
         </Routes>
       </BrowserRouter>
     </>
