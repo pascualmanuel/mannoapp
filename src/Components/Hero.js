@@ -1,5 +1,5 @@
 import React from "react";
-import "../testing.css";
+import "../Style.css";
 import MannoLogo from "../Assets/Hero/logo-horizontal-sinfondo-azul.png";
 import Manno from "../Assets/Hero/manno.png";
 import AppleDownload from "../Assets/Hero/boton-apple.svg";

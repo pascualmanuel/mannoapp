@@ -65,7 +65,6 @@ function Reviews() {
     </div>,
     <div className="item" data-value="3">
       <div className="reviews-box">
-        {" "}
         <img
           src={PersonitaTres}
           alt="prueb"
@@ -131,7 +130,6 @@ function Reviews() {
     </div>,
     <div className="item" data-value="6">
       <div className="reviews-box">
-        {" "}
         <img
           src={Avatar4}
           alt="prueb"
@@ -152,7 +150,6 @@ function Reviews() {
 
     <div className="item" data-value="7">
       <div className="reviews-box">
-        {" "}
         <img
           src={PersonitaTres}
           alt="prueb"
@@ -175,7 +172,6 @@ function Reviews() {
     </div>,
     <div className="item" data-value="8">
       <div className="reviews-box">
-        {" "}
         <img
           src={PersonitaTres}
           alt="prueb"
@@ -196,7 +192,6 @@ function Reviews() {
 
     <div className="item" data-value="9">
       <div className="reviews-box">
-        {" "}
         <img
           src={PersonitaTres}
           alt="prueb"
@@ -219,7 +214,6 @@ function Reviews() {
     </div>,
     <div className="item" data-value="10">
       <div className="reviews-box">
-        {" "}
         <img
           src={PersonitaTres}
           alt="prueb"
@@ -242,7 +236,6 @@ function Reviews() {
 
     <div className="item" data-value="11">
       <div className="reviews-box">
-        {" "}
         <img
           src={PersonitaTres}
           alt="prueb"
@@ -262,7 +255,6 @@ function Reviews() {
     </div>,
     <div className="item" data-value="12">
       <div className="reviews-box">
-        {" "}
         <img
           src={PersonitaTres}
           alt="prueb"
@@ -284,7 +276,6 @@ function Reviews() {
     </div>,
     <div className="item" data-value="13">
       <div className="reviews-box">
-        {" "}
         <img
           src={PersonitaTres}
           alt="prueb"
@@ -304,7 +295,6 @@ function Reviews() {
     </div>,
     <div className="item" data-value="14">
       <div className="reviews-box">
-        {" "}
         <img
           src={PersonitaTres}
           alt="prueb"
@@ -326,7 +316,6 @@ function Reviews() {
     </div>,
     <div className="item" data-value="15">
       <div className="reviews-box">
-        {" "}
         <img
           src={PersonitaTres}
           alt="prueb"

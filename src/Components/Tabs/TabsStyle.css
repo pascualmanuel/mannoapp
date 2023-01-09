@@ -12,8 +12,6 @@
   border-radius: 50px;
 }
 .como-funciona-h2 {
-  /* margin-left: 56vw !important; */
-  /* position: absolute !important; */
   margin-top: 70px !important;
   margin-bottom: 70px;
   z-index: 100;
@@ -28,7 +26,6 @@
 
 .nav-fill .nav-item,
 .nav-fill > .nav-link {
-  /* flex: inherit !important; */
   text-align: center !important;
 }
 .nav-item {
