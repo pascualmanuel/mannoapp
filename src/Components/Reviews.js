@@ -3,6 +3,9 @@ import PersonitaUno from "../Assets/Personitas/personita1.png";
 import PersonitaDos from "../Assets/Personitas/personita2.png";
 import PersonitaTres from "../Assets/Personitas/personita3.png";
 import PersonitaCuatro from "../Assets/Personitas/personita4.png";
+import Avatar4 from "../Assets/Personitas/Avatar4.png";
+import Avatar5 from "../Assets/Personitas/Avatar5.png";
+
 import FiveStars from "../Assets/five-stars.svg";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
@@ -20,7 +23,7 @@ function Reviews() {
     <div className="item" data-value="1">
       <div className="reviews-box">
         <img
-          src={PersonitaUno}
+          src={Avatar5}
           alt="prueb"
           width={55}
           height={55}
@@ -130,7 +133,7 @@ function Reviews() {
       <div className="reviews-box">
         {" "}
         <img
-          src={PersonitaCuatro}
+          src={Avatar4}
           alt="prueb"
           width={55}
           height={55}
