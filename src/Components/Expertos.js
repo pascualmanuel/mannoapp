@@ -16,7 +16,7 @@ function Hero() {
               <p style={{fontSize: "19px"}}>
                 Manno llegó para democratizar la forma de obtener&nbsp;
                 <br className="br" />
-                &nbsp;nuevos clientes, donde lo más importante es la
+                nuevos clientes, donde lo más importante es la
                 <br className="br" /> calidad de tu trabajo.
               </p>
             </div>

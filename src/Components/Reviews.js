@@ -1,5 +1,4 @@
 import React from "react";
-
 import Mujer1 from "../Assets/Personitas/Mujer1.png";
 import Mujer2 from "../Assets/Personitas/Mujer2.png";
 import Mujer3 from "../Assets/Personitas/Mujer3.png";
