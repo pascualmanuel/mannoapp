@@ -1,19 +1,17 @@
 import React from "react";
-import PersonitaUno from "../Assets/Personitas/personita1.png";
-import PersonitaDos from "../Assets/Personitas/personita2.png";
-import PersonitaTres from "../Assets/Personitas/personita3.png";
-import PersonitaCuatro from "../Assets/Personitas/personita4.png";
-import Mujer1 from "../Assets/Personitas/Mujer2.png";
-import Mujer2 from "../Assets/Personitas/Mujer2.png";
-import Mujer3 from "../Assets/Personitas/Mujer2.png";
-import Mujer4 from "../Assets/Personitas/Mujer2.png";
-import Mujer5 from "../Assets/Personitas/Mujer2.png";
-import Mujer6 from "../Assets/Personitas/Mujer2.png";
-import Mujer7 from "../Assets/Personitas/Mujer2.png";
-import Mujer8 from "../Assets/Personitas/Mujer2.png";
 
-import Avatar4 from "../Assets/Personitas/Avatar4.png";
-import Avatar5 from "../Assets/Personitas/Avatar5.png";
+import Mujer1 from "../Assets/Personitas/Mujer1.png";
+import Mujer2 from "../Assets/Personitas/Mujer2.png";
+import Mujer3 from "../Assets/Personitas/Mujer3.png";
+import Mujer4 from "../Assets/Personitas/Mujer4.png";
+import Mujer5 from "../Assets/Personitas/Mujer5.png";
+import Mujer6 from "../Assets/Personitas/Mujer6.png";
+import Mujer7 from "../Assets/Personitas/Mujer7.png";
+import Hombre1 from "../Assets/Personitas/Hombre1.png";
+import Hombre2 from "../Assets/Personitas/Hombre2.png";
+import Hombre3 from "../Assets/Personitas/Hombre3.png";
+import Hombre4 from "../Assets/Personitas/Hombre4.png";
+import Hombre5 from "../Assets/Personitas/Hombre5.png";
 import FiveStars from "../Assets/five-stars.svg";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
@@ -31,7 +29,7 @@ function Reviews() {
     <div className="item" data-value="1">
       <div className="reviews-box">
         <img
-          src={Avatar5}
+          src={Hombre3}
           alt="Avatar"
           width={55}
           height={55}
@@ -53,7 +51,7 @@ function Reviews() {
     <div className="item" data-value="2">
       <div className="reviews-box">
         <img
-          src={PersonitaDos}
+          src={Mujer2}
           alt="Avatar"
           width={55}
           height={55}
@@ -74,7 +72,7 @@ function Reviews() {
     <div className="item" data-value="3">
       <div className="reviews-box">
         <img
-          src={PersonitaTres}
+          src={Mujer7}
           alt="Avatar"
           width={55}
           height={55}
@@ -96,7 +94,7 @@ function Reviews() {
     <div className="item" data-value="4">
       <div className="reviews-box">
         <img
-          src={PersonitaUno}
+          src={Hombre2}
           alt="Avatar"
           width={55}
           height={55}
@@ -139,7 +137,7 @@ function Reviews() {
     <div className="item" data-value="6">
       <div className="reviews-box">
         <img
-          src={Avatar4}
+          src={Hombre3}
           alt="Avatar"
           width={55}
           height={55}
@@ -159,7 +157,7 @@ function Reviews() {
     <div className="item" data-value="7">
       <div className="reviews-box">
         <img
-          src={PersonitaTres}
+          src={Mujer6}
           alt="Avatar"
           width={55}
           height={55}
@@ -181,14 +179,16 @@ function Reviews() {
     <div className="item" data-value="8">
       <div className="reviews-box">
         <img
-          src={PersonitaTres}
+          src={Hombre1}
           alt="Avatar"
           width={55}
           height={55}
           style={{marginLeft: "15px", marginTop: "15px"}}
         />
-        <h2 className="reviews-title">Carmen</h2>
-        <p className="reviews-text">Buen trabajo, ordenado, recomendable</p>
+        <h2 className="reviews-title">Adrián</h2>
+        <p className="reviews-text">
+          Fue muy amable y soluciono el inconveniente muy rápido. Recomendable
+        </p>
         <img
           src={FiveStars}
           alt="FiveStars"
@@ -201,7 +201,7 @@ function Reviews() {
     <div className="item" data-value="9">
       <div className="reviews-box">
         <img
-          src={PersonitaTres}
+          src={Mujer4}
           alt="Avatar"
           width={55}
           height={55}
@@ -223,7 +223,7 @@ function Reviews() {
     <div className="item" data-value="10">
       <div className="reviews-box">
         <img
-          src={PersonitaTres}
+          src={Mujer5}
           alt="Avatar"
           width={55}
           height={55}
@@ -245,7 +245,7 @@ function Reviews() {
     <div className="item" data-value="11">
       <div className="reviews-box">
         <img
-          src={PersonitaTres}
+          src={Hombre4}
           alt="Avatar"
           width={55}
           height={55}
@@ -264,16 +264,14 @@ function Reviews() {
     <div className="item" data-value="12">
       <div className="reviews-box">
         <img
-          src={PersonitaTres}
+          src={Mujer3}
           alt="Avatar"
           width={55}
           height={55}
           style={{marginLeft: "15px", marginTop: "15px"}}
         />
-        <h2 className="reviews-title">Adri</h2>
-        <p className="reviews-text">
-          Fue muy amable y soluciono el inconveniente muy rápido. Recomendable
-        </p>
+        <h2 className="reviews-title">Carmen</h2>
+        <p className="reviews-text">Buen trabajo, ordenado, recomendable</p>
         <img
           src={FiveStars}
           alt="FiveStars"
@@ -285,7 +283,7 @@ function Reviews() {
     <div className="item" data-value="13">
       <div className="reviews-box">
         <img
-          src={PersonitaTres}
+          src={Hombre5}
           alt="Avatar"
           width={55}
           height={55}
@@ -304,7 +302,7 @@ function Reviews() {
     <div className="item" data-value="14">
       <div className="reviews-box">
         <img
-          src={PersonitaCuatro}
+          src={Mujer6}
           alt="Avatar"
           width={55}
           height={55}
@@ -325,7 +323,7 @@ function Reviews() {
     <div className="item" data-value="15">
       <div className="reviews-box">
         <img
-          src={PersonitaTres}
+          src={Mujer7}
           alt="Avatar"
           width={55}
           height={55}
@@ -347,7 +345,7 @@ function Reviews() {
     <div className="item" data-value="16">
       <div className="reviews-box">
         <img
-          src={PersonitaTres}
+          src={Mujer1}
           alt="Avatar"
           width={55}
           height={55}
