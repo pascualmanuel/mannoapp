@@ -3,11 +3,14 @@ import PersonitaUno from "../Assets/Personitas/personita1.png";
 import PersonitaDos from "../Assets/Personitas/personita2.png";
 import PersonitaTres from "../Assets/Personitas/personita3.png";
 import PersonitaCuatro from "../Assets/Personitas/personita4.png";
-import PersonitaCinco from "../Assets/Personitas/personita4.png";
-import PersonitaSeis from "../Assets/Personitas/personita4.png";
-import PersonitaSiete from "../Assets/Personitas/personita4.png";
-import PersonitaOcho from "../Assets/Personitas/personita4.png";
-import PersonitaNueve from "../Assets/Personitas/personita4.png";
+import Mujer1 from "../Assets/Personitas/Mujer2.png";
+import Mujer2 from "../Assets/Personitas/Mujer2.png";
+import Mujer3 from "../Assets/Personitas/Mujer2.png";
+import Mujer4 from "../Assets/Personitas/Mujer2.png";
+import Mujer5 from "../Assets/Personitas/Mujer2.png";
+import Mujer6 from "../Assets/Personitas/Mujer2.png";
+import Mujer7 from "../Assets/Personitas/Mujer2.png";
+import Mujer8 from "../Assets/Personitas/Mujer2.png";
 
 import Avatar4 from "../Assets/Personitas/Avatar4.png";
 import Avatar5 from "../Assets/Personitas/Avatar5.png";
@@ -114,7 +117,7 @@ function Reviews() {
     <div className="item" data-value="5">
       <div className="reviews-box">
         <img
-          src={PersonitaTres}
+          src={Mujer1}
           alt="Avatar"
           width={55}
           height={55}
