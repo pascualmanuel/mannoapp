@@ -3,9 +3,14 @@ import PersonitaUno from "../Assets/Personitas/personita1.png";
 import PersonitaDos from "../Assets/Personitas/personita2.png";
 import PersonitaTres from "../Assets/Personitas/personita3.png";
 import PersonitaCuatro from "../Assets/Personitas/personita4.png";
+import PersonitaCinco from "../Assets/Personitas/personita4.png";
+import PersonitaSeis from "../Assets/Personitas/personita4.png";
+import PersonitaSiete from "../Assets/Personitas/personita4.png";
+import PersonitaOcho from "../Assets/Personitas/personita4.png";
+import PersonitaNueve from "../Assets/Personitas/personita4.png";
+
 import Avatar4 from "../Assets/Personitas/Avatar4.png";
 import Avatar5 from "../Assets/Personitas/Avatar5.png";
-
 import FiveStars from "../Assets/five-stars.svg";
 import AliceCarousel from "react-alice-carousel";
 import "react-alice-carousel/lib/alice-carousel.css";
