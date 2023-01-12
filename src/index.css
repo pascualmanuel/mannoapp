@@ -1,5 +1,4 @@
 * {
-  /* font-family: "Book"; */
   margin: 0;
 }
 
@@ -10,7 +9,6 @@ p {
 
 a {
   text-decoration: none !important;
-  /* color: transparent !important; */
 }
 #tyc-link {
   color: white;
@@ -23,20 +21,8 @@ strong {
 h2 {
   color: #2b2e33;
   font-family: Medium;
-  /* font-size: 43px; */
 }
-/* .fondo {
-  background-image: url("Assets/Hero/hero-cut-isologo.png");
-  background-position: bottom right;
-  background-repeat: no-repeat;
-  background-size: 40%;
-} */
 .hero-container {
-  /* background-image: url("Assets/Hero/hero-cut-isologo.png"); */
-  /* background-position: bottom right; */
-  /* background-repeat: no-repeat; */
-  /* background-size: 40%; */
-  /* height: 90vh; */
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -123,11 +109,10 @@ h2 {
   margin-left: 165px;
   margin-top: 100px;
   justify-content: space-between;
-  /* Utilizamos vh o no?? */
+  /*NO Utilizamos VH*/
   /* height: 100vh; */
 }
 
-/* background-color: ; */
 .categories-left-container {
   display: flex;
   flex-direction: column;
@@ -190,7 +175,7 @@ h2 {
 
 .box-container {
   width: 600px;
-  /* height: 600px; */
+
   display: flex;
   flex-wrap: wrap;
 }
@@ -280,7 +265,6 @@ h2 {
   width: 560px;
   height: 560px;
   border-radius: 501px 501px 501px 501px;
-  /* border-radius: 200px; */
   margin-left: -200px;
   background: linear-gradient(
     146.93deg,
@@ -308,21 +292,6 @@ h2 {
   }
 }
 
-/* @media not all and (min-resolution: 0.001dpcm) {
-  @supports (-webkit-appearance: none) and (stroke-color: transparent) {
-    selector {
-      property: value;
-    }
-    .elipse {
-      animation: none;
-    }
-    .elipse2 {
-      animation: none;
-      filter: blur(60px);
-    }
-  }
-} */
-
 .elipse-cont {
   display: flex;
   justify-content: space-between;
@@ -332,7 +301,6 @@ h2 {
 
 .download {
   margin-top: 80px;
-  /* z-index: -3; */
 }
 .download-icons {
   height: 50px;
@@ -420,8 +388,10 @@ h2 {
   }
   .background-categories {
     background-image: none;
-    background-image: url("Assets/pincelada.png");
-    background-size: cover;
+    background-image: url("Assets/pincelada2.png");
+    /* background-size: cover;
+    background-position: bottom; */
+    background-size: contain;
     background-position: bottom;
   }
   .box-container {
@@ -458,6 +428,16 @@ h2 {
     align-items: center;
     margin-left: 0px;
     margin-right: 0px;
+  }
+}
+
+@media (max-width: 760px) {
+  .background-categories {
+    background-size: cover;
+    background-position: bottom;
+    background-image: url(Assets/pincelada.png);
+    /* background-size: contain;
+    background-position: bottom; */
   }
 }
 
@@ -550,7 +530,6 @@ h2 {
 
 .left-expertos {
   margin-bottom: 35px;
-  /* margin-left: -108px; */
 }
 
 .button-experto {
@@ -682,23 +661,6 @@ h2 {
     display: none;
   }
 }
-/* VIDEO IPHONE */
-/*  */
-/* .fullscreen {
-  position: absolute;
-  object-fit: cover;
-  width: 246px;
-  height: 491px;
-  top: 50%;
-  left: 50%;
-  transform: translate(-50%, -50%);
-  border-radius: 30px;
-  z-index: 3;
-
-  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25),
-    120px 120px 120px rgba(0, 0, 0, 0.16), 80px 80px 80px rgba(0, 0, 0, 0.16),
-    48px 48px 48px rgba(0, 0, 0, 0.24), 32px 32px 32px rgba(0, 0, 0, 0.24);
-} */
 
 #fullscreen-cf2 {
   position: absolute;
@@ -785,9 +747,8 @@ h2 {
 }
 
 .accordion-item .accordion-button {
-  /* border: 0.5px solid #657ff6 !important; */
   border-radius: 7px !important;
-  /* margin-bottom: 50px; */
+
   height: 100px;
 }
 .faqs-container {
@@ -812,7 +773,7 @@ h2 {
   color: #657ff6;
   margin-right: 23px;
 }
-/* screen and (max-device-width:640px), screen and (max-width:640px) */
+
 @media (max-width: 761px) {
   .faq-position-mobile {
     position: absolute;
@@ -833,7 +794,6 @@ h2 {
 
 .accordion-button:not(.collapsed)::after {
   background-image: url("Assets/minus-icon.svg") !important;
-  /* transform: var(--bs-accordion-btn-icon-transform); */
 }
 
 .accordion-button:not(.collapsed) {

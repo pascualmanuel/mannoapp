@@ -18,9 +18,9 @@ import "react-alice-carousel/lib/alice-carousel.css";
 function Reviews() {
   const responsive = {
     300: {items: 1},
-    512: {items: 2},
-    750: {items: 3},
-    1024: {items: 4},
+    535: {items: 2},
+    830: {items: 3},
+    1060: {items: 4},
   };
 
   // const handleDragStart = (e) => e.preventDefault();

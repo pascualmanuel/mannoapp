@@ -1,11 +1,12 @@
 import React from "react";
-import {ExternalLink} from "react-external-link";
 import {Link} from "react-router-dom";
 import Apple from "../Assets/Hero/apple-webp.webp";
 import Google from "../Assets/Hero/google-webp.webp";
 import Facebook from "../Assets/instagram.svg";
 import Instagram from "../Assets/facebook.svg";
 import Linkedin from "../Assets/linkedin.svg";
+// import Twitter from "../Assets/twitter.svg";
+// import TikTok from "../Assets/tiktok.svg";
 
 import "../index.css";
 import Logo from "../Assets/Hero/isologo-background-hero.png";
@@ -21,9 +22,10 @@ function Phone() {
         >
           <h2 style={{color: "white"}}>Descarga la app</h2>
           <div style={{marginTop: "8px"}}>
-            <ExternalLink
+            <a
               href={`https://apps.apple.com/ar/app/manno-soluciones-recomendadas/id1477854373?l=en`}
               target="_blank"
+              rel="noreferrer"
             >
               <img
                 src={Apple}
@@ -31,13 +33,14 @@ function Phone() {
                 style={{marginRight: "20px"}}
                 className="footer-download-icon"
               />
-            </ExternalLink>
-            <ExternalLink
+            </a>
+            <a
               href={`https://play.google.com/store/apps/details?id=com.app.mannoapp&hl=es_AR&gl=US`}
               target="_blank"
+              rel="noreferrer"
             >
               <img src={Google} alt="Google" className="footer-download-icon" />
-            </ExternalLink>
+            </a>
           </div>
         </div>
 
@@ -81,14 +84,14 @@ function Phone() {
               <img src={Linkedin} alt="Linkedin" className="sm-icon" />
             </a>
             {/* <a
-              href="https://www.linkedin.com/company/manno/"
+              href="https://www.twitter.com/manno/"
               target="_blank"
               rel="noreferrer"
             >
               <img src={Twitter} alt="Twitter" className="sm-icon" />
-            </a>{" "}
+            </a>
             <a
-              href="https://www.linkedin.com/company/manno/"
+              href="https://www.tiktok.com/company/manno/"
               target="_blank"
               rel="noreferrer"
             >

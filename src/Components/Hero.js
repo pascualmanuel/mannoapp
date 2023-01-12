@@ -5,8 +5,6 @@ import Manno from "../Assets/Hero/manno.png";
 import AppleDownload from "../Assets/Hero/boton-apple.svg";
 import GoogleDownload from "../Assets/Hero/boton-google.svg";
 import Isologo from "../Assets/Hero/isologo-background-hero.png";
-
-import {ExternalLink} from "react-external-link";
 import {useEffect, useState, useCallback} from "react";
 import Phone from "./PhoneVideo";
 
@@ -71,9 +69,10 @@ function Hero() {
             </p>
             <div className="download-cont">
               <div className="download">
-                <ExternalLink
+                <a
                   href={`https://smart.link/1fadhmjx04pjq`}
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <img
                     className="download-icons"
@@ -82,17 +81,18 @@ function Hero() {
                     height={50}
                     style={{marginRight: "20px"}}
                   />
-                </ExternalLink>
-                <ExternalLink
+                </a>
+                <a
                   href={`https://smart.link/1fadhmjx04pjq`}
                   target="_blank"
+                  rel="noreferrer"
                 >
                   <img
                     src={GoogleDownload}
                     alt="Google"
                     className="download-icons"
                   />
-                </ExternalLink>
+                </a>
               </div>
             </div>
           </section>
