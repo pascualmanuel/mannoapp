@@ -2,7 +2,7 @@ import "./App.css";
 import "./index.css";
 import {
   BrowserRouter,
-  Routes, // instead of "Switch"
+  Routes,
   Route,
 } from "react-router-dom";
 

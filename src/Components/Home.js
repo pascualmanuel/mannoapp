@@ -4,7 +4,6 @@ import Footer from "./Footer";
 import TabsComp from "./Tabs/TabsComp";
 import Expertos from "./Expertos";
 import Reviews from "./Reviews";
-
 import Faqs from "./Faqs";
 
 function Home() {

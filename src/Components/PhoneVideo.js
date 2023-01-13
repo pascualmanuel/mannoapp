@@ -15,7 +15,7 @@ function PhoneVideo() {
   }, []);
 
   useEffect(() => {
-    const intervalID = setInterval(shuffle, 1800);
+    const intervalID = setInterval(shuffle, 1900);
     return () => clearInterval(intervalID);
   }, [shuffle]);
 
