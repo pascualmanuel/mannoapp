@@ -7,11 +7,11 @@ import ImgHome2 from "../Assets/Hero/img-home2.png";
 function PhoneVideo() {
   const names = [ImgHome1, ImgHome2];
 
-  const [newName, setnewName] = useState(ImgHome1);
+  const [setImg2] = useState(ImgHome1);
 
   const shuffle = useCallback(() => {
     const index = Math.floor(Math.random() * names.length);
-    setnewName(names[index]);
+    setImg2(names[index]);
   }, []);
 
   useEffect(() => {
