@@ -10,16 +10,6 @@ function Faqs() {
     }
   };
 
-  const element = document.getElementById(sectionId);
-  if (element) {
-    element.scrollIntoView({ behavior: "smooth" });
-  }
-};
-
-git add .
-git commit -m "Listo"
-git push
-
   useEffect(() => {
     if (window.location.hash === "#faq") {
       scrollToSection("faq");
