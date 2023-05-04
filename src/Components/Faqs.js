@@ -1,7 +1,33 @@
 import React from "react";
-import {Accordion} from "react-bootstrap";
+import { Accordion } from "react-bootstrap";
+import { useEffect } from "react";
 
 function Faqs() {
+  const scrollToSection = (sectionId) => {
+    const element = document.getElementById(sectionId);
+    if (element) {
+      element.scrollIntoView({ behavior: "smooth" });
+    }
+  };
+
+  const element = document.getElementById(sectionId);
+  if (element) {
+    element.scrollIntoView({ behavior: "smooth" });
+  }
+};
+
+git add .
+git commit -m "Listo"
+git push
+
+  useEffect(() => {
+    if (window.location.hash === "#faq") {
+      scrollToSection("faq");
+    }
+  }, []);
+
+  // ... rest of your component
+
   return (
     <>
       <div id="faq">
@@ -15,7 +41,7 @@ function Faqs() {
         </h2>
         <div className="faqs-container">
           <Accordion id="mobile-faq" defaultActiveKey={["0"]}>
-            <Accordion.Item eventKey="0" style={{marginBottom: "20px"}}>
+            <Accordion.Item eventKey="0" style={{ marginBottom: "20px" }}>
               <Accordion.Header>
                 <div className="faq-bullet">1</div> ¿Manno es gratis?
               </Accordion.Header>
@@ -28,7 +54,7 @@ function Faqs() {
                 </p>
               </Accordion.Body>
             </Accordion.Item>
-            <Accordion.Item eventKey="1" style={{marginBottom: "20px"}}>
+            <Accordion.Item eventKey="1" style={{ marginBottom: "20px" }}>
               <Accordion.Header>
                 <div className="faq-bullet">2</div>¿Cómo funciona?
               </Accordion.Header>
@@ -41,7 +67,7 @@ function Faqs() {
                 </p>
               </Accordion.Body>
             </Accordion.Item>
-            <Accordion.Item eventKey="2" style={{marginBottom: "20px"}}>
+            <Accordion.Item eventKey="2" style={{ marginBottom: "20px" }}>
               <Accordion.Header>
                 <div className="faq-bullet">3</div>
                 <span className="faq-position-mobile">
@@ -58,7 +84,7 @@ function Faqs() {
                 </p>
               </Accordion.Body>
             </Accordion.Item>
-            <Accordion.Item eventKey="3" style={{marginBottom: "20px"}}>
+            <Accordion.Item eventKey="3" style={{ marginBottom: "20px" }}>
               <Accordion.Header>
                 <div className="faq-bullet">4</div>
                 <span className="faq-position-mobile">

@@ -1,23 +1,12 @@
 import React from "react";
 import MannoLogoBlanco from "../Assets/manno-logo-blanco.png";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 
 function Terms() {
   return (
     <>
-      <div style={{backgroundColor: "rgb(101, 127, 246)"}}>
-        <nav
-          className="manno-header terms-header"
-          style={{
-            backgroundColor: "#657ff6",
-            marginTop: "0px",
-            marginRight: "0px",
-            marginLeft: "0px",
-            paddingRight: "120px",
-            paddingLeft: "120px",
-            paddingTop: "50px",
-          }}
-        >
+      <div style={{ backgroundColor: "rgb(101, 127, 246)" }}>
+        <nav className="manno-header terms-header">
           <div>
             <Link to={"/"}>
               <img src={MannoLogoBlanco} alt="Manno-Logo" height={30} />
@@ -30,7 +19,6 @@ function Terms() {
               <section id="one" className="terms-wrapper style1">
                 <header className="special">
                   <h2 className="terms-title">Términos y Condiciones</h2>
-                  <hr />
                 </header>
                 <div id="terms" className="content">
                   <span className="auto-style3">

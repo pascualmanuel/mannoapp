@@ -90,6 +90,8 @@
 .terms-title {
   color: rgba(0, 0, 0, 0.5);
   font-family: ExtraBold;
+  border-bottom: solid 0.5px rgba(0, 0, 0, 0.5);
+  line-height: 2;
 }
 
 .auto-style3 {
@@ -139,15 +141,18 @@ hr {
   margin: 0 auto !important;
 }
 
-@media screen and (max-width: 1280px) {
+@media (max-width: 1000px) {
   .terms-wrapper.style1 .content {
-    padding: 4rem;
+    padding: 3rem;
+    padding-top: 30px;
   }
-}
-
-@media screen and (max-width: 1280px) {
-  .terms-wrapper.style1 .content {
-    padding: 4rem;
+  .terms-wrapper > header.special {
+    padding: 4rem 2rem;
+    padding-bottom: 45px;
+  }
+  hr {
+    width: 90% !important;
+    margin: 0 auto !important;
   }
 }
 
@@ -172,6 +177,12 @@ hr {
   padding-top: 50px;
   position: fixed;
   padding-bottom: 60px;
+}
+
+@media (max-width: 800px) {
+  .terms-header {
+    justify-content: center;
+  }
 }
 
 .step-cont-hiw {
