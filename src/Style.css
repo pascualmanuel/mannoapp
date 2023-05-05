@@ -143,12 +143,12 @@ hr {
 
 @media (max-width: 1000px) {
   .terms-wrapper.style1 .content {
-    padding: 3rem;
-    padding-top: 30px;
+    padding: 2rem;
+    padding-top: 20px;
   }
   .terms-wrapper > header.special {
     padding: 4rem 2rem;
-    padding-bottom: 45px;
+    padding-bottom: 20px;
   }
   hr {
     width: 90% !important;
