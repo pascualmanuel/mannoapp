@@ -651,7 +651,7 @@ h2 {
   }
 }
 
-/* OJO QUE ESTE ES MIN */
+
 @media (min-width: 680px) {
   .mobile-footer {
     display: none;
@@ -752,7 +752,7 @@ h2 {
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
-  /* margin-bottom: 10vh; */
+
 }
 
 .accordion-item:first-of-type .accordion-button {
