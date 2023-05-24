@@ -389,8 +389,6 @@ h2 {
   .background-categories {
     background-image: none;
     background-image: url("Assets/pincelada2.png");
-    /* background-size: cover;
-    background-position: bottom; */
     background-size: contain;
     background-position: bottom;
   }
@@ -436,8 +434,6 @@ h2 {
     background-size: cover;
     background-position: bottom;
     background-image: url(Assets/pincelada.png);
-    /* background-size: contain;
-    background-position: bottom; */
   }
 }
 
