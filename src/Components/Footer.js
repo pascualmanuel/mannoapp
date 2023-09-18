@@ -1,5 +1,5 @@
 import React from "react";
-import {Link} from "react-router-dom";
+import { Link } from "react-router-dom";
 import Apple from "../Assets/Hero/apple-webp.webp";
 import Google from "../Assets/Hero/google-webp.webp";
 import Facebook from "../Assets/instagram.svg";
@@ -14,14 +14,14 @@ import Logo from "../Assets/Hero/isologo-background-hero.png";
 function Phone() {
   return (
     <>
-      <div className="container-footer" style={{backgroundColor: "#657FF6"}}>
-        <div style={{height: "120px"}}></div>
+      <div className="container-footer" style={{ backgroundColor: "#657FF6" }}>
+        <div style={{ height: "120px" }}></div>
         <div
           className="up-conteiner-footer"
-          style={{backgroundColor: "rgba(255, 255, 255, 0.2)"}}
+          style={{ backgroundColor: "rgba(255, 255, 255, 0.2)" }}
         >
-          <h2 style={{color: "white"}}>Descarga la app</h2>
-          <div style={{marginTop: "8px"}}>
+          <h2 style={{ color: "white" }}>Descarga la app</h2>
+          <div style={{ marginTop: "8px" }}>
             <a
               href={`https://apps.apple.com/ar/app/manno-soluciones-recomendadas/id1477854373?l=en`}
               target="_blank"
@@ -30,7 +30,7 @@ function Phone() {
               <img
                 src={Apple}
                 alt="Apple"
-                style={{marginRight: "20px"}}
+                style={{ marginRight: "20px" }}
                 className="footer-download-icon"
               />
             </a>
@@ -52,11 +52,13 @@ function Phone() {
           </div>
           <div className="footer-p">
             <p className="footer-tyc">
-              <Link to={"/terms"}>Términos y condiciones</Link>
+              <Link to={"/terms"}>
+                Términos, condiciones y políticas de privacidad
+              </Link>
             </p>
 
-            <p style={{color: "#5d80ff"}}>
-              <a href="mailto:hola@mannoapp.com" style={{color: "#5d80ff"}}>
+            <p style={{ color: "#5d80ff" }}>
+              <a href="mailto:hola@mannoapp.com" style={{ color: "#5d80ff" }}>
                 hola@mannoapp.com
               </a>
             </p>
@@ -100,7 +102,7 @@ function Phone() {
           </div>
         </div>
         <div className="mobile-footer">
-          <p style={{color: "white", fontSize: "14px", marginBottom: "2rem"}}>
+          <p style={{ color: "white", fontSize: "14px", marginBottom: "2rem" }}>
             <a href="mailto:hola@mannoapp.com" id="tyc-link">
               hola@mannoapp.com
             </a>
@@ -112,12 +114,12 @@ function Phone() {
             }}
           >
             <Link to={"/terms"}>
-              <span style={{color: "white"}}> Términos y condiciones </span>
+              <span style={{ color: "white" }}> Términos y condiciones </span>
             </Link>
             {/* <span style={{marginLeft: "40px"}}>Privacidad</span> */}
           </p>
         </div>
-        <div style={{height: "100px"}}></div>
+        <div style={{ height: "100px" }}></div>
       </div>
     </>
   );
