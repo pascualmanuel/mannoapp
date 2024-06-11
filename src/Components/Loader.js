@@ -5,7 +5,7 @@ import { useState, useEffect } from "react";
 function Loader() {
   const [isLoading, setIsLoading] = useState(true);
   const [fadeOut, setFadeOut] = useState(false);
-  const isMobile = window.innerWidth <= 770; // Adjust the width as needed
+  const isMobile = window.innerWidth <= 770;
   let auto = "auto";
   let MTop = "0px";
 
