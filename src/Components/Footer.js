@@ -114,9 +114,11 @@ function Phone() {
             }}
           >
             <Link to={"/terms"}>
-              <span style={{ color: "white" }}> Términos y condiciones </span>
+              <span style={{ color: "white" }}>
+                {" "}
+                Términos, condiciones y políticas de privacidad{" "}
+              </span>
             </Link>
-            {/* <span style={{marginLeft: "40px"}}>Privacidad</span> */}
           </p>
         </div>
         <div style={{ height: "100px" }}></div>

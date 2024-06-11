@@ -1,5 +1,5 @@
 import React from "react";
-import {useEffect, useState, useCallback} from "react";
+import { useEffect, useState, useCallback } from "react";
 import iPhoneApple from "../Assets/apple-iphone.png";
 import ImgHome1 from "../Assets/Hero/img-home1.png";
 import ImgHome2 from "../Assets/Hero/img-home2.png";

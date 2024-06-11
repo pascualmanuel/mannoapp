@@ -651,7 +651,6 @@ h2 {
   }
 }
 
-
 @media (min-width: 680px) {
   .mobile-footer {
     display: none;
@@ -711,7 +710,7 @@ h2 {
   animation-name: cf3FadeInOut;
   animation-timing-function: ease-out;
   animation-iteration-count: 1;
-  animation-duration: 5s;
+  animation-duration: 6.5s;
 }
 
 .phone-hero-cont {
@@ -752,7 +751,6 @@ h2 {
   display: flex;
   justify-content: center;
   margin-bottom: 40px;
-
 }
 
 .accordion-item:first-of-type .accordion-button {
@@ -800,4 +798,107 @@ h2 {
 
 .accordion-button:focus {
   box-shadow: none !important;
+}
+
+.caro-inside {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100px;
+}
+
+.mySwiper .swiper-wrapper {
+  transition-timing-function: linear;
+}
+
+.car-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.first-row-clients {
+  display: flex;
+  align-items: center;
+  width: 1040px;
+  justify-content: space-around;
+}
+
+.second-row-clients {
+  display: flex;
+  align-items: center;
+  margin-top: 50px;
+  width: 780px;
+  justify-content: space-around;
+}
+
+.clients-cont {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+@media (max-width: 1040px) {
+  .first-row-clients {
+    width: 770px;
+  }
+  .second-row-clients {
+    width: 600px;
+  }
+}
+
+@media (max-width: 770px) {
+  .first-row-clients {
+    width: 380px;
+  }
+  .second-row-clients {
+    width: 310px;
+    margin-top: 20px;
+  }
+}
+.loader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  background-color: #657ff6;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  opacity: 1;
+  transition: opacity 0.8s ease-out;
+  z-index: 999999;
+}
+
+.fade-out {
+  animation: fadeOut 0.4s forwards;
+}
+
+@keyframes fadeOut {
+  0% {
+    opacity: 1;
+  }
+  100% {
+    opacity: 0;
+  }
+}
+
+.logo {
+  animation: spin 1.2s linear infinite;
+}
+
+@keyframes spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+.none-cursor {
+  cursor: none !important;
+  overflow-y: hidden !important;
 }

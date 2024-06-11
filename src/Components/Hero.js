@@ -5,7 +5,7 @@ import Manno from "../Assets/Hero/manno.png";
 import AppleDownload from "../Assets/Hero/boton-apple.svg";
 import GoogleDownload from "../Assets/Hero/boton-google.svg";
 import Isologo from "../Assets/Hero/isologo-background-hero.png";
-import {useEffect, useState, useCallback} from "react";
+import { useEffect, useState, useCallback } from "react";
 import Phone from "./PhoneVideo";
 
 const MannoBlue = "#5d80ff";
@@ -46,16 +46,16 @@ function Hero() {
               <p>Preguntas Frecuentes</p>
             </a>
             <a href={"#como-funciona"}>
-              <p style={{marginRight: "45px", marginLeft: "45px"}}>
+              <p style={{ marginRight: "45px", marginLeft: "45px" }}>
                 ¿Cómo funciona?
               </p>
             </a>
           </div>
         </nav>
         <div className="hero-container">
-          <section className="flexx" style={{width: "100%"}}>
+          <section className="flexx" style={{ width: "100%" }}>
             <h2 className="alguien-conoce">
-              <span style={{color: MannoBlue}}> #AlguienConoceUn </span>
+              <span style={{ color: MannoBlue }}> #AlguienConoceUn </span>
               {newName}
             </h2>
             <h1 className="manno-te-salva">
@@ -79,7 +79,7 @@ function Hero() {
                     src={AppleDownload}
                     alt="Apple"
                     height={50}
-                    style={{marginRight: "20px"}}
+                    style={{ marginRight: "20px" }}
                   />
                 </a>
                 <a

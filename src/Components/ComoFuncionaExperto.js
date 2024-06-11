@@ -1,4 +1,4 @@
-import React, {useState} from "react";
+import React, { useState } from "react";
 import Step1 from "../Assets/Steps/expert-step1.webp";
 import Step2 from "../Assets/Steps/expert-step2.webp";
 import Step3 from "../Assets/Steps/expert-step3.webp";
@@ -6,7 +6,7 @@ import Step4 from "../Assets/Steps/expert-step4.webp";
 
 function ComoFuncionaExperto() {
   const [bgColour, setBgColour] = useState(Step1);
-  const [bgBorder, setBgBorder] = useState("solid 1px white");
+  const [activeStep, setActiveStep] = useState(1);
 
   const changeImageStyle = {
     height: "500px",
@@ -17,23 +17,22 @@ function ComoFuncionaExperto() {
     cursor: "default",
   };
 
-  const changeBorder = {
-    border: bgBorder,
+  const getBorderStyle = (stepNumber) => {
+    return stepNumber === activeStep ? "solid 1px white" : "";
   };
 
   return (
     <>
       <div className="container-hiw">
         <div>
-          <div
-            onMouseEnter={() => setBgBorder("")}
-            onMouseLeave={() => setBgBorder("")}
-          >
+          <div>
             <div
-              style={changeBorder}
+              style={{ border: getBorderStyle(1) }}
               className="step-cont-hiw"
-              onMouseEnter={() => setBgColour(Step1)}
-              onMouseLeave={() => setBgColour(Step1)}
+              onMouseEnter={() => {
+                setBgColour(Step1);
+                setActiveStep(1);
+              }}
             >
               <div className="bullet-hiw">1</div>
               <section className="step-cont-section">
@@ -45,14 +44,14 @@ function ComoFuncionaExperto() {
               </section>
             </div>
           </div>
-          <div
-            onMouseEnter={() => setBgBorder("")}
-            onMouseLeave={() => setBgBorder("")}
-          >
+          <div>
             <div
+              style={{ border: getBorderStyle(2) }}
               className="step-cont-hiw"
-              onMouseEnter={() => setBgColour(Step2)}
-              onMouseLeave={() => setBgColour(Step2)}
+              onMouseEnter={() => {
+                setBgColour(Step2);
+                setActiveStep(2);
+              }}
             >
               <div className="bullet-hiw">
                 <span className="desktop-bullet">3</span>
@@ -68,7 +67,7 @@ function ComoFuncionaExperto() {
                   </p>
                 </span>
                 <span className="desktop-bullet">
-                  <h3 className="title-hiw"> Chatea</h3>
+                  <h3 className="title-hiw">Chatea</h3>
                   <p className="text-hiw">
                     Coordina con tus clientes los detalles de tus Tareas.
                   </p>
@@ -80,14 +79,14 @@ function ComoFuncionaExperto() {
 
         <div className="phone-hiw" style={changeImageStyle}></div>
         <div>
-          <div
-            onMouseEnter={() => setBgBorder("")}
-            onMouseLeave={() => setBgBorder("")}
-          >
+          <div>
             <div
+              style={{ border: getBorderStyle(3) }}
               className="step-cont-hiw"
-              onMouseEnter={() => setBgColour(Step3)}
-              onMouseLeave={() => setBgColour(Step3)}
+              onMouseEnter={() => {
+                setBgColour(Step3);
+                setActiveStep(3);
+              }}
             >
               <div className="bullet-hiw">
                 <span className="desktop-bullet">2</span>
@@ -102,7 +101,7 @@ function ComoFuncionaExperto() {
                   </p>
                 </span>
                 <span className="mobile-bullet">
-                  <h3 className="title-hiw"> Chatea</h3>
+                  <h3 className="title-hiw">Chatea</h3>
                   <p className="text-hiw">
                     Coordina con tus clientes los detalles de tus Tareas.
                   </p>
@@ -110,14 +109,14 @@ function ComoFuncionaExperto() {
               </section>
             </div>
           </div>
-          <div
-            onMouseEnter={() => setBgBorder("")}
-            onMouseLeave={() => setBgBorder("")}
-          >
+          <div>
             <div
+              style={{ border: getBorderStyle(4) }}
               className="step-cont-hiw"
-              onMouseEnter={() => setBgColour(Step4)}
-              onMouseLeave={() => setBgColour(Step4)}
+              onMouseEnter={() => {
+                setBgColour(Step4);
+                setActiveStep(4);
+              }}
             >
               <div className="bullet-hiw">4</div>
               <section className="step-cont-section">
