@@ -5,14 +5,18 @@ import { useState, useEffect } from "react";
 function Loader() {
   const [isLoading, setIsLoading] = useState(true);
   const [fadeOut, setFadeOut] = useState(false);
-  const isMobile = window.innerWidth <= 770;
+  const isMobile = window.innerWidth <= 770; // Adjust the width as needed
   let auto = "auto";
   let MTop = "0px";
 
   if (isMobile) {
     auto = "70px";
   }
+
   useEffect(() => {
+    // Prevent scrolling when loader is active
+    document.body.style.overflow = "hidden";
+
     const timer = setTimeout(() => {
       setFadeOut(true);
     }, 1500);
@@ -24,7 +28,8 @@ function Loader() {
     if (fadeOut) {
       const transitionTimer = setTimeout(() => {
         setIsLoading(false);
-      }, 800);
+        document.body.style.overflow = "auto"; // Re-enable scrolling when loader is removed
+      }, 800); // match this duration to the animation time in CSS
 
       return () => clearTimeout(transitionTimer);
     }
