@@ -19,7 +19,7 @@ function Terms() {
               <section id="one" className="terms-wrapper style1">
                 <header className="special">
                   <h2 className="terms-title">
-                    Términos, condiciones y políticas de privacidad
+                    Términos, condiciones y políticas de privacidad.
                   </h2>
                 </header>
                 <div id="terms" className="content">

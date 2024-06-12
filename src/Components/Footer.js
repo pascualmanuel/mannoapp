@@ -53,7 +53,7 @@ function Phone() {
           <div className="footer-p">
             <p className="footer-tyc">
               <Link to={"/terms"}>
-                Términos, condiciones y políticas de privacidad
+                Términos, condiciones y políticas de privacidad.
               </Link>
             </p>
 
@@ -116,7 +116,7 @@ function Phone() {
             <Link to={"/terms"}>
               <span style={{ color: "white" }}>
                 {" "}
-                Términos, condiciones y políticas de privacidad{" "}
+                Términos, condiciones y políticas de privacidad.
               </span>
             </Link>
           </p>

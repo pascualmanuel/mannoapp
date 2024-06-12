@@ -46,7 +46,7 @@ function Clients() {
         }}
       >
         <div className="reviews-container">
-          <p>Confían en nosotros</p>
+          <p>Alianzas</p>
           <h2>
             Nos confían sus
             <span style={{ color: "#5d80ff" }}> instalaciones. </span>
