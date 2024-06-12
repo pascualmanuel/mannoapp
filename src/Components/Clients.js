@@ -46,10 +46,10 @@ function Clients() {
         }}
       >
         <div className="reviews-container">
-          <p>Lo que dicen los Usuarios</p>
+          <p>Confían en nosotros</p>
           <h2>
-            Comunidad
-            <span style={{ color: "#5d80ff" }}> Manno. </span>
+            Nos confían sus
+            <span style={{ color: "#5d80ff" }}> instalaciones. </span>
           </h2>
         </div>
         <>
