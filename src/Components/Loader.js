@@ -11,6 +11,7 @@ function Loader() {
 
   if (isMobile) {
     auto = "70px";
+    MTop = "-140px";
   }
 
   useEffect(() => {
