@@ -389,7 +389,7 @@ function Reviews() {
           disableButtonsControls={true}
           disableDotsControls={true}
           autoPlayStrategy={"none"}
-          paddingLeft={20}
+          paddingLeft={50}
         />
       </div>
     </>
