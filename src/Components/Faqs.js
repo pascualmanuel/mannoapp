@@ -16,8 +16,6 @@ function Faqs() {
     }
   }, []);
 
-  // ... rest of your component
-
   return (
     <>
       <div id="faq">
