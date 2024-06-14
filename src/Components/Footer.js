@@ -5,8 +5,6 @@ import Google from "../Assets/Hero/google-webp.webp";
 import Facebook from "../Assets/instagram.svg";
 import Instagram from "../Assets/facebook.svg";
 import Linkedin from "../Assets/linkedin.svg";
-// import Twitter from "../Assets/twitter.svg";
-// import TikTok from "../Assets/tiktok.svg";
 
 import "../index.css";
 import Logo from "../Assets/Hero/isologo-background-hero.png";
