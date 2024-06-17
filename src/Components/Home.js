@@ -21,18 +21,35 @@ function Home() {
       <Reviews />
       <Faqs />
       <Footer />
-      <a href="https://wa.me/5491135108238" target="_blank">
-        <img
-          src={WPIcon}
+      <div
+        style={{
+          width: "100vw",
+          display: "flex",
+          justifyContent: "center",
+        }}
+      >
+        <div
           style={{
             position: "fixed",
-            zIndex: "1000",
-            bottom: "30px",
-            right: "30px",
-            width: "50px",
+            width: "100vw",
+            bottom: "0px",
+            maxWidth: "2000px",
           }}
-        />
-      </a>
+        >
+          <a href="https://wa.me/5491135108238" target="_blank">
+            <img
+              src={WPIcon}
+              style={{
+                position: "absolute",
+                zIndex: "1000",
+                bottom: "30px",
+                right: "30px",
+                width: "50px",
+              }}
+            />
+          </a>
+        </div>
+      </div>
     </>
   );
 }

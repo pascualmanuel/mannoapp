@@ -45,7 +45,7 @@ function Clients() {
           paddingBottom: "100px",
         }}
       >
-        <div className="reviews-container">
+        <div className="reviews-container max-2000">
           <p>Alianzas</p>
           <h2>
             Nos confían sus <br />
