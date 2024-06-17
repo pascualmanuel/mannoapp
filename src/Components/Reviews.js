@@ -23,6 +23,77 @@ function Reviews() {
     1060: { items: 4 },
   };
 
+  const reviewsData = [
+    {
+      img: Hombre3,
+      name: "Matías",
+      text: "Super recomendable, explico el paso a paso de lo que hacia y me dio consejos a tener en cuenta para el mantenimiento de la cocina.",
+    },
+    {
+      img: Mujer2,
+      name: "Paula",
+      text: "Impecable. Vino al toque. Instaló la hamaca. Quedó perfecto. gracias!",
+    },
+    {
+      img: Mujer7,
+      name: "Guadalupe",
+      text: "Super puntual! Prolijo, profesional, süper recomendable. quedó todo perfecto. Muchas gracias",
+    },
+    {
+      img: Hombre2,
+      name: "Fernando",
+      text: "Fue puntual, trabajo my bien, profesional.",
+    },
+    {
+      img: Mujer1,
+      name: "Monica",
+      text: "Excelente todo , hasta me trajo una aspiradora para tener mientras arreglaba la mia. IMPECABLE!!!",
+    },
+    { img: Hombre3, name: "Martín", text: "Muy responsable. Lo recomiendo!" },
+    {
+      img: Mujer6,
+      name: "Antonella",
+      text: "En un ratito me solucionó el problema de la persiana para que funcione correctamente. Süper amable y profesional.",
+    },
+    {
+      img: Hombre1,
+      name: "Adrián",
+      text: "Fue muy amable y soluciono el inconveniente muy rápido. Recomendable",
+    },
+    {
+      img: Mujer4,
+      name: "Adela",
+      text: "Impecable. Cometi un error con los materiales y Julián me ayudó a solucionarlo. El trabajo quedó impecable",
+    },
+    {
+      img: Mujer5,
+      name: "Roxana",
+      text: "Solucionaron todo con eficiencia y precio justo. Recomiendo!",
+    },
+    { img: Hombre4, name: "Juan", text: "Muy profesional y atento" },
+    {
+      img: Mujer3,
+      name: "Carmen",
+      text: "Buen trabajo, ordenado, recomendable",
+    },
+    { img: Hombre5, name: "Manuel", text: "Totalmente recomendable." },
+    {
+      img: Mujer6,
+      name: "Karina",
+      text: "Excelente trabajo, atención y asesoramiento,",
+    },
+    {
+      img: Mujer7,
+      name: "María Mercedes",
+      text: "Desinstaló un aire acondicionado viejo e instalo uno nuevo. Todo perfecto",
+    },
+    {
+      img: Mujer1,
+      name: "Graciela",
+      text: "Excelente profesional. Puntual y prolijo",
+    },
+  ];
+
   const items = [
     <div className="item" data-value="1">
       <div className="reviews-box">
