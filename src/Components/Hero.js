@@ -33,7 +33,7 @@ function Hero() {
 
   return (
     <>
-      <div className="fondo">
+      <div className="fondo max-2000">
         <div className="logo-mobile">
           <img src={Isologo} alt="logo" width={50} />
         </div>

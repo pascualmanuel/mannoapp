@@ -8,14 +8,14 @@ function Categories() {
   return (
     <>
       <div className="background-categories">
-        <div className="categories-container">
+        <div className="categories-container max-2000">
           <div className="categories-left-container">
-            <p style={{marginBottom: "15px"}}>¿Cómo podemos ayudarte hoy?</p>
+            <p style={{ marginBottom: "15px" }}>¿Cómo podemos ayudarte hoy?</p>
             <h2>
-              <span style={{color: "#5d80ff"}}> Cuatro </span>
+              <span style={{ color: "#5d80ff" }}> Cuatro </span>
               categorías, <br></br> todas las soluciones.
             </h2>
-            <p style={{marginTop: "10px"}}>
+            <p style={{ marginTop: "10px" }}>
               Encuentra a los Expertos más
               <br className="br-right-p-categories" /> recomendados para tu
               hogar, <br className="br-right-p-categories" /> clases o
@@ -35,7 +35,7 @@ function Categories() {
                     marginBottom: "10px",
                   }}
                 />
-                <h2 style={{marginLeft: "20px", fontSize: "24px"}}>Hogar</h2>
+                <h2 style={{ marginLeft: "20px", fontSize: "24px" }}>Hogar</h2>
                 <p
                   style={{
                     marginLeft: "17px",
@@ -57,7 +57,7 @@ function Categories() {
                     marginBottom: "10px",
                   }}
                 />
-                <h2 style={{marginLeft: "20px", fontSize: "24px"}}>
+                <h2 style={{ marginLeft: "20px", fontSize: "24px" }}>
                   Tecnología
                 </h2>
                 <p
@@ -81,7 +81,7 @@ function Categories() {
                     marginBottom: "10px",
                   }}
                 />
-                <h2 style={{marginLeft: "20px", fontSize: "24px"}}>Clases</h2>
+                <h2 style={{ marginLeft: "20px", fontSize: "24px" }}>Clases</h2>
                 <p
                   style={{
                     marginLeft: "20px",
@@ -103,7 +103,7 @@ function Categories() {
                     marginBottom: "10px",
                   }}
                 />
-                <h2 style={{marginLeft: "20px", fontSize: "24px"}}>
+                <h2 style={{ marginLeft: "20px", fontSize: "24px" }}>
                   Arreglatodo
                 </h2>
                 <p

@@ -234,9 +234,11 @@ hr {
 .content-hiw-flex {
   display: flex;
   flex-direction: column;
-  background: linear-gradient(109deg, #657ff6 0.66%, #64d8a7 122.12%);
 }
 
+.bg-hiw {
+  background: linear-gradient(109deg, #657ff6 0.66%, #64d8a7 122.12%);
+}
 .h2-hiw {
   color: white;
   margin-left: 10%;
