@@ -608,11 +608,6 @@ h2 {
     width: 100%;
   }
 }
-/* @media (min-width: 800px) {
-  .button-experto {
-    display: none;
-  }
-} */
 
 @media (max-width: 680px) {
   .footer-p {

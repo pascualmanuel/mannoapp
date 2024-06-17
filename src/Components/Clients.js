@@ -1,6 +1,6 @@
-import "swiper/swiper-bundle.css"; // Import the Swiper CSS
+import "swiper/swiper-bundle.css";
 import { Swiper, SwiperSlide } from "swiper/react";
-// import "../Styles/Prueba.css"; // Importa tu archivo CSS personalizado
+
 import Cliente1 from "../Assets/clientes/client-1.svg";
 import Cliente2 from "../Assets/clientes/client-2.svg";
 import Cliente3 from "../Assets/clientes/client-3.svg";
@@ -25,7 +25,7 @@ function Clients() {
     Cliente6,
     Cliente7,
   ];
-  const isMobile = window.innerWidth <= 770; // Adjust the width as needed
+  const isMobile = window.innerWidth <= 770;
 
   let auto = "auto";
   let autoNew = "auto";
