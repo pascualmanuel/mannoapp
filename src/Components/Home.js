@@ -36,7 +36,10 @@ function Home() {
             maxWidth: "2000px",
           }}
         >
-          <a href="https://wa.me/5491135108238" target="_blank">
+          <a
+            href="https://wa.me/5491135108238?text=Hola,%20los%20contacto%20desde%20la%20web"
+            target="_blank"
+          >
             <img
               src={WPIcon}
               style={{
