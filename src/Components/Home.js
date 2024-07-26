@@ -14,9 +14,9 @@ function Home() {
     <>
       <Loader />
       <Hero />
+      <Clients />
       <TabsComp />
       <Categories />
-      <Clients />
       <Expertos />
       <Reviews />
       <Faqs />
