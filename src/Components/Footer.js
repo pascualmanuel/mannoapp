@@ -88,20 +88,6 @@ function Phone() {
               >
                 <img src={Linkedin} alt="Linkedin" className="sm-icon" />
               </a>
-              {/* <a
-              href="https://www.twitter.com/manno/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={Twitter} alt="Twitter" className="sm-icon" />
-            </a>
-            <a
-              href="https://www.tiktok.com/company/manno/"
-              target="_blank"
-              rel="noreferrer"
-            >
-              <img src={TikTok} alt="TikTok" className="sm-icon" />
-            </a> */}
             </div>
           </div>
           <div className="mobile-footer">
