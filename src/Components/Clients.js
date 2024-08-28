@@ -102,7 +102,7 @@ function Clients() {
               slidesPerView={slides}
               spaceBetween={0}
               loop={true}
-              speed={5000}
+              speed={4000}
               autoplay={{
                 delay: 0,
                 disableOnInteraction: false,
