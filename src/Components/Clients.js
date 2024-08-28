@@ -8,6 +8,7 @@ import Cliente4 from "../Assets/clientes/client-4.svg";
 import Cliente5 from "../Assets/clientes/client-5.svg";
 import Cliente6 from "../Assets/clientes/client-6.svg";
 import Cliente7 from "../Assets/clientes/client-7.svg";
+import Cliente8 from "../Assets/clientes/client-8.svg";
 import { FreeMode, Pagination, Autoplay, Navigation } from "swiper/modules";
 
 import "swiper/css";
