@@ -12,7 +12,7 @@ import Loader from "./Loader";
 function Home() {
   return (
     <>
-      {/* <Loader /> */}
+      <Loader />
       <Hero />
       <Clients />
       <TabsComp />
