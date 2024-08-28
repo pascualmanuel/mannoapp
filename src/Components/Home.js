@@ -12,7 +12,7 @@ import Loader from "./Loader";
 function Home() {
   return (
     <>
-      <Loader />
+      {/* <Loader /> */}
       <Hero />
       <Clients />
       <TabsComp />
@@ -34,6 +34,7 @@ function Home() {
             width: "100vw",
             bottom: "0px",
             maxWidth: "2000px",
+            zIndex: "1000",
           }}
         >
           <a

@@ -1,8 +1,10 @@
 import React from "react";
 import MannoLogoBlanco from "../Assets/manno-logo-blanco.png";
 import { Link } from "react-router-dom";
-
+import { useEffect, useState } from "react";
 function Terms() {
+
+
   return (
     <>
       <div style={{ backgroundColor: "rgb(101, 127, 246)" }}>

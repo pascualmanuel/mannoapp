@@ -818,7 +818,7 @@ h2 {
   display: flex;
   align-items: center;
   justify-content: center;
-  height: 100px;
+  height: 70px;
 }
 
 .mySwiper .swiper-wrapper {
@@ -842,7 +842,7 @@ h2 {
   display: flex;
   align-items: center;
   margin-top: 50px;
-  width: 780px;
+  width: 1020px;
   justify-content: space-around;
 }
 
@@ -854,10 +854,19 @@ h2 {
 
 @media (max-width: 1040px) {
   .first-row-clients {
+    width: 890px;
+  }
+  .second-row-clients {
+    width: 820px;
+  }
+}
+
+@media (max-width: 800px) {
+  .first-row-clients {
     width: 770px;
   }
   .second-row-clients {
-    width: 600px;
+    width: 770px;
   }
 }
 
@@ -866,7 +875,7 @@ h2 {
     width: 380px;
   }
   .second-row-clients {
-    width: 310px;
+    width: 370px;
     margin-top: 20px;
   }
 }
