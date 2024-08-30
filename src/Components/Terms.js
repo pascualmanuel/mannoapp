@@ -849,19 +849,17 @@ function Terms() {
                     </strong>
                   </p>
                   <p className="auto-style3">
-                    <strong>1.1.</strong> De acuerdo con lo prescripto por la
-                    Ley de Protección de Datos Personales Nº 25.326, los
-                    Usuarios tendrán el derecho de acceder, actualizar y
-                    rectificar los datos ingresados, así como a oponerse al
-                    tratamiento de la misma mediante el procedimiento
-                    establecido en la citada norma. Para el ejercicio de dichos
-                    derechos de acceso, rectificación, actualización, bloqueo o
-                    supresión, el Usuario deberá presentarse en la Av. Callao
-                    1045, 4 piso, de la Ciudad Autónoma de Buenos Aires,
-                    República Argentina, en días hábiles de 10 a 17 hs. At.
-                    Horacio Leotta. Asimismo, los Usuarios podrán requerir en
-                    cualquier momento la baja de su registración y la
-                    eliminación de su cuenta.
+                    <strong>1.1.</strong> El Usuario tiene derecho a que sean
+                    rectificados, actualizados y -cuando corresponda- suprimidos
+                    o sometidos a confidencialidad los datos personales de los
+                    que sea titular,dentro de los 5 (cinco) días hábiles de
+                    acreditada su identidad y de requerida la medida en
+                    cuestión. Téngase en cuenta que la solicitud de retiro o
+                    supresión no procederá cuando exista una obligación legal de
+                    conservar los datos. Ocasionalmente, puede llevarnos más
+                    tiempo si la solicitud es particularmente compleja o si ha
+                    hecho varias solicitudes. En este caso, le enviaremos un
+                    aviso y lo mantendremos actualizado.
                   </p>
                   <p className="auto-style3">
                     El Usuario tiene derecho a que sean rectificados,
@@ -1437,9 +1435,7 @@ function Terms() {
                     a tu Información Personal, podrás hacerlo enviándonos un
                     mail a
                     <a href="mailto:hola@mannoapp.com"> hola@mannoapp.com </a>
-                    desde la dirección de mail registrada en tu cuenta; o bien
-                    por correo postal a Callao 1045, 4to., Ciudad Autónoma de
-                    Buenos Aires, C.P.: 1023.
+                    desde la dirección de mail registrada en tu cuenta.
                   </p>
                   <p className="auto-style3">
                     <strong>Versión vigente a partir del 2021.</strong>
