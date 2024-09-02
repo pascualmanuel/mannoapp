@@ -786,13 +786,11 @@ function Terms() {
                   <p className="auto-style3">
                     Estas políticas de privacidad (en adelante, las “Políticas
                     de Privacidad“) complementan los Términos y Condiciones
-                    Generales, correspondientes al sitio web
+                    Generales, correspondientes al sitio web&nbsp;
                     <a href="http://www.mannoapp.com">www.mannoapp.com</a> (en
                     adelante el "Sitio Web de Manno") y su aplicación móvil (en
                     adelante la “App de Manno” y junto con el Sitio Web de
-                    Manno, la “Plataforma de Manno”) administrada por{" "}
-                    <strong>Silver Labs SAS</strong>, CUIT
-                    <strong>30-716182408</strong> en adelante, “Manno”.
+                    Manno, la “Plataforma de Manno”)
                   </p>
                   <p className="auto-style3">
                     Para poder utilizar la Plataforma de Manno de manera
