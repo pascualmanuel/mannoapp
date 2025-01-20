@@ -926,3 +926,8 @@ h2 {
   cursor: none !important;
   overflow-y: hidden !important;
 }
+
+strong {
+  font-size: 14px;
+  color: black;
+}
