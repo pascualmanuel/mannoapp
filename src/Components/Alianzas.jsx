@@ -3,6 +3,9 @@ import MannoLogoBlanco from "../Assets/manno-logo-blanco.png";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 function Alianzas() {
+  useEffect(() => {
+    document.title = "MannoApp - Alianzas";
+  }, []);
   return (
     <>
       <div style={{ backgroundColor: "rgb(101, 127, 246)" }}>

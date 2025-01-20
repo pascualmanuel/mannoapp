@@ -3,6 +3,9 @@ import MannoLogoBlanco from "../Assets/manno-logo-blanco.png";
 import { Link } from "react-router-dom";
 import { useEffect, useState } from "react";
 function Terms() {
+  useEffect(() => {
+    document.title = "MannoApp - Términos y Condiciones";
+  }, []);
   return (
     <>
       <div style={{ backgroundColor: "rgb(101, 127, 246)" }}>
