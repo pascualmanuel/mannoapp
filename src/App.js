@@ -11,6 +11,7 @@ import "bootstrap/dist/css/bootstrap.min.css";
 import Terms from "./Components/Terms";
 import Home from "./Components/Home";
 import ScrollToTop from "./Components/ScrollToTop";
+import Alianzas from "./Components/Alianzas.jsx";
 function App() {
   return (
     <>
@@ -19,6 +20,7 @@ function App() {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/terms" element={<Terms />} />
+          <Route path="/alianzas" element={<Alianzas />} />
         </Routes>
       </BrowserRouter>
     </>
